@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <array name="com_google_android_gms_fonts_certs">
+        <item>@array/com_google_android_gms_fonts_certs_dev</item>
+        <item>@array/com_google_android_gms_fonts_certs_prod</item>
+    </array>
+    <string-array name="com_google_android_gms_fonts_certs_dev">
+        <item>
+            MIIEqDCCA5CgAwIBAgIJANWFuGx90071MA0GCSqGSIb3DQEBBAUAMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTAeFw0wODA0MTUyMzM2NTZaFw0zNTA5MDEyMzM2NTZaMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBANbOLggKv+IxTdGNs8/TGFy0PTP6DHThvbbR24kT9ixcOd9W+EaBPWW+wPPKQmsHxajtWjmQwWfna8mZuSeJS48LIgAZlKkpFeVyxW0qMBujb8X8ETrWy550NaFtI6t9+u7hZeTfHwqNvacKhp1RbE6dBRGWynwMVX8XW8N1+UjFaq6GCJukT4qmpN2afb8sCjUigq0GuMwYXrFVee74bQgLHWGJwPmvmLHC69EH6kWr22ijx4OKXlSIx2xT1AsSHee70w5iDBiK4aph27yH3TxkXy9V89TDdexAcKk/cVHYNnDBapcavl7y0RiQ4biu8ymM8Ga/nmzhRKya6G0cGw8CAQOjgfwwgfkwHQYDVR0OBBYEFI0cxb6VTEM8YYY6FbBMvAPyT+CyMIHJBgNVHSMEgcEwgb6AFI0cxb6VTEM8YYY6FbBMvAPyT+CyoYGapIGXMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbYIJANWFuGx90071MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEEBQADggEBABnTDPEF+3iSP0wNfdIjIz1AlnrPzgAIHVvXxunW7SBrDhEglQZBbKJEk5kT0mtKoOD1JMrSu1xuTKEBahWRbqHsXclaXjoBADb0kkjVEJu/Lh5hgYZnOjvlba8Ld7HCKePCVePoTJBdI4fvugnL8TsgK05aIskyY0hKI9L8KfqfGTl1lzOv2KoWD0KWwtAWPoGChZxmQ+nBli+gwYMzM1vAkP+aayLe0a1EQimlOalO762r0GXO0ks+UeXde2Z4e+8S/pf7pITEI/tP+MxJTALw9QUWEv9lKTk+jkbqxbsh8nfBUapfKqYn0eidpwq2AzVp3juYl7//fKnaPhJD9gs=
+        </item>
+    </string-array>
+    <string-array name="com_google_android_gms_fonts_certs_prod">
+        <item>
+            MIIEQzCCAyugAwIBAgIJAMLgh0ZkSjCNMA0GCSqGSIb3DQEBBAUAMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDAeFw0wODA4MjEyMzEzMzRaFw0zNjAxMDcyMzEzMzRaMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBAKtWLgDYO6IIrgqWbxJOKdoR8qtW0I9Y4sypEwPpt1TTcvZApxsdyxMJZ2JORland2qSGT2y5b+3JKkedxiLDmpHpDsz2WCbdxgxRczfey5YZnTJ4VZbH0xqWVW/8lGmPav5xVwnIiJS6HXk+BVKZF+JcWjAsb/GEuq/eFdpuzSqeYTcfi6idkyugwfYwXFU1+5fZKUaRKYCwkkFQVfcAs1fXA5V+++FGfvjJ/CxURaSxaBvGdGDhfXE28LWuT9ozCl5xw4Yq5OGazvV24mZVSoOO0yZ31j7kYvtwYK6NeADwbSxDdJEqO4k//0zOHKrUiGYXtqw/A0LFFtqoZKFjnkCAQOjgdkwgdYwHQYDVR0OBBYEFMd9jMIhF1Ylmn/Tgt9r45jk14alMIGmBgNVHSMEgZ4wgZuAFMd9jMIhF1Ylmn/Tgt9r45jk14aloXikdjB0MQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLR29vZ2xlIEluYy4xEDAOBgNVBAsTB0FuZHJvaWQxEDAOBgNVBAMTB0FuZHJvaWSCCQDC4IdGZEowjTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBAUAA4IBAQBt0lLO74UwLDYKqs6Tm8/yzKkEu116FmH4rkaymUIE0P9KaMftGlMexFlaYjzmB2OxZyl6euNXEsQH8gjwyxCUKRJNexBiGcCEyj6z+a1fuHHvkiaai+KL8W1EyNmgjmyy8AW7P+LLlkR+ho5zEHatRbM/YAnqGcFh5iZBqpknHf1SKMXFh4dd239FJ1jWYfbMDMy3NS5CTMQ2XFI1MvcyUTdZPErjQfTbQe3aDQsQcafEQPD+nqActifKZ0Np0IS9L9kR/wbNvyz6ENwPiTrjV2KRkEjH78ZMcUQXg0L3BYHJ3lc69Vs5Ddf9uUGGMYldX3WfMBEmh/9iFBDAaTCK
+        </item>
+    </string-array>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/inter_bold</item>
+        <item>@font/inter_medium</item>
+        <item>@font/quicksand</item>
+        <item>@font/quicksand_bold</item>
+        <item>@font/quicksand_medium</item>
+    </array>
+    <attr format="color" name="adLoaderColor"/>
+    <attr format="color" name="keyboardEnableDisableButtonColor"/>
+    <attr format="color" name="nativeAdTextColor"/>
+    <attr format="color" name="screenBgColor"/>
+    <attr format="color" name="textColor"/>
+    <color name="UnselectedIconColorNight">#999999</color>
+    <color name="adColor">#FE8F00</color>
+    <color name="app_color">#A8189E</color>
+    <color name="bg_load_ads">#a3e6e6e6</color>
+    <color name="black">#FF000000</color>
+    <color name="c_default">#939393</color>
+    <color name="c_red">#fe373a</color>
+    <color name="c_selected">#1576fb</color>
+    <color name="colorAccent">#939393</color>
+    <color name="colorNavi">#f7f7f7</color>
+    <color name="colorNavi_dark">#141414</color>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#ffffff</color>
+    <color name="color_divider">#c3c3c3</color>
+    <color name="color_divider_dark">#252525</color>
+    <color name="color_gray">#838287</color>
+    <color name="darkGrey">#272626</color>
+    <color name="divider">#e6e6e6</color>
+    <color name="duskYellow">#bababa</color>
+    <color name="feature_on_color">#B80730</color>
+    <color name="gnt_ad_green">#3a6728</color>
+    <color name="gnt_black">#000000</color>
+    <color name="gnt_blue">#4285f4</color>
+    <color name="gnt_gray">#808080</color>
+    <color name="gnt_green">#00ff00</color>
+    <color name="gnt_outline">#e0e0e0</color>
+    <color name="gnt_red">#ff0000</color>
+    <color name="gnt_test_background_color">#00f4f4f4</color>
+    <color name="gnt_test_background_color_2">#00a3a3a3</color>
+    <color name="gnt_white">#ffffff</color>
+    <color name="gray">#D2D2D2</color>
+    <color name="green">#6EFD74</color>
+    <color name="ic_launcher_background">#55174f</color>
+    <color name="lightGrey">#29bad3</color>
+    <color name="lightModeTextColor">#000000</color>
+    <color name="light_grey">#888888</color>
+    <color name="my_theme">#FFFFFF</color>
+    <color name="nativeAdDarkModeTextColor">#000000</color>
+    <color name="nativeAdLightModeTextColor">#000000</color>
+    <color name="nightModeTextColor">#E6E3E3</color>
+    <color name="placeholder_bg">#dddddd</color>
+    <color name="purple_200">#D53ECA</color>
+    <color name="purple_500">#D53ECA</color>
+    <color name="purple_700">#D53ECA</color>
+    <color name="ratingUnselected">#605F5F</color>
+    <color name="red">#D81406</color>
+    <color name="screenBgColor">#ECECEC</color>
+    <color name="screenDarkModeTextColor">#000000</color>
+    <color name="screenLightModeTextColor">#ECECEC</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="testColor">#1AFFFFFF</color>
+    <color name="testColorBlack">#80FFFFFF</color>
+    <color name="testColorBlue">#221F1F</color>
+    <color name="white">#FFFFFFFF</color>
+    <dimen name="_10dp">10dp</dimen>
+    <dimen name="_15dp">15dp</dimen>
+    <dimen name="_8dp">8dp</dimen>
+    <dimen name="hor">20dp</dimen>
+    <dimen name="magin_gv">3dp</dimen>
+    <dimen name="magin_style">10dp</dimen>
+    <dimen name="margin_contact">15dp</dimen>
+    <dimen name="p_info">8dp</dimen>
+    <dimen name="pa">14dp</dimen>
+    <dimen name="padding">45dp</dimen>
+    <dimen name="placeholder_image">50dp</dimen>
+    <dimen name="placeholder_text_height">8dp</dimen>
+    <dimen name="size_add_call">75dp</dimen>
+    <dimen name="size_im">45dp</dimen>
+    <dimen name="size_main_bottom">60dp</dimen>
+    <dimen name="ver">10dp</dimen>
+    <integer name="dru">300</integer>
+    <string name="ad_attribution">AD</string>
+    <string name="ad_is_loading">Ad is Loading...</string>
+    <string name="add_to_favorites">Add to Favorites</string>
+    <string name="all">All</string>
+    <string name="app_name">Color Phone: Call Screen Theme</string>
+    <string name="apply">Apply</string>
+    <string name="block">Block Contact</string>
+    <string name="block_content">You will not receive phone calls from people on the block list.</string>
+    <string name="block_numbers">Block Numbers</string>
+    <string name="block_this_caller">Block this Caller</string>
+    <string name="call">Call</string>
+    <string name="calling">Calling…</string>
+    <string name="cancel">Cancel</string>
+    <string name="change_wallpaper">Change Wallpaper</string>
+    <string name="checkSettingsStepThree">You are all set, now you can use “Neon Keyboard” \n as input method</string>
+    <string name="checkSettingsStepTwo">Next, Select “Neon Keyboard” as your active \n text-input method.</string>
+    <string name="choose">Choose</string>
+    <string name="choose_a_su">Choose a subscription plan to unlock ADs Free \n Version and Uninterrupted User Experience</string>
+    <string name="clear">Clear</string>
+    <string name="clear_all">Clear All Recents</string>
+    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">00000000000000000000000000000000</string>
+    <string name="common_google_play_services_unknown_issue">%1$s is having trouble with Google Play services. Please try again.</string>
+    <string name="contacts">Contacts</string>
+    <string name="content_apps">Refer to other applications</string>
+    <string name="content_exit">Do you sure you want to exit?</string>
+    <string name="content_setting">We could not open the dialog box automatically so that you can choose the application to be the default. You have to install it manually:\nSettings -> Applications -> Advanced-> Select default applications -> Call -> Call Phone12</string>
+    <string name="create_new_contact">Create New Contact</string>
+    <string name="dark_mode">Dark mode</string>
+    <string name="default_dialer">Default dialer</string>
+    <string name="default_web_client_id" translatable="false">394523700746-5qpdjh697a5kbv71n6vdpgiiqbg2747d.apps.googleusercontent.com</string>
+    <string name="define_roundedimageview"/>
+    <string name="delete">Delete</string>
+    <string name="delete_all_fav_themes">delete all fav themes</string>
+    <string name="do_you_like_our_app">Do you like our app?</string>
+    <string name="do_you_love_this_app">Do you love this app?</string>
+    <string name="don_t_show_again">Don\'t show again</string>
+    <string name="done">Done</string>
+    <string name="download">Download</string>
+    <string name="edit">Edit</string>
+    <string name="empty">Empty</string>
+    <string name="end">End</string>
+    <string name="end_call">END CALL</string>
+    <string name="enter_name">Enter name</string>
+    <string name="error_icon_content_description">Error</string>
+    <string name="exit">Exit</string>
+    <string name="exitbutton">exitButton</string>
+    <string name="export_file">Export File</string>
+    <string name="exposed_dropdown_menu_content_description">Show dropdown menu</string>
+    <string name="fake">Fake call</string>
+    <string name="fake_content">FakeCall is a useful tool when you want to get rid of someone. When you feel uncomfortably - pretend that someone is calling to you! You can set up a fake call and receive it as a real one</string>
+    <string name="favorites">Favorites</string>
+    <string name="feedback">Feedback</string>
+    <string name="feedback_is_valueable">feedback is valueable</string>
+    <string name="firebase_database_url" translatable="false">https://colorcallerscreen-199e2-default-rtdb.firebaseio.com</string>
+    <string name="firebase_name">AppColorCaller</string>
+    <string name="friday">Friday</string>
+    <string name="gcm_defaultSenderId" translatable="false">394523700746</string>
+    <string name="give_us_a_quick_rating_so_we_know_if_you_like">Give us a quick rating so we know if you like?</string>
+    <string name="go_to_grant">Go to Grant</string>
+    <string name="google_api_key" translatable="false">AIzaSyB6zDFS7SrM1qHH_XRfONFXuCXPdF9srts</string>
+    <string name="google_app_id" translatable="false">1:394523700746:android:64dd2fcd8702ff5887f9f3</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyB6zDFS7SrM1qHH_XRfONFXuCXPdF9srts</string>
+    <string name="google_storage_bucket" translatable="false">colorcallerscreen-199e2.appspot.com</string>
+    <string name="grant">Grant</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_blank_fragment_n">Hello NEON</string>
+    <string name="hide">Hide</string>
+    <string name="hintSearchMess">Search here...</string>
+    <string name="hold">Hold</string>
+    <string name="icon_content_description">Dialog Icon</string>
+    <string name="item_view_role_description">Tab</string>
+    <string name="keyboardServiceName">Neon Keyboard </string>
+    <string name="keypad">Keypad</string>
+    <string name="last_policy">You can find out more information by clicking on the following link:<font color="#4285f4"><u> Privacy Policy</u></font></string>
+    <string name="live_theme">Live Theme</string>
+    <string name="loading">Loading</string>
+    <string name="mail">Mail</string>
+    <string name="main_setting">Main Setting</string>
+    <string name="may_be_later"> <u> May be Later </u> </string>
+    <string name="message">Message</string>
+    <string name="missed">Missed</string>
+    <string name="monday">Monday</string>
+    <string name="monthly_pla">Monthly Plan</string>
+    <string name="more_apps">More Apps</string>
+    <string name="more_apps_setting">More Apps</string>
+    <string name="mute">Mute</string>
+    <string name="no_email">There are no email clients installed.</string>
+    <string name="no_favourite_themes">No Favourite Themes</string>
+    <string name="no_internet">No internet</string>
+    <string name="ok">OK</string>
+    <string name="overall_policy">This Privacy Policy outlines the practices and policies regarding the collection, use, and disclosure of personal information by applications developed by us. It is important for app developer\'s to provide clear and transparent information to users about how their personal data is handled. Here is a general framework for a privacy policy for application:
+\n\n1. Collection of Information:
+\nCollection of information refers to the process by which an application gathers data from its users. This data can be categorized into two main types: personal information and non-personal information.
+\n\na. Personal Information:
+\nPersonal information refers to data that can be used to identify or contact an individual. When we collecting personal information, it is important to inform users about the purpose for which the data is being collected and obtain their consent, particularly if it is sensitive information. Our App developer\'s should handle personal information with care and in compliance with applicable data protection laws.
+\n\nb. Non-Personal Information:
+\nNon-personal information, also known as anonymous or aggregate data, refers to information that does not directly identify an individual. Non-personal information is generally used to improve the app\'s functionality, enhance user experiences, and analyze usage patterns. While it does not directly identify individuals, it is still important to inform users about the collection and use of such data and offer options for users to opt-out if desired.
+\n\nWhen describing the collection of information in a privacy policy, it is important to clearly state the types of information being collected (personal and non-personal), explain how the information is collected (through user input, device permissions, or other means), and disclose whether any third parties are involved in the data collection process. Providing transparency and obtaining user consent are key principles in handling and collecting information responsibly.
+\n\n2. Use of Information:
+\nThe purposes of information usage in an application can vary depending on the nature of the app and its features. The primary purpose of collecting user information is to deliver the core functionality of the application and enhance its performance. User data is often utilized to personalize and customize the user experience within the app. Collected data is frequently used for analytics and research purposes to improve the app\'s performance and user satisfaction. User information may be used for communication and support purposes &amp; In some cases, user information may be utilized for marketing and promotional purposes.
+\nIt\'s important to explicitly communicate these purposes to users in the privacy policy to ensure transparency and obtain their consent. Additionally, the privacy policy should clarify any specific data processing activities that may be unique to the app or required by applicable laws or regulations.
+\n\n3. Data Storage and Security:
+\nData storage and security are crucial aspects of maintaining user privacy and protecting their information &amp; the security measures implemented to protect user data from unauthorized access, loss, or misuse.
+\n\n4. User Choices and Control:
+\nUser choices and control are important aspects of privacy that allow individuals to manage their personal information. Consider the following application consent and permissions:
+\n\n-POST_NOTIFICATIONS
+\n-SET_WALLPAPER
+\n-AD_ID
+\n-WAKE_LOCK
+\n-READ_EXTERNAL_STORAGE
+\n-WRITE_EXTERNAL_STORAGE
+\n-WRITE_CONTACTS
+\n-MODIFY_AUDIO_SETTINGS
+\n-VIBRATE
+\n-RECORD_AUDIO
+\n-FOREGROUND_SERVICE
+\n-INTERNET
+\n-ACCESS_NETWORK_STATE
+\n-CALL_PHONE
+\n-READ_PHONE_STATE
+\n-READ_CONTACTS
+\n-RECORD_AUDIO
+\n\nIt is crucial to provide clear instructions and easily accessible mechanisms for users to exercise their choices and control over their personal information. Empowering users to manage their privacy preferences helps build trust and promotes transparency in the app\'s data practices.
+\n\n5. Children\'s Privacy:
+\nChildren\'s privacy is an important consideration when developing an application, particularly when the app is intended for use by children or when it involves the collection of personal information from children. Clearly define the age range or criteria that define a child according to applicable laws or regulations, such as the Children\'s Online Privacy Protection Act (COPPA) in the United States or the General Data Protection Regulation (GDPR) in the European Union.
+\nIt is essential to adhere to applicable laws and regulations when designing an app that targets children or collects personal information from them. By providing clear information and obtaining verifiable parental consent, the privacy of children can be safeguarded, promoting a safe and trusted environment for their digital interactions.
+\nThese policies aim to ensure the safety and privacy of children and provide a positive and suitable experience for families using apps and games.
+\n\nChanges to This Privacy Policy
+\nChanges to privacy policies typically occur to reflect updates in data handling practices, legal requirements, or changes in the services provided by us.
+\n\nContact Us
+\nIf you have concerns or questions about changes to a privacy policy, it\'s important to carefully review the updated policy and reach out to us directly for clarification.</string>
+    <string name="per_call_log">Call Phone Permission</string>
+    <string name="per_call_log_c">Please grant Call Phone permission to allow the App to start.</string>
+    <string name="per_contact">Access Contacts Permission</string>
+    <string name="per_contact_c">Please grant Contacts permission to allow the App to get Contacts from Phonebook.</string>
+    <string name="per_sd">Access to Device Storage</string>
+    <string name="per_sd_c">Please grant Storage permission to allow the App to share Contacts as vCards(VCF Files).</string>
+    <string name="phone">Phone</string>
+    <string name="photo">Photo</string>
+    <string name="play">Play</string>
+    <string name="pleaseCheckSettings">Please check “Neon Keyboard” in your Languages \n and input settings.This will authorize it to run on \n your device.</string>
+    <string name="policy_1">By pressing the Accept button, I declare I have read and accepted the following condition of use.</string>
+    <string name="policy_2">If we find the app is being used outside its terms of use, we may restrict access to it.</string>
+    <string name="policy_3">Any type of modification to the app or its components is not allowed.</string>
+    <string name="policy_4">Privacy Policy may be updated from time to time for any reason. We will notify you of any changes to our Privacy Policy by posting the new Privacy Policy here.</string>
+    <string name="policy_5">We do not share any kind of your Personal Data with third parties.</string>
+    <string name="policy_part1">Application is warning you about the app that gives you many services and important information for safer and efficient use.</string>
+    <string name="pricing_pla">Pricing Plan</string>
+    <string name="pro_content">Please update to the Pro version to use this function.</string>
+    <string name="pro_title">Update Pro version</string>
+    <string name="project_id" translatable="false">colorcallerscreen-199e2</string>
+    <string name="rate_app">Rate App</string>
+    <string name="rate_cancel">Cancel</string>
+    <string name="rate_now">Rate Now</string>
+    <string name="rating_for_me">Rate App</string>
+    <string name="rec">Rec</string>
+    <string name="rec_on">Rec ON</string>
+    <string name="recents">Recents</string>
+    <string name="recording_list">Recorder List</string>
+    <string name="reminds_me">Reminds me</string>
+    <string name="reset_app">Please restart the app to be applied</string>
+    <string name="ringing">Ringing</string>
+    <string name="saturday">Saturday</string>
+    <string name="search">Search</string>
+    <string name="search_menu_title">Search</string>
+    <string name="send_message">Send Message</string>
+    <string name="set">Set</string>
+    <string name="setting">Setting</string>
+    <string name="slide_to_answer">slide to answer</string>
+    <string name="sound_pad">Keyboard sound</string>
+    <string name="speaker">Speaker</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="style">Style</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="sunday">Sunday</string>
+    <string name="swipe_down_to_reject">Swipe down to reject</string>
+    <string name="swipe_up_to_answer">Swipe up to answer</string>
+    <string name="terms_priva"> Terms | Privacy Policy | Cancel Anytime </string>
+    <string name="theme">Theme</string>
+    <string name="thursday">Thursday</string>
+    <string name="title_default">To Receive And make calls, you need to set Color Caller Theme as the default application </string>
+    <string name="title_recorder">This function is not available from\nAndroid 10 onwards.</string>
+    <string name="title_search_contact">Choose a contact to add to favorites</string>
+    <string name="today">Today</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="tv_delay">The fake call will appear after:</string>
+    <string name="unblock_this_caller">Unblock this Caller</string>
+    <string name="unknown">unknown</string>
+    <string name="update">Update</string>
+    <string name="video">Video</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="yearly_offe">Yearly Offer</string>
+    <string name="yesterday">Yesterday</string>
+    <style name="AppThemeCall" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    </style>
+    <style name="CustomBottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/CustomBottomSheetStyle</item>
+    </style>
+    <style name="CustomBottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+    <style name="MenuItemStyle" parent="@style/Widget.AppCompat.PopupMenu">
+        <item name="android:textColor">#ffffff</item> 
+    </style>
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/ratingUnselected</item>
+        <item name="colorControlActivated">@color/purple_500</item>
+    </style>
+    <style name="ShapeAppearanceOverlay.App.CornerSize10Percent" parent="">
+        <item name="cornerSize">10%</item>
+    </style>
+    <style name="Theme.NeonKeyboardNew" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/white</item>
+        
+        <item name="android:statusBarColor" ns1:targetApi="l">@color/app_color</item>
+
+
+        <item name="textColor">@color/lightModeTextColor</item>
+        <item name="screenBgColor">@color/screenLightModeTextColor</item>
+        <item name="nativeAdTextColor">@color/nativeAdLightModeTextColor</item>
+        <item name="adLoaderColor">@color/purple_500</item>
+        <item name="keyboardEnableDisableButtonColor">@color/white</item>
+
+
+        
+    </style>
+    <style name="Theme.NeonKeyboardNew.AdAttribution">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:text">@string/ad_attribution</item>
+        <item name="android:background">@color/adColor</item>
+    </style>
+    <style name="Theme_Dialog" parent="@android:style/ThemeOverlay.Material.Dark">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="appFontFamily">
+        <item name="fontFamily">@font/quicksand_medium</item>
+    </style>
+    <style name="applyThemeButtonStyles">
+
+        <item name="android:elevation">0dp</item>
+        <item name="elevation">0dp</item>
+        <item name="android:backgroundTint">@color/white</item>
+        <item name="android:textColor">@color/purple_500</item>
+        <item name="rippleColor">@color/purple_500</item>
+
+    </style>
+    <style name="choose_a_su" parent="appFontFamily">
+
+        <item name="android:textSize">
+            14sp
+        </item>
+
+        <item name="android:textColor">
+            #757575
+        </item>
+
+    </style>
+    <style name="pleaseCheckSettingsStyle">
+
+        <item name="android:textSize">
+            12sp
+        </item>
+
+        <item name="android:textColor">
+            #0E0D0D
+        </item>
+
+    </style>
+    <style name="pricing_pla" parent="appFontFamily">
+
+        <item name="android:textSize">
+            24sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+    <style name="tabBarStyle">
+        <item name="android:textSize">14sp</item>
+        <item name="fontFamily">@font/quicksand_medium</item>
+    </style>
+    <style name="toolBarStyles" parent="Theme.NeonKeyboardNew">
+        <item name="colorControlNormal">@color/white</item>
+        <item name="android:actionMenuTextColor">@color/white</item>
+        
+    </style>
+    <style name="yearly_offer" parent="appFontFamily">
+
+        <item name="android:textSize">12sp</item>
+
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+    </style>
+</resources>

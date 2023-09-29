@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">394523700746-5qpdjh697a5kbv71n6vdpgiiqbg2747d.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://colorcallerscreen-199e2-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">394523700746</string>
+    <string name="google_api_key" translatable="false">AIzaSyB6zDFS7SrM1qHH_XRfONFXuCXPdF9srts</string>
+    <string name="google_app_id" translatable="false">1:394523700746:android:64dd2fcd8702ff5887f9f3</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyB6zDFS7SrM1qHH_XRfONFXuCXPdF9srts</string>
+    <string name="google_storage_bucket" translatable="false">colorcallerscreen-199e2.appspot.com</string>
+    <string name="project_id" translatable="false">colorcallerscreen-199e2</string>
+</resources>

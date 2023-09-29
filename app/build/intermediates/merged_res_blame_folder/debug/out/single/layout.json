@@ -1,0 +1,362 @@
+[
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\rateus_dialog_layout.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\rateus_dialog_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\item_page_video.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\item_page_video.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\activity_videocalling_anim.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\activity_videocalling_anim.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\theme_options.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\theme_options.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\item_my_ads.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\item_my_ads.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\ad_loader.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\ad_loader.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\custom_downloading_dialog.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\custom_downloading_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\activity_dialer.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\activity_dialer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\allthemes_item_layout.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\allthemes_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\activity_privacy_policy.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\activity_privacy_policy.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\activity_categories.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\activity_categories.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\slider_card_layout.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\slider_card_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\activity_video.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\activity_video.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\portrait_layout.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\portrait_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\list_item.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\action_bottomsheet_enablekeyboard.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\action_bottomsheet_enablekeyboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\activity_show.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\activity_show.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\activity_per_m.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\activity_per_m.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\neonkeyboard_settings_layout.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\neonkeyboard_settings_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\intro_screen_3.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\intro_screen_3.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\activity_random_generate.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\activity_random_generate.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\parse_item_linear.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\parse_item_linear.xml"
+    },
+    {
+        "merged": "com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:/layout/activity_main.xml",
+        "source": "com.uprisingscallscreen.theme.flashscreen.app-main-10:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\fragment_themes.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\fragment_themes.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\fragment_call_screen_wallpaper.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\fragment_call_screen_wallpaper.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\item_gv.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\item_gv.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\activity_favourite.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\activity_favourite.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\activity_privacy_link.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\activity_privacy_link.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\item_tab.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\item_tab.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\themes_layout.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\themes_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\categories_layout.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\categories_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\grid_gallery_layout.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\grid_gallery_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\exit_button_layout.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\exit_button_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\fragment_call_screen_theme.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\fragment_call_screen_theme.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\fragment_theme_fav.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\fragment_theme_fav.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\list_nativead_layout.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\list_nativead_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\fragment_live_theme_fav.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\fragment_live_theme_fav.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\layout_na_face.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\layout_na_face.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\activity_splash.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\activity_full_view.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\activity_full_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\activity_setting.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\activity_setting.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\activity_preview.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\activity_preview.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\intro_screen_2.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\intro_screen_2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\row_folating_icon.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\row_folating_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\parse_item_linear_video.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\parse_item_linear_video.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\fragment_icon.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\fragment_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\dialog_setting.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\dialog_setting.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\fragment_per.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\fragment_per.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\enable_keyboard.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\enable_keyboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\activity_search.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\activity_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\fragment_page.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\fragment_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\grid_layout.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\grid_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\in_progress_call_dialpad.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\in_progress_call_dialpad.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\activity_recorder_list.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\activity_recorder_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\checkbox.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\checkbox.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\activity_category_show.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\activity_category_show.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\activity_more_item.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\activity_more_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\fragment_main_settings.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\fragment_main_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\icon_layout_design.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\icon_layout_design.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\activity_exit.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\activity_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\parse_item.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\parse_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\recycler_item.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\recycler_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\fragment_neon.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\fragment_neon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\fragment_call_screen_live_theme.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\fragment_call_screen_live_theme.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\item_style.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\item_style.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\item_page.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\item_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\activity_neon_category.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\activity_neon_category.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\custom_menu_item_layout.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\custom_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\activity_theme_calling_theme_preview.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\activity_theme_calling_theme_preview.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\fragment_favourite.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\fragment_favourite.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\layout_prefs.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\layout_prefs.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\categories_frag_layout.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\categories_frag_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\intro_screen_1.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\intro_screen_1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\parse_item_video.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\parse_item_video.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\activity_theme_callinggif_theme_preview.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\activity_theme_callinggif_theme_preview.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\intro_screen.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\intro_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\delete_fav_bottomsheet.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\delete_fav_bottomsheet.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\activity_popular.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\activity_popular.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\layout_call.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\layout_call.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\dialog_status.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\dialog_status.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\installnewappdialog.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\installnewappdialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\activity_on_boarding.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\activity_on_boarding.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\drawer_header.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\drawer_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\activity_calling_anim.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\activity_calling_anim.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\activity_upload.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\activity_upload.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\testkeyboard_layout.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\testkeyboard_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\landscape_layout.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\landscape_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-7:\\layout\\activity_setting_fake.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.uprisingscallscreen.theme.flashscreen.app-main-10:\\layout\\activity_setting_fake.xml"
+    }
+]
