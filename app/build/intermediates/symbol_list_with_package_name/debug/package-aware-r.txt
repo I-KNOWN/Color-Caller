@@ -2994,6 +2994,7 @@ drawable back_button_circle
 drawable backbtn
 drawable bak_call
 drawable bg_content_info
+drawable bg_cover
 drawable bg_dialog_status
 drawable bg_no_contact
 drawable bg_num_phone_nomal
@@ -3012,6 +3013,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable button_bg
 drawable button_transparent_bg_on_press
 drawable button_transparent_bg_on_press_with_border
 drawable buttondefaultend
@@ -3099,6 +3101,7 @@ drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable gradient
 drawable gradient_bottom
+drawable gradient_bottom_side
 drawable gradient_button
 drawable heart
 drawable home_checked
@@ -3289,6 +3292,7 @@ drawable incoming_call_button_style
 drawable key_popup_bgshape
 drawable keyboard
 drawable keyboard_clear
+drawable keyboard_front
 drawable keyboard_icon
 drawable keyboard_layout_black
 drawable keyboard_nav_item
@@ -3384,14 +3388,14 @@ drawable pad_mute
 drawable pad_sound
 drawable pad_vibration
 drawable person_anim
-drawable policy_1
-drawable policy_2
-drawable policy_3
-drawable policy_4
-drawable policy_5
 drawable popular
 drawable preference_list_divider_material
 drawable premium_icon
+drawable privacy_1
+drawable privacy_2
+drawable privacy_3
+drawable privacy_4
+drawable privacy_5
 drawable profile_page
 drawable rate
 drawable rating_dialog_bg
@@ -3403,6 +3407,7 @@ drawable ripple_click
 drawable rounded_stick
 drawable search
 drawable second_onboard
+drawable secondary_bg
 drawable sel_btn_error
 drawable sel_btn_success
 drawable sel_dialog_ios
@@ -3706,6 +3711,7 @@ id btn08
 id btn09
 id btnHash
 id btnStar
+id btn_next
 id btn_set_theam
 id buttonPanel
 id cache_measures
@@ -3949,7 +3955,10 @@ id im_status
 id im_title
 id image
 id imageView
+id imageView111
 id imageView13
+id imageView2
+id imageView3
 id imageViewProfile
 id imageViewProfiledefault
 id image_view
@@ -4191,7 +4200,6 @@ id postLayout
 id preset
 id privacySettings
 id privacyTitleTv
-id privacy_link
 id private_mode_button
 id profile
 id progressBar
@@ -4456,11 +4464,13 @@ id tv_empty
 id tv_end
 id tv_md_ads
 id tv_name
+id tv_next
 id tv_sec
 id tv_status
 id tv_time
 id tv_title
 id tv_title_lag
+id tv_topheaer
 id tvallow
 id tvptext
 id tvptitle
@@ -5624,6 +5634,8 @@ string smartbar__quick_action_toggle__alt
 string sound_pad
 string space
 string speaker
+string splash_text2
+string splash_text2_top
 string status_bar_notification_info_overflow
 string style
 string subscribe
@@ -5637,6 +5649,16 @@ string thursday
 string title_default
 string title_recorder
 string title_search_contact
+string tmc_1
+string tmc_2
+string tmc_3
+string tmc_4
+string tmc_5
+string tmc_footer_1
+string tmc_header
+string tmc_link
+string tmc_uselink
+string tmc_useprivacy
 string today
 string tuesday
 string tv_delay

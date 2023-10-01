@@ -2,6 +2,7 @@ package com.uprisingscallscreen.theme.flashscreen.ui;
 
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.constraintlayout.widget.ConstraintLayout;
 
 import android.content.Intent;
 import android.graphics.Color;
@@ -19,8 +20,8 @@ import com.uprisingscallscreen.theme.flashscreen.MainActivity;
 import com.uprisingscallscreen.theme.flashscreen.R;
 
 public class PrivacyPolicyActivity extends AppCompatActivity {
-    TextView accept,privacy_link;
-    LinearLayout adsView0;
+
+    ConstraintLayout startBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,24 +31,12 @@ public class PrivacyPolicyActivity extends AppCompatActivity {
         getWindow().setStatusBarColor(Color.TRANSPARENT);
         Drawable background = getResources().getDrawable(R.drawable.status_gradient);
         getWindow().setBackgroundDrawable(background);
-        adsView0 = findViewById(R.id.adsView0);
-        privacy_link = findViewById(R.id.privacy_link);
+        startBtn = findViewById(R.id.btn_next);
 
-        accept = findViewById(R.id.accept);
-        accept.setOnClickListener(new View.OnClickListener() {
+        startBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
-                        startActivity(new Intent(PrivacyPolicyActivity.this, MainActivity.class));
-
-
-
-            }
-        });
-        privacy_link.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(PrivacyPolicyActivity.this, PrivacyActivity.class));
+                startActivity(new Intent(PrivacyPolicyActivity.this, MainActivity.class));
             }
         });
     }

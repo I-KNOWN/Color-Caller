@@ -112,6 +112,7 @@ drawable back_button_circle
 drawable backbtn
 drawable bak_call
 drawable bg_content_info
+drawable bg_cover
 drawable bg_dialog_status
 drawable bg_no_contact
 drawable bg_num_phone_nomal
@@ -122,6 +123,7 @@ drawable bg_view_no
 drawable bg_view_y
 drawable bg_while
 drawable bottom_nav_button
+drawable button_bg
 drawable buttondefaultend
 drawable buttondefaultreceive
 drawable caller_screen_icon
@@ -170,6 +172,7 @@ drawable gnt_outline_shape
 drawable gnt_rounded_corners_shape
 drawable gradient
 drawable gradient_bottom
+drawable gradient_bottom_side
 drawable gradient_button
 drawable heart
 drawable home_checked
@@ -274,6 +277,7 @@ drawable im_style_1
 drawable incoming_call_button_style
 drawable keyboard
 drawable keyboard_clear
+drawable keyboard_front
 drawable keyboard_icon
 drawable keyboard_layout_black
 drawable keyboard_nav_item
@@ -334,13 +338,13 @@ drawable pad_mute
 drawable pad_sound
 drawable pad_vibration
 drawable person_anim
-drawable policy_1
-drawable policy_2
-drawable policy_3
-drawable policy_4
-drawable policy_5
 drawable popular
 drawable premium_icon
+drawable privacy_1
+drawable privacy_2
+drawable privacy_3
+drawable privacy_4
+drawable privacy_5
 drawable profile_page
 drawable rate
 drawable rating_dialog_bg
@@ -351,6 +355,7 @@ drawable right_swipe
 drawable rounded_stick
 drawable search
 drawable second_onboard
+drawable secondary_bg
 drawable sel_btn_error
 drawable sel_btn_success
 drawable sel_dialog_ios
@@ -501,6 +506,7 @@ id btn08
 id btn09
 id btnHash
 id btnStar
+id btn_next
 id btn_set_theam
 id callBtn
 id call_of_duty_recycler
@@ -585,7 +591,10 @@ id im_status
 id im_title
 id image
 id imageView
+id imageView111
 id imageView13
+id imageView2
+id imageView3
 id imageViewProfile
 id imageViewProfiledefault
 id image_view
@@ -664,7 +673,6 @@ id popular_recycler
 id portrait_recycler
 id privacySettings
 id privacyTitleTv
-id privacy_link
 id profile
 id progressBar
 id purchaseBtn
@@ -747,11 +755,13 @@ id tv_empty
 id tv_end
 id tv_md_ads
 id tv_name
+id tv_next
 id tv_sec
 id tv_status
 id tv_time
 id tv_title
 id tv_title_lag
+id tv_topheaer
 id tvallow
 id tvptext
 id tvptitle
@@ -1012,6 +1022,8 @@ string setting
 string slide_to_answer
 string sound_pad
 string speaker
+string splash_text2
+string splash_text2_top
 string status_bar_notification_info_overflow
 string style
 string subscribe
@@ -1024,6 +1036,16 @@ string thursday
 string title_default
 string title_recorder
 string title_search_contact
+string tmc_1
+string tmc_2
+string tmc_3
+string tmc_4
+string tmc_5
+string tmc_footer_1
+string tmc_header
+string tmc_link
+string tmc_uselink
+string tmc_useprivacy
 string today
 string tuesday
 string tv_delay

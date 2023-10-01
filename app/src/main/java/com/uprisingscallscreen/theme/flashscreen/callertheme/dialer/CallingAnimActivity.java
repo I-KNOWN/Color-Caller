@@ -1,6 +1,8 @@
 package com.uprisingscallscreen.theme.flashscreen.callertheme.dialer;
 
 
+import static com.uprisingscallscreen.theme.flashscreen.utils.GifDrawableUtil.pxFromDp;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.animation.AnimatorSet;
@@ -585,6 +587,9 @@ public class CallingAnimActivity extends AppCompatActivity {
         private ObjectAnimator fadeOutAnimator;
         private ObjectAnimator fadeInAnimator;
 
+        public int getHalfImgHight = 0;
+
+
         SwipeTouchListener(LinearLayout leftArrowContainer, LinearLayout rightArrowContainer, ImageView buttonView) {
             this.leftArrowContainer = leftArrowContainer;
             this.rightArrowContainer = rightArrowContainer;
@@ -602,6 +607,9 @@ public class CallingAnimActivity extends AppCompatActivity {
             fadeInAnimator = ObjectAnimator.ofFloat(buttonView, "alpha", 0.5f, 1f);
             fadeInAnimator.setDuration(200);
             fadeInAnimator.setInterpolator(new LinearInterpolator());
+
+            getHalfImgHight = ((int) pxFromDp(CallingAnimActivity.this, 90)) / 2;
+
         }
 
         @Override
@@ -620,7 +628,7 @@ public class CallingAnimActivity extends AppCompatActivity {
                         isSwiping = true;
                     }
                     if (isSwiping) {
-                        buttonView.setTranslationX(event.getX() - initialX);
+                        buttonView.setX((event.getRawX() - getHalfImgHight)/* - initialX*/);
                         fadeOutAnimator.start();
                     }
                     return true;

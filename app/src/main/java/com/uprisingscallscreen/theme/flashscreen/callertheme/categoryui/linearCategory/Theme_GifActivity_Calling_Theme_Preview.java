@@ -1,6 +1,8 @@
 package com.uprisingscallscreen.theme.flashscreen.callertheme.categoryui.linearCategory;
 
 
+import static com.uprisingscallscreen.theme.flashscreen.utils.GifDrawableUtil.pxFromDp;
+
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
 import android.content.Context;
@@ -90,8 +92,8 @@ public class Theme_GifActivity_Calling_Theme_Preview extends AppCompatActivity {
         rightArrowAnimatorSet.setStartDelay(200);
 
 
-        img_recive.setOnTouchListener(new SwipeTouchListener(leftArrowContainer, rightArrowContainer, img_recive));
-        img_reject.setOnTouchListener(new SwipeTouchListener(leftArrowContainer, rightArrowContainer, img_reject));
+        img_recive.setOnTouchListener(new SwipeTouchListener(leftArrowContainer, rightArrowContainer, img_recive, ((int) pxFromDp(Theme_GifActivity_Calling_Theme_Preview.this, 90)) / 2));
+        img_reject.setOnTouchListener(new SwipeTouchListener(leftArrowContainer, rightArrowContainer, img_reject, ((int) pxFromDp(Theme_GifActivity_Calling_Theme_Preview.this, 90)) / 2));
 
 
         favourites.setColorFilter(ContextCompat.getColor(this, R.color.white));
@@ -200,8 +202,10 @@ public class Theme_GifActivity_Calling_Theme_Preview extends AppCompatActivity {
         private ImageView buttonView;
         private ObjectAnimator fadeOutAnimator;
         private ObjectAnimator fadeInAnimator;
+        public int getHalfImgHight = 0;
 
-        SwipeTouchListener(LinearLayout leftArrowContainer, LinearLayout rightArrowContainer, ImageView buttonView) {
+
+        SwipeTouchListener(LinearLayout leftArrowContainer, LinearLayout rightArrowContainer, ImageView buttonView, int getHalfImgHight) {
             this.leftArrowContainer = leftArrowContainer;
             this.rightArrowContainer = rightArrowContainer;
             this.buttonView = buttonView;
@@ -218,6 +222,8 @@ public class Theme_GifActivity_Calling_Theme_Preview extends AppCompatActivity {
             fadeInAnimator = ObjectAnimator.ofFloat(buttonView, "alpha", 0.5f, 1f);
             fadeInAnimator.setDuration(200);
             fadeInAnimator.setInterpolator(new LinearInterpolator());
+
+            this.getHalfImgHight = getHalfImgHight;
         }
 
         @Override
@@ -236,7 +242,8 @@ public class Theme_GifActivity_Calling_Theme_Preview extends AppCompatActivity {
                         isSwiping = true;
                     }
                     if (isSwiping) {
-                        buttonView.setTranslationX(event.getX() - initialX);
+                        buttonView.setX((event.getRawX() - getHalfImgHight)/* - initialX*/);
+
                         fadeOutAnimator.start();
                     }
                     return true;

@@ -55,10 +55,10 @@ public class OnBoardingActivity extends AppCompatActivity {
                 if (position < 2) {
                     binding.txtNext.setVisibility(View.VISIBLE);
                     binding.llIndicator.setVisibility(View.VISIBLE);
-                    binding.txtNext.setText("Next");
+                    binding.tvNext.setText("Next");
                 } else {
                     binding.llIndicator.setVisibility(View.VISIBLE);
-                    binding.txtNext.setText("Start");
+                    binding.tvNext.setText("Start");
 //                    binding.txtNext.setCompoundDrawablesWithIntrinsicBounds(0, 0, 0, 0);
                 }
 
@@ -78,7 +78,7 @@ public class OnBoardingActivity extends AppCompatActivity {
 
         binding.txtNext.setOnClickListener(v -> {
 
-                    if (binding.txtNext.getText().equals("Next")) {
+                    if (binding.tvNext.getText().equals("Next")) {
                         int current = getItem(+1);
                         if (current < 3) {
                             binding.viewPager.setCurrentItem(current);

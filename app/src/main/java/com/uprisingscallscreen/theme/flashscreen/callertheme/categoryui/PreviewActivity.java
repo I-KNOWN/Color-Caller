@@ -1,6 +1,8 @@
 package com.uprisingscallscreen.theme.flashscreen.callertheme.categoryui;
 
 
+import static com.uprisingscallscreen.theme.flashscreen.utils.GifDrawableUtil.pxFromDp;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.animation.AnimatorSet;
@@ -77,8 +79,8 @@ public class PreviewActivity extends AppCompatActivity {
         rightArrowAnimatorSet.setStartDelay(200);
 
 
-        callAnswerBtn.setOnTouchListener(new Theme_Activity_Calling_Theme_Preview.SwipeTouchListener(leftArrowContainer, rightArrowContainer, callAnswerBtn));
-        callRejectBtn.setOnTouchListener(new Theme_Activity_Calling_Theme_Preview.SwipeTouchListener(leftArrowContainer, rightArrowContainer, callRejectBtn));
+        callAnswerBtn.setOnTouchListener(new Theme_Activity_Calling_Theme_Preview.SwipeTouchListener(leftArrowContainer, rightArrowContainer, callAnswerBtn, ((int) pxFromDp(PreviewActivity.this, 90)) / 2));
+        callRejectBtn.setOnTouchListener(new Theme_Activity_Calling_Theme_Preview.SwipeTouchListener(leftArrowContainer, rightArrowContainer, callRejectBtn, ((int) pxFromDp(PreviewActivity.this, 90)) / 2));
 
 
         back1.setOnClickListener(new View.OnClickListener() {

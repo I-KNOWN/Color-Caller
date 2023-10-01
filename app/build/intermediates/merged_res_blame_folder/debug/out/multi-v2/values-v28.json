@@ -1,29 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-6:/values-v28/values-v28.xml",
+            "outputFile": "com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-67:/values-v28/values-v28.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\458633a4fbaeb890e81fc3662bd89c95\\transformed\\appcompat-1.6.1\\res\\values-v28\\values-v28.xml",
-                    "from": {
-                        "startLines": "2,3,4,8",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,130,217,397",
-                        "endLines": "2,3,7,11",
-                        "endColumns": "74,86,12,12",
-                        "endOffsets": "125,212,392,584"
-                    },
-                    "to": {
-                        "startLines": "10,11,12,16",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "755,830,917,1097",
-                        "endLines": "10,11,15,19",
-                        "endColumns": "74,86,12,12",
-                        "endOffsets": "825,912,1092,1284"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\dd0109b5b31efc8acb1c02c2ddf69cd7\\transformed\\jetified-core-1.5.0\\res\\values-v28\\values.xml",
+                    "source": "C:\\Users\\Tech360\\.gradle\\caches\\transforms-3\\dd0109b5b31efc8acb1c02c2ddf69cd7\\transformed\\jetified-core-1.5.0\\res\\values-v28\\values.xml",
                     "from": {
                         "startLines": "4,13",
                         "startColumns": "0,0",
@@ -42,7 +23,26 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\252be2d68d70ae41bc642f941ece4813\\transformed\\material-1.4.0\\res\\values-v28\\values-v28.xml",
+                    "source": "C:\\Users\\Tech360\\.gradle\\caches\\transforms-3\\458633a4fbaeb890e81fc3662bd89c95\\transformed\\appcompat-1.6.1\\res\\values-v28\\values-v28.xml",
+                    "from": {
+                        "startLines": "2,3,4,8",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,130,217,397",
+                        "endLines": "2,3,7,11",
+                        "endColumns": "74,86,12,12",
+                        "endOffsets": "125,212,392,584"
+                    },
+                    "to": {
+                        "startLines": "10,11,12,16",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "755,830,917,1097",
+                        "endLines": "10,11,15,19",
+                        "endColumns": "74,86,12,12",
+                        "endOffsets": "825,912,1092,1284"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Tech360\\.gradle\\caches\\transforms-3\\252be2d68d70ae41bc642f941ece4813\\transformed\\material-1.4.0\\res\\values-v28\\values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

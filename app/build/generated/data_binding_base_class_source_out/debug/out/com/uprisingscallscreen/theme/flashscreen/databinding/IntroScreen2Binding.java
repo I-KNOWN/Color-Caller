@@ -5,10 +5,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.uprisingscallscreen.theme.flashscreen.R;
@@ -18,10 +18,16 @@ import java.lang.String;
 
 public final class IntroScreen2Binding implements ViewBinding {
   @NonNull
-  private final RelativeLayout rootView;
+  private final ConstraintLayout rootView;
+
+  @NonNull
+  public final ImageView imageView111;
 
   @NonNull
   public final ImageView imageView13;
+
+  @NonNull
+  public final ImageView imageView2;
 
   @NonNull
   public final TextView tvDec;
@@ -29,17 +35,20 @@ public final class IntroScreen2Binding implements ViewBinding {
   @NonNull
   public final TextView tvTitle;
 
-  private IntroScreen2Binding(@NonNull RelativeLayout rootView, @NonNull ImageView imageView13,
-      @NonNull TextView tvDec, @NonNull TextView tvTitle) {
+  private IntroScreen2Binding(@NonNull ConstraintLayout rootView, @NonNull ImageView imageView111,
+      @NonNull ImageView imageView13, @NonNull ImageView imageView2, @NonNull TextView tvDec,
+      @NonNull TextView tvTitle) {
     this.rootView = rootView;
+    this.imageView111 = imageView111;
     this.imageView13 = imageView13;
+    this.imageView2 = imageView2;
     this.tvDec = tvDec;
     this.tvTitle = tvTitle;
   }
 
   @Override
   @NonNull
-  public RelativeLayout getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -64,9 +73,21 @@ public final class IntroScreen2Binding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.imageView111;
+      ImageView imageView111 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView111 == null) {
+        break missingId;
+      }
+
       id = R.id.imageView13;
       ImageView imageView13 = ViewBindings.findChildViewById(rootView, id);
       if (imageView13 == null) {
+        break missingId;
+      }
+
+      id = R.id.imageView2;
+      ImageView imageView2 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView2 == null) {
         break missingId;
       }
 
@@ -82,7 +103,8 @@ public final class IntroScreen2Binding implements ViewBinding {
         break missingId;
       }
 
-      return new IntroScreen2Binding((RelativeLayout) rootView, imageView13, tvDec, tvTitle);
+      return new IntroScreen2Binding((ConstraintLayout) rootView, imageView111, imageView13,
+          imageView2, tvDec, tvTitle);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

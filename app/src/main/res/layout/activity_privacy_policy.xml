@@ -1,194 +1,256 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="@drawable/splash_background"
-    tools:context=".ui.PrivacyPolicyActivity">
+    android:background="@drawable/splash_background">
+
     <TextView
-        android:id="@+id/title"
+        android:id="@+id/tv_topheaer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Terms Of Use"
-        android:layout_weight="1"
-        android:textStyle="bold"
-        android:layout_alignParentTop="true"
-        android:layout_gravity="center"
-        android:layout_marginBottom="15dp"
-        android:textAllCaps="true"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:text="Terms of Use"
+        android:textFontWeight="800"
+        android:textSize="22sp"
         android:textColor="@color/white"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
-        android:textSize="20dp"/>
+        android:fontFamily="@font/inter_medium"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <ScrollView
         android:layout_width="match_parent"
-        android:scrollbars="none"
-        android:layout_above="@+id/adsView0"
-        android:layout_below="@+id/title"
-        android:layout_height="match_parent">
-        <RelativeLayout
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginVertical="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_next"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_topheaer" >
+
+
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tmc_header"
+                android:lineHeight="20dp"
+                android:textSize="13sp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/inter_medium"
+/>
+
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="10dp"
-                android:layout_alignParentTop="true"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:orientation="vertical">
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="18dp">
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/privacy_1"/>
                 <TextView
-                    android:id="@+id/text1"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textStyle="bold"
-                    android:text="@string/policy_part1"
+                    android:text="@string/tmc_1"
+                    android:layout_marginStart="10dp"
                     android:textColor="@color/white"
-                    android:textSize="15dp"/>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="20dp"
-                    android:orientation="horizontal">
-                    <ImageView
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:padding="3dp"
-                        android:src="@drawable/policy_1"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textStyle="bold"
-                        android:layout_gravity="center_vertical"
-                        android:layout_marginLeft="10dp"
-                        android:text="@string/policy_1"
-                        android:textColor="@color/white"
-                        android:textSize="15dp"/>
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="20dp"
-                    android:orientation="horizontal">
-                    <ImageView
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:padding="3dp"
-                        android:src="@drawable/policy_2"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textStyle="bold"
-                        android:layout_gravity="center_vertical"
-                        android:layout_marginLeft="10dp"
-                        android:text="@string/policy_2"
-                        android:textColor="@color/white"
-                        android:textSize="15dp"/>
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="20dp"
-                    android:orientation="horizontal">
-                    <ImageView
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:padding="3dp"
-                        android:src="@drawable/policy_3"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textStyle="bold"
-                        android:layout_gravity="center_vertical"
-                        android:layout_marginLeft="10dp"
-                        android:text="@string/policy_3"
-                        android:textColor="@color/white"
-                        android:textSize="15dp"/>
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="20dp"
-                    android:orientation="horizontal">
-                    <ImageView
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:padding="3dp"
-                        android:src="@drawable/policy_4"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textStyle="bold"
-                        android:layout_gravity="center_vertical"
-                        android:layout_marginLeft="10dp"
-                        android:text="@string/policy_4"
-                        android:textColor="@color/white"
-                        android:textSize="15dp"/>
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="20dp"
-                    android:orientation="horizontal">
-                    <ImageView
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:padding="3dp"
-                        android:src="@drawable/policy_5"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textStyle="bold"
-                        android:layout_gravity="center_vertical"
-                        android:layout_marginLeft="10dp"
-                        android:text="@string/policy_5"
-                        android:textColor="@color/white"
-                        android:textSize="15dp"/>
-                </LinearLayout>
-                <TextView
-                    android:id="@+id/privacy_link"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textStyle="bold"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginBottom="30dp"
-                    android:text="@string/last_policy"
-                    android:textColor="@color/white"
-                    android:textSize="15dp"/>
-                <TextView
-                    android:id="@+id/accept"
-                    android:layout_width="100dp"
-                    android:layout_height="50dp"
-                    android:layout_centerHorizontal="true"
-                    android:background="@drawable/next_btn"
-                    android:layout_centerVertical="true"
-                    android:layout_gravity="center_horizontal"
-                    android:text="Accept"
-                    android:layout_marginBottom="30dp"
-                    android:textColor="@color/white"
-                    android:textSize="20dp"
-                    android:gravity="center"
-                    android:textStyle="bold"/>
-
+                    android:fontFamily="@font/inter_medium"
+                    android:lineHeight="20dp"
+                    android:textSize="13sp"/>
             </LinearLayout>
-        </RelativeLayout>
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="13dp">
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/privacy_2"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tmc_2"
+                    android:layout_marginStart="10dp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/inter_medium"
+                    android:lineHeight="20dp"
+                    android:textSize="13sp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="13dp">
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/privacy_3"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tmc_3"
+                    android:layout_marginStart="10dp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/inter_medium"
+                    android:lineHeight="20dp"
+                    android:textSize="13sp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="13dp">
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/privacy_4"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tmc_4"
+                    android:layout_marginStart="10dp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/inter_medium"
+                    android:lineHeight="20dp"
+                    android:textSize="13sp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="13dp">
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/privacy_5"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tmc_5"
+                    android:layout_marginStart="10dp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/inter_medium"
+                    android:lineHeight="20dp"
+                    android:textSize="13sp"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tmc_footer_1"
+                android:lineHeight="20dp"
+                android:textSize="13sp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/inter_medium"
+                android:layout_marginTop="18dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tmc_link"
+                    android:lineHeight="20dp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/inter_medium"
+                    android:textSize="13sp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tmc_uselink"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/inter_medium"
+                    android:layout_marginStart="5dp"
+                    android:lineHeight="20dp"
+                    android:textSize="13sp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tmc_link"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/inter_medium"
+                    android:lineHeight="20dp"
+                    android:textSize="13sp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tmc_useprivacy"
+                    android:layout_marginStart="5dp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/inter_medium"
+                    android:lineHeight="20dp"
+                    android:textSize="13sp"/>
+            </LinearLayout>
+
+        </LinearLayout>
     </ScrollView>
 
-    <LinearLayout
-        android:id="@+id/adsView0"
-        android:layout_width="match_parent"
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@id/btn_next"
+        android:layout_width="135dp"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:background="@android:color/transparent"
-        android:gravity="bottom"
-        android:layout_marginBottom="2dp"
-        android:layout_alignParentBottom="true"
-        android:orientation="horizontal"
+        android:background="@drawable/button_bg"
         android:paddingHorizontal="10dp"
-        android:paddingVertical="4dp" />
+        android:paddingVertical="6dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent">
 
 
-</RelativeLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inter_bold"
+            android:text="Start"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/imageView3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="51dp"
+            android:layout_height="28dp"
+            android:src="@drawable/right_arrow"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

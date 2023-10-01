@@ -2,6 +2,8 @@ package com.uprisingscallscreen.theme.flashscreen.callertheme.categoryui.linearC
 
 
 
+import static com.uprisingscallscreen.theme.flashscreen.utils.GifDrawableUtil.pxFromDp;
+
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
 import android.app.Activity;
@@ -271,6 +273,9 @@ public class ViewPager1Adapter extends PagerAdapter {
         private ObjectAnimator fadeOutAnimator;
         private ObjectAnimator fadeInAnimator;
 
+        public int getHalfImgHight = 0;
+
+
         SwipeTouchListener(LinearLayout leftArrowContainer, LinearLayout rightArrowContainer, ImageView buttonView) {
             this.leftArrowContainer = leftArrowContainer;
             this.rightArrowContainer = rightArrowContainer;
@@ -288,6 +293,9 @@ public class ViewPager1Adapter extends PagerAdapter {
             fadeInAnimator = ObjectAnimator.ofFloat(buttonView, "alpha", 0.5f, 1f);
             fadeInAnimator.setDuration(200);
             fadeInAnimator.setInterpolator(new LinearInterpolator());
+
+            getHalfImgHight = ((int) pxFromDp(context, 90)) / 2;
+
         }
 
         @Override
@@ -306,7 +314,7 @@ public class ViewPager1Adapter extends PagerAdapter {
                         isSwiping = true;
                     }
                     if (isSwiping) {
-                        buttonView.setTranslationX(event.getX() - initialX);
+                        buttonView.setX((event.getRawX() - getHalfImgHight)/* - initialX*/);
                         fadeOutAnimator.start();
                     }
                     return true;

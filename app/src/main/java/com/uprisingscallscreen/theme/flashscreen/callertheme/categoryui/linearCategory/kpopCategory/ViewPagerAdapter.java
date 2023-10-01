@@ -3,6 +3,8 @@ package com.uprisingscallscreen.theme.flashscreen.callertheme.categoryui.linearC
 
 
 
+import static com.uprisingscallscreen.theme.flashscreen.utils.GifDrawableUtil.pxFromDp;
+
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
 import android.app.Activity;
@@ -157,6 +159,7 @@ public class ViewPagerAdapter extends PagerAdapter {
     }
 
 
+
     private void downloadDialog(final String imageUrl) {
         boolean isDownloaded = preferenceManager.getImageUrl().equals(imageUrl);
         dialog = new Dialog(context);
@@ -260,6 +263,11 @@ public class ViewPagerAdapter extends PagerAdapter {
         private ImageView buttonView;
         private ObjectAnimator fadeOutAnimator;
         private ObjectAnimator fadeInAnimator;
+        public boolean changes = true ;
+        public int getHalfImgWidth;
+        public int getHalfImgHight = 0;
+
+
 
         SwipeTouchListener(LinearLayout leftArrowContainer, LinearLayout rightArrowContainer, ImageView buttonView) {
             this.leftArrowContainer = leftArrowContainer;
@@ -278,22 +286,30 @@ public class ViewPagerAdapter extends PagerAdapter {
             fadeInAnimator = ObjectAnimator.ofFloat(buttonView, "alpha", 0.5f, 1f);
             fadeInAnimator.setDuration(200);
             fadeInAnimator.setInterpolator(new LinearInterpolator());
+            getHalfImgWidth = ((int) pxFromDp(context, 90)) / 2;
+
         }
 
         @Override
         public boolean onTouch(View v, MotionEvent event) {
+            Log.d("whatisxofops", "Outside the Scope X Value: "+(event.getX()));
+
             switch (event.getAction()) {
                 case MotionEvent.ACTION_DOWN:
-                    isSwiping = false;
-                    showArrows();
-                    initialX = event.getX();
+                    if(changes){
+                        isSwiping = false;
+//                    showArrows();
+                        initialX = event.getX();
+
+                    }
                     return true;
                 case MotionEvent.ACTION_MOVE:
                     if (!isSwiping && Math.abs(event.getX() - initialX) > SWIPE_THRESHOLD) {
                         isSwiping = true;
+                        changes = false;
                     }
                     if (isSwiping) {
-                        buttonView.setTranslationX(event.getX() - initialX);
+                        buttonView.setX((event.getRawX() - getHalfImgWidth)/* - initialX*/);
                     }
                     return true;
                 case MotionEvent.ACTION_UP:

@@ -1,4 +1,5 @@
 package com.uprisingscallscreen.theme.flashscreen.utils;
+import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
 
@@ -18,6 +19,9 @@ public class GifDrawableUtil {
             outputStream.write(frameData);
             frameBitmap.recycle();
         }
+    }
+    public static float pxFromDp(final Context context, final float dp) {
+        return dp * context.getResources().getDisplayMetrics().density;
     }
 
     private static List<Bitmap> gifDrawableToBitmaps(GifDrawable gifDrawable) {

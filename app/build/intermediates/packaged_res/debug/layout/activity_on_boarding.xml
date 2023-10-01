@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@drawable/splash_background"
+    android:background="@drawable/secondary_bg"
     android:layout_height="match_parent">
 
 
@@ -12,7 +12,7 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:contentDescription="@string/app_name"
-        app:layout_constraintBottom_toTopOf="@+id/txt_next"
+        app:layout_constraintBottom_toTopOf="@+id/ll_indicator"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -22,37 +22,60 @@
     </androidx.viewpager.widget.ViewPager>
 
 
-    <TextView
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/txt_next"
-        android:layout_width="wrap_content"
+        android:layout_width="135dp"
         android:layout_height="wrap_content"
-        android:layout_marginRight="20dp"
-        android:layout_marginBottom="100dp"
-        android:layout_marginTop="10dp"
-        android:background="@drawable/next_btn"
-        android:drawableRight="@drawable/right_arrow"
-        android:fontFamily="@font/inter_bold"
-        android:gravity="center"
-        app:layout_constraintBottom_toTopOf="@+id/adsView0"
-        android:paddingRight="10dp"
-        android:text="Next"
-        android:textColor="@color/white"
-        android:textSize="20dp"
+        android:background="@drawable/button_bg"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="6dp"
+        android:layout_marginBottom="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <TextView
+            android:id="@+id/tv_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inter_bold"
+            android:text="Start"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/imageView3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="51dp"
+            android:layout_height="28dp"
+            android:src="@drawable/right_arrow"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
 
     <LinearLayout
         android:id="@+id/ll_indicator"
         android:layout_width="0dp"
         android:layout_height="40dp"
-        android:layout_marginBottom="100dp"
-        android:layout_marginLeft="15dp"
-        android:layout_marginTop="10dp"
-        android:gravity="center_vertical"
+        android:gravity="center"
         android:orientation="horizontal"
-        app:layout_constraintBottom_toTopOf="@+id/adsView0"
-        app:layout_constraintEnd_toStartOf="@+id/txt_next"
-        app:layout_constraintStart_toStartOf="parent">
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/txt_next"
+        app:layout_constraintEnd_toEndOf="@+id/txt_next"
+        app:layout_constraintStart_toStartOf="@+id/txt_next">
 
 
         <ImageView

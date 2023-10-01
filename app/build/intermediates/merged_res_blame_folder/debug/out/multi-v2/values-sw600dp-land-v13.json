@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-6:/values-sw600dp-land-v13/values-sw600dp-land-v13.xml",
+            "outputFile": "com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-67:/values-sw600dp-land-v13/values-sw600dp-land-v13.xml",
             "map": [
                 {
-                    "source": "C:\\John Pandian\\ZipFiles\\color caller\\color caller\\ThirdColorCallerCyanAndPurple\\ColorCallerNeonKeyboard-master\\aosp\\build\\intermediates\\packaged_res\\debug\\values-sw600dp-land-v13\\values-sw600dp-land-v13.xml",
+                    "source": "G:\\Work Project Android\\Color_Caller\\aosp\\build\\intermediates\\packaged_res\\debug\\values-sw600dp-land-v13\\values-sw600dp-land-v13.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
