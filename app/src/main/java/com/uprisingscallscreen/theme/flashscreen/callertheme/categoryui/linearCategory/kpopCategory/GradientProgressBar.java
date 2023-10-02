@@ -35,8 +35,8 @@ public class GradientProgressBar extends ProgressBar {
         float progress = getProgress() / (float) getMax();
         int width = getWidth();
         int height = getHeight();
-        int startColor = Color.parseColor("#9010BF");
-        int endColor = Color.parseColor("#231715");
+        int startColor = Color.parseColor("#FFFFff");
+        int endColor = Color.parseColor("#FFFFFF");
         Shader shader = new LinearGradient(0, 0, width * progress, height, startColor, endColor, Shader.TileMode.CLAMP);
         gradientPaint.setShader(shader);
 

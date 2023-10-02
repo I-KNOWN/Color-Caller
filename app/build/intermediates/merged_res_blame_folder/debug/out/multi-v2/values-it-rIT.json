@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-67:/values-it-rIT/values-it-rIT.xml",
+            "outputFile": "com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-6:/values-it-rIT/values-it-rIT.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Tech360\\.gradle\\caches\\transforms-3\\224e3bba81276bee7653c338357d7404\\transformed\\jetified-colorpicker-1.1.0\\res\\values-it-rIT\\values-it-rIT.xml",
+                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\224e3bba81276bee7653c338357d7404\\transformed\\jetified-colorpicker-1.1.0\\res\\values-it-rIT\\values-it-rIT.xml",
                     "from": {
                         "startLines": "2,3,4,5,6",
                         "startColumns": "4,4,4,4,4",

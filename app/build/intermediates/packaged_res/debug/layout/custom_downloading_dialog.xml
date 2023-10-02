@@ -10,8 +10,6 @@
         android:layout_centerInParent="true"
         android:layout_marginHorizontal="20dp"
         android:background="@drawable/bg_dialog_status"
-        android:backgroundTint="#FFFFFF"
-        android:elevation="20dp"
         android:paddingTop="20dp"
         android:paddingBottom="20dp">
 
@@ -20,9 +18,7 @@
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_centerHorizontal="true"
-            android:background="@drawable/download_symbol"
             android:elevation="10dp"
-            android:padding="20dp"
             android:scaleType="fitXY"
             android:src="@drawable/downloading_image" />
 
@@ -39,7 +35,7 @@
             android:paddingLeft="20dp"
             android:paddingRight="20dp"
             android:text="Color Caller Theme"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textSize="20dp" />
 
         <TextView
@@ -54,7 +50,7 @@
             android:paddingLeft="20dp"
             android:paddingRight="20dp"
             android:text="Get boring with the default calling screen? CallerUi is the color phone call app you need"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textSize="12dp" />
 
         <com.uprisingscallscreen.theme.flashscreen.callertheme.categoryui.linearCategory.kpopCategory.GradientProgressBar
@@ -86,7 +82,7 @@
             android:paddingLeft="20dp"
             android:paddingRight="20dp"
             android:text="Download Successfully"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textSize="15dp" />
 
         <ImageView
@@ -95,6 +91,7 @@
             android:layout_below="@+id/my_progressBar"
             android:layout_marginTop="10dp"
             android:layout_toRightOf="@+id/txt3"
+            android:backgroundTint="@color/white"
             android:src="@drawable/downloaded" />
 
 

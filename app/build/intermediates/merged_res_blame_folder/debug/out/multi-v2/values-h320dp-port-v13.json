@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-67:/values-h320dp-port-v13/values-h320dp-port-v13.xml",
+            "outputFile": "com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-6:/values-h320dp-port-v13/values-h320dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Tech360\\.gradle\\caches\\transforms-3\\252be2d68d70ae41bc642f941ece4813\\transformed\\material-1.4.0\\res\\values-h320dp-port-v13\\values-h320dp-port-v13.xml",
+                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\252be2d68d70ae41bc642f941ece4813\\transformed\\material-1.4.0\\res\\values-h320dp-port-v13\\values-h320dp-port-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
