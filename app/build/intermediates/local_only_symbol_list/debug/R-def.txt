@@ -226,6 +226,7 @@ drawable ic_hold_galaxy
 drawable ic_hold_galaxy_press
 drawable ic_key
 drawable ic_launcher
+drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_load_theme
 drawable ic_message
@@ -911,7 +912,6 @@ string choose
 string choose_a_su
 string clear
 string clear_all
-string com.crashlytics.android.build_id
 string common_google_play_services_unknown_issue
 string contacts
 string content_apps
@@ -920,7 +920,6 @@ string content_setting
 string create_new_contact
 string dark_mode
 string default_dialer
-string default_web_client_id
 string define_roundedimageview
 string delete
 string delete_all_fav_themes
@@ -944,16 +943,10 @@ string fake_content
 string favorites
 string feedback
 string feedback_is_valueable
-string firebase_database_url
 string firebase_name
 string friday
-string gcm_defaultSenderId
 string give_us_a_quick_rating_so_we_know_if_you_like
 string go_to_grant
-string google_api_key
-string google_app_id
-string google_crash_reporting_api_key
-string google_storage_bucket
 string grant
 string hello_blank_fragment
 string hello_blank_fragment_n
@@ -1001,7 +994,6 @@ string policy_part1
 string pricing_pla
 string pro_content
 string pro_title
-string project_id
 string rate_app
 string rate_cancel
 string rate_now

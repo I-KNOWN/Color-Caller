@@ -25,4 +25,4 @@
 -keepdirectories themes/*
 
 -keepclasseswithmembers class keyboard.neon.newboard.** { *; }
--keepclasseswithmembers class com.uprisingscallscreen.theme.flashscreen.** { *; }
+-keepclasseswithmembers class com.themecolor.callerphone.wallpaper.** { *; }

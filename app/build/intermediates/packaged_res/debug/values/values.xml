@@ -118,7 +118,6 @@
     <string name="choose_a_su">Choose a subscription plan to unlock ADs Free \n Version and Uninterrupted User Experience</string>
     <string name="clear">Clear</string>
     <string name="clear_all">Clear All Recents</string>
-    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">00000000000000000000000000000000</string>
     <string name="common_google_play_services_unknown_issue">%1$s is having trouble with Google Play services. Please try again.</string>
     <string name="contacts">Contacts</string>
     <string name="content_apps">Refer to other applications</string>
@@ -127,7 +126,6 @@
     <string name="create_new_contact">Create New Contact</string>
     <string name="dark_mode">Dark mode</string>
     <string name="default_dialer">Default dialer</string>
-    <string name="default_web_client_id" translatable="false">394523700746-5qpdjh697a5kbv71n6vdpgiiqbg2747d.apps.googleusercontent.com</string>
     <string name="define_roundedimageview"/>
     <string name="delete">Delete</string>
     <string name="delete_all_fav_themes">delete all fav themes</string>
@@ -151,16 +149,10 @@
     <string name="favorites">Favorites</string>
     <string name="feedback">Feedback</string>
     <string name="feedback_is_valueable">feedback is valueable</string>
-    <string name="firebase_database_url" translatable="false">https://colorcallerscreen-199e2-default-rtdb.firebaseio.com</string>
     <string name="firebase_name">AppColorCaller</string>
     <string name="friday">Friday</string>
-    <string name="gcm_defaultSenderId" translatable="false">394523700746</string>
     <string name="give_us_a_quick_rating_so_we_know_if_you_like">Give us a quick rating so we know if you like?</string>
     <string name="go_to_grant">Go to Grant</string>
-    <string name="google_api_key" translatable="false">AIzaSyB6zDFS7SrM1qHH_XRfONFXuCXPdF9srts</string>
-    <string name="google_app_id" translatable="false">1:394523700746:android:64dd2fcd8702ff5887f9f3</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyB6zDFS7SrM1qHH_XRfONFXuCXPdF9srts</string>
-    <string name="google_storage_bucket" translatable="false">colorcallerscreen-199e2.appspot.com</string>
     <string name="grant">Grant</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="hello_blank_fragment_n">Hello NEON</string>
@@ -248,7 +240,6 @@
     <string name="pricing_pla">Pricing Plan</string>
     <string name="pro_content">Please update to the Pro version to use this function.</string>
     <string name="pro_title">Update Pro version</string>
-    <string name="project_id" translatable="false">colorcallerscreen-199e2</string>
     <string name="rate_app">Rate App</string>
     <string name="rate_cancel">Cancel</string>
     <string name="rate_now">Rate Now</string>

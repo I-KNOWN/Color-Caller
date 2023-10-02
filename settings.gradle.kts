@@ -1,5 +1,7 @@
-rootProject.name = "NeonKeyboardNew"
+rootProject.name = "Color Caller Screen Theme"
 include(":app", ":aosp")
+include(":app", ":adsmodule")
+
 
 pluginManagement {
     repositories {

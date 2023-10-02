@@ -13,20 +13,25 @@ android {
         targetCompatibility = JavaVersion.VERSION_1_8
     }
 
-    kotlinOptions {
+/*    kotlinOptions {
         jvmTarget = JavaVersion.VERSION_1_8.toString()
         freeCompilerArgs = listOf(
             "-Xallow-result-return-type",
             "-Xopt-in=kotlin.RequiresOptIn",
             "-Xopt-in=kotlin.contracts.ExperimentalContracts"
         )
+    }*/
+
+    tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile> {
+        kotlinOptions {
+            jvmTarget = "1.8"
+            freeCompilerArgs = listOf(
+                "-Xallow-result-return-type",
+                "-Xopt-in=kotlin.RequiresOptIn",
+                "-Xopt-in=kotlin.contracts.ExperimentalContracts"
+            )
+        }
     }
-//
-//    tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile> {
-//        kotlinOptions {
-//            jvmTarget = "1.8"
-//        }
-//    }
 
     defaultConfig {
 //        applicationId = "dev.patrickgold.florisboard"
@@ -74,6 +79,7 @@ android {
     buildFeatures {
         viewBinding = true
     }
+    namespace = "keyboard.neon.newboard"
 
 
 }
@@ -81,7 +87,7 @@ android {
 dependencies {
 
 
-    api("androidx.core", "core-ktx", "1.7.0")
+    api("androidx.core", "core-ktx", "1.8.0")
     implementation("androidx.activity", "activity-ktx", "1.2.1")
     api("androidx.appcompat", "appcompat", "1.4.0")
     api("androidx.constraintlayout", "constraintlayout", "2.1.2")
@@ -110,4 +116,5 @@ dependencies {
 
     testImplementation(kotlin("test"))
     testImplementation("androidx.test", "core", "1.3.0")
+
 }

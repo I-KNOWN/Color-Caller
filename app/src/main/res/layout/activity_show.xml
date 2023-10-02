@@ -5,7 +5,7 @@
     android:background="#000"
     android:orientation="vertical">
 
-    <com.uprisingscallscreen.theme.flashscreen.callertheme.custom.FullScreenVideoView
+    <com.themecolor.callerphone.wallpaper.callertheme.custom.FullScreenVideoView
         android:id="@+id/vv"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
@@ -25,7 +25,7 @@
         android:gravity="center"
         android:orientation="horizontal">
 
-        <com.uprisingscallscreen.theme.flashscreen.callertheme.custom.BoldText
+        <com.themecolor.callerphone.wallpaper.callertheme.custom.BoldText
             android:id="@+id/tv_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -58,7 +58,7 @@
         android:gravity="center"
         android:orientation="horizontal">
 
-        <com.uprisingscallscreen.theme.flashscreen.callertheme.custom.MediumText
+        <com.themecolor.callerphone.wallpaper.callertheme.custom.MediumText
             android:id="@+id/tv_status"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -74,7 +74,7 @@
             android:visibility="visible" />
     </LinearLayout>
 
-    <com.uprisingscallscreen.theme.flashscreen.callertheme.custom.BoldText
+    <com.themecolor.callerphone.wallpaper.callertheme.custom.BoldText
         android:id="@+id/tv_apply"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

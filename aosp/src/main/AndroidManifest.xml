@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="keyboard.neon.newboard">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <!-- Permission needed to vibrate if the user has key press vibration enabled -->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -21,7 +20,7 @@
 
         <provider
             android:name="keyboard.neon.newboard.ime.clip.provider.FlorisContentProvider"
-            android:authorities="com.uprisingscallscreen.theme.flashscreen"
+            android:authorities="com.themecolor.callerphone.wallpaper"
             android:exported="false"
             android:grantUriPermissions="true" />
 

@@ -2,6 +2,6 @@ package androidx.databinding;
 
 public class DataBinderMapperImpl extends MergedDataBinderMapper {
   DataBinderMapperImpl() {
-    addMapper(new com.uprisingscallscreen.theme.flashscreen.DataBinderMapperImpl());
+    addMapper(new com.themecolor.callerphone.wallpaper.DataBinderMapperImpl());
   }
 }

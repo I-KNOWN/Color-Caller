@@ -53,7 +53,7 @@
             android:textColor="@color/white"
             android:textSize="12dp" />
 
-        <com.uprisingscallscreen.theme.flashscreen.callertheme.categoryui.linearCategory.kpopCategory.GradientProgressBar
+        <com.themecolor.callerphone.wallpaper.callertheme.categoryui.linearCategory.kpopCategory.GradientProgressBar
             android:id="@+id/my_progressBar"
             style="@style/Widget.AppCompat.ProgressBar.Horizontal"
             android:layout_width="match_parent"

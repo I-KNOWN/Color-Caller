@@ -34,7 +34,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <com.uprisingscallscreen.theme.flashscreen.callertheme.categoryui.linearCategory.kpopCategory.view.VerticalViewPager
+        <com.themecolor.callerphone.wallpaper.callertheme.categoryui.linearCategory.kpopCategory.view.VerticalViewPager
             android:id="@+id/view_pager"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />

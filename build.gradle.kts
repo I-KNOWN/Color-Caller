@@ -1,12 +1,16 @@
 buildscript {
     dependencies {
-        classpath("com.android.tools.build:gradle:7.2.1")
-        classpath ("org.jetbrains.kotlin:kotlin-annotation-processing-gradle:1.5.10")
+        classpath("com.android.tools.build:gradle:8.1.1")
+        classpath ("org.jetbrains.kotlin:kotlin-annotation-processing-gradle:1.8.10")
+    }
+    repositories {
+        google()
+        mavenCentral()
     }
 }
 
 plugins {
-    id("org.jetbrains.kotlin.android") version "1.7.21" apply false
+    id("org.jetbrains.kotlin.android") version "1.8.10" apply false
 //    base
 }
 

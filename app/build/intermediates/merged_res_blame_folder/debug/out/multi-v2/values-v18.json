@@ -1,20 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.uprisingscallscreen.theme.flashscreen.app-mergeDebugResources-6:/values-v18/values-v18.xml",
+            "outputFile": "com.themecolor.callerphone.wallpaper.app-mergeDebugResources-4:/values-v18/values-v18.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\458633a4fbaeb890e81fc3662bd89c95\\transformed\\appcompat-1.6.1\\res\\values-v18\\values-v18.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "48",
-                        "endOffsets": "99"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\dd0109b5b31efc8acb1c02c2ddf69cd7\\transformed\\jetified-core-1.5.0\\res\\values-v18\\values.xml",
+                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\c4084509a2566654e8800f9a24ea640a\\transformed\\jetified-core-1.5.0\\res\\values-v18\\values.xml",
                     "from": {
                         "startLines": "4,12",
                         "startColumns": "0,0",
@@ -30,6 +20,16 @@
                         "endLines": "10,18",
                         "endColumns": "8,8",
                         "endOffsets": "519,937"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\1a2305cfd681275de8a2761003fa037d\\transformed\\appcompat-1.6.1\\res\\values-v18\\values-v18.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "48",
+                        "endOffsets": "99"
                     }
                 }
             ]
