@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Color Phone: Call Screen Theme</string>
+    <string name="app_name">Color Caller Screen Theme</string>
     <string name="keyboardServiceName">Neon Keyboard </string>
     <string name="hintSearchMess">Search here...</string>
     <string name="pleaseCheckSettings">Please check “Neon Keyboard” in your Languages \n and input settings.This will authorize it to run on \n your device.</string>

@@ -92,7 +92,6 @@ public class KpopCategoryActivity extends AppCompatActivity/* implements Recycle
         Drawable background = getResources().getDrawable(R.drawable.status_gradient);
         getWindow().setBackgroundDrawable(background);
 
-
         Map<String, Object> defaultValues = new HashMap<>();
         defaultValues.put("categories_parameter", "new");
         recyclerView = findViewById(R.id.neon_recycler);
@@ -222,7 +221,6 @@ public class KpopCategoryActivity extends AppCompatActivity/* implements Recycle
                 case "LiveTrending":
                     ImagesVideoAdapter livetrendingAdapter = new ImagesVideoAdapter(KpopCategoryActivity.this, imagesListLiveTrending);
                     recyclerView.setAdapter(livetrendingAdapter);
-
                     break;
                 case "LiveKpop":
                     ImagesVideoAdapter livekpopAdapter = new ImagesVideoAdapter(KpopCategoryActivity.this, imagesListLiveKpop);

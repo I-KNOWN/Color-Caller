@@ -1,20 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.themecolor.callerphone.wallpaper.app-mergeDebugResources-70:/values-zh/values-zh.xml",
+            "outputFile": "com.themecolor.callerphone.wallpaper.app-mergeDebugResources-4:/values-zh/values-zh.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Tech360\\.gradle\\caches\\transforms-3\\0f4ddc4fbdb6855738632ad2d7a06c25\\transformed\\jetified-colorpicker-1.1.0\\res\\values-zh\\values-zh.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "55,100,151,196,238",
-                        "endColumns": "44,50,44,41,48",
-                        "endOffsets": "95,146,191,233,282"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Tech360\\.gradle\\caches\\transforms-3\\ac70540a1e2bfdbca66384d8e849e55c\\transformed\\jetified-ucrop-2.2.6\\res\\values-zh\\values-zh.xml",
+                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\ac70540a1e2bfdbca66384d8e849e55c\\transformed\\jetified-ucrop-2.2.6\\res\\values-zh\\values-zh.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",
@@ -28,6 +18,16 @@
                         "startOffsets": "287,341,395",
                         "endColumns": "53,53,46",
                         "endOffsets": "336,390,437"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\0f4ddc4fbdb6855738632ad2d7a06c25\\transformed\\jetified-colorpicker-1.1.0\\res\\values-zh\\values-zh.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,100,151,196,238",
+                        "endColumns": "44,50,44,41,48",
+                        "endOffsets": "95,146,191,233,282"
                     }
                 }
             ]

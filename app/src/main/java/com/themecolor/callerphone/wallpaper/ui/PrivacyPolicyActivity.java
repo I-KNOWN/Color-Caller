@@ -14,6 +14,7 @@ import android.view.WindowManager;
 
 import com.themecolor.callerphone.wallpaper.MainActivity;
 import com.themecolor.callerphone.wallpaper.R;
+import com.themecolor.callerphone.wallpaper.StartupActivity;
 
 public class PrivacyPolicyActivity extends AppCompatActivity {
 
@@ -32,7 +33,7 @@ public class PrivacyPolicyActivity extends AppCompatActivity {
         startBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(PrivacyPolicyActivity.this, MainActivity.class));
+                startActivity(new Intent(PrivacyPolicyActivity.this, StartupActivity.class));
             }
         });
     }

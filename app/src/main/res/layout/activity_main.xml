@@ -33,7 +33,7 @@
                 android:layout_width="50dp"
                 android:layout_height="60dp"
                 android:layout_marginRight="5dp"
-                android:layout_toLeftOf="@+id/dialer_btn"
+                android:layout_alignParentRight="true"
                 android:padding="10dp"
                 android:src="@drawable/heart" />
 
@@ -43,6 +43,7 @@
                 android:layout_height="60dp"
                 android:layout_alignParentRight="true"
                 android:padding="10dp"
+                android:visibility="gone"
                 android:src="@drawable/ic_add_ic_call"
                 app:tint="@color/green" />
         </RelativeLayout>
@@ -66,6 +67,7 @@
             android:background="@drawable/bottom_nav_button"
             app:itemTextColor="@color/navigation_drawer_text_color_selector"
             app:labelVisibilityMode="labeled"
+            android:visibility="gone"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -79,7 +81,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="start"
-        android:background="@drawable/navgradient"
+        android:background="@drawable/splash_background"
         app:headerLayout="@layout/drawer_header">
 
         <RelativeLayout

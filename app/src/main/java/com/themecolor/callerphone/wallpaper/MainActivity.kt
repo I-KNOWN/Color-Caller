@@ -15,6 +15,7 @@ import com.themecolor.callerphone.wallpaper.databinding.ActivityMainBinding
 import com.themecolor.callerphone.wallpaper.fragments.HomeFragment
 import com.themecolor.callerphone.wallpaper.fragments.IconFragment
 import com.themecolor.callerphone.wallpaper.fragments.SettingsMainFragment
+import com.themecolor.callerphone.wallpaper.fragments.SpecificCallerFragment
 import com.themecolor.callerphone.wallpaper.fragments.ThemeOptionsFragment
 
 
@@ -37,8 +38,55 @@ class MainActivity : BaseActivity() {
         window.statusBarColor = Color.TRANSPARENT
         val background: Drawable = resources.getDrawable(R.drawable.status_gradient)
         window.setBackgroundDrawable(background)
+        mainActivityBinding.menuBtn.setOnClickListener {
+            mainActivityBinding.drawer.openDrawer(Gravity.LEFT)
+        }
 
-        with(mainActivityBinding) {
+
+        if(intent.getStringExtra("category") != null){
+            supportFragmentManager.beginTransaction()
+                .replace(R.id.fragmentContainer, SpecificCallerFragment(intent.getStringExtra("category")))
+                .commit()
+        }
+
+        if(intent.getStringExtra("state") != null){
+            if(intent.getStringExtra("state").equals("All"))
+            loadFragmentWithIcon(HomeFragment(), R.drawable.home_clear)
+            if(intent.getStringExtra("state").equals("callericon"))
+                loadFragmentWithIcon(IconFragment(), R.drawable.home_clear)
+            if(intent.getStringExtra("state").equals("keyboard"))
+                loadFragmentWithIcon(ThemeOptionsFragment(), R.drawable.home_clear)
+        }
+
+
+
+
+
+
+    mainActivityBinding.callerScreenLl.setOnClickListener {
+
+                mainActivityBinding.drawer.closeDrawer(Gravity.LEFT)
+                loadFragmentWithIcon(HomeFragment(), R.drawable.home_clear)
+
+
+            }
+
+            mainActivityBinding.keyboardLl.setOnClickListener {
+                mainActivityBinding.drawer.closeDrawer(Gravity.LEFT)
+                loadFragmentWithIcon(ThemeOptionsFragment(), R.drawable.keyboard_clear)
+
+
+            }
+
+            mainActivityBinding.iconLl.setOnClickListener {
+                mainActivityBinding.drawer.closeDrawer(Gravity.LEFT)
+                loadFragmentWithIcon(IconFragment(), R.drawable.icons_clear)
+
+
+            }
+        /*
+
+with(mainActivityBinding) {
             bottomNavigationView.itemIconTintList = null
             bottomNavigationView.setOnItemSelectedListener { menuItem ->
                 when (menuItem.itemId) {
@@ -62,40 +110,13 @@ class MainActivity : BaseActivity() {
                 true
             }
         }
-
-        mainActivityBinding.menuBtn.setOnClickListener {
-            mainActivityBinding.drawer.openDrawer(Gravity.LEFT)
-        }
-        mainActivityBinding.callerScreenLl.setOnClickListener {
-
-            mainActivityBinding.drawer.closeDrawer(Gravity.LEFT)
-            loadFragmentWithIcon(HomeFragment(), R.drawable.home_clear)
-
-
-        }
-
-        mainActivityBinding.keyboardLl.setOnClickListener {
-            mainActivityBinding.drawer.closeDrawer(Gravity.LEFT)
-            loadFragmentWithIcon(ThemeOptionsFragment(), R.drawable.keyboard_clear)
-
-
-        }
-
-        mainActivityBinding.iconLl.setOnClickListener {
-            mainActivityBinding.drawer.closeDrawer(Gravity.LEFT)
-            loadFragmentWithIcon(IconFragment(), R.drawable.icons_clear)
-
-
-        }
-
-
         mainActivityBinding.settingLl.setOnClickListener {
             mainActivityBinding.drawer.closeDrawer(Gravity.LEFT)
             loadFragmentWithIcon(SettingsMainFragment(), R.drawable.setting_clear)
 
         }
         mainActivityBinding.bottomNavigationView.selectedItemId =
-            savedInstanceState?.getInt(SELECTED_ITEM_ID) ?: R.id.themesNav
+            savedInstanceState?.getInt(SELECTED_ITEM_ID) ?: R.id.themesNav*/
 
         mainActivityBinding.dialerBtn.setOnClickListener {
             startActivity(Intent(this@MainActivity, DialerActivity::class.java))
@@ -108,11 +129,11 @@ class MainActivity : BaseActivity() {
         }
 
 
-        mainActivityBinding.bottomNavigationView.setOnItemReselectedListener {
+/*        mainActivityBinding.bottomNavigationView.setOnItemReselectedListener {
             if (it.itemId != mainActivityBinding.bottomNavigationView.selectedItemId) {
                 mainActivityBinding.bottomNavigationView.selectedItemId = it.itemId
             }
-        }
+        }*/
     }
 
     private fun loadFragmentWithIcon(fragment: Fragment, iconResourceId: Int) {

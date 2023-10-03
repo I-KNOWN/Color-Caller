@@ -112,7 +112,7 @@ public class CallServiceAnim extends InCallService {
         if (CallListHelper.callList.size() > 0) {
 
             NotificationHelper.createIngoingCallNotification(this, CallListHelper.callList.get(CallManager.NUMBER_OF_CALLS - 1), "00:12:45", CallingAnimActivity.speakerBtnName, CallingAnimActivity.muteBtnName);
-            CallManager.HP_CALL_STATE = Call.STATE_ACTIVE;
+            CallManager.HP_CALL_STATE = Call.STATE_DISCONNECTED;
 
             Log.d("Priya", "onCallRemoved:........ " + call.getDetails().getDisconnectCause().toString());
         } else {

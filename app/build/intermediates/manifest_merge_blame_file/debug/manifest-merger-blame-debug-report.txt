@@ -9,1029 +9,1031 @@
 9        android:targetSdkVersion="33" />
 10
 11    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
-11-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:5:5-77
-11-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:5:22-74
+11-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:5:5-77
+11-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:5:22-74
 12    <uses-permission android:name="android.permission.SET_WALLPAPER" />
-12-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:6:5-72
-12-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:6:22-69
+12-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:6:5-72
+12-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:6:22-69
 13    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
-13-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:7:5-79
-13-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:7:22-76
+13-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:7:5-79
+13-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:7:22-76
 14    <uses-permission android:name="android.permission.WAKE_LOCK" />
-14-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:8:5-68
-14-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:8:22-65
+14-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:8:5-68
+14-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:8:22-65
 15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-15-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:9:5-80
-15-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:9:22-77
+15-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:9:5-80
+15-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:9:22-77
 16    <uses-permission
-16-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:10:5-12:38
+16-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:10:5-12:38
 17        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
-17-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:11:9-65
+17-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:11:9-65
 18        android:maxSdkVersion="28" />
-18-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:12:9-35
+18-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:12:9-35
 19    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
-19-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:13:5-73
-19-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:13:22-70
+19-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:13:5-73
+19-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:13:22-70
 20    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
-20-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:14:5-80
-20-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:14:22-77
+20-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:14:5-80
+20-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:14:22-77
 21    <uses-permission android:name="android.permission.VIBRATE" />
-21-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:15:5-66
-21-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:15:22-63
+21-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:15:5-66
+21-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:15:22-63
 22    <uses-permission android:name="android.permission.RECORD_AUDIO" />
-22-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:16:5-71
-22-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:16:22-68
+22-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:16:5-71
+22-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:16:22-68
 23    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-23-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:17:5-77
-23-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:17:22-74
+23-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:17:5-77
+23-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:17:22-74
 24    <uses-permission android:name="android.permission.INTERNET" />
-24-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:18:5-67
-24-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:18:22-64
+24-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:18:5-67
+24-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:18:22-64
 25    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-25-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:19:5-79
-25-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:19:22-76
+25-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:19:5-79
+25-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:19:22-76
 26    <uses-permission android:name="android.permission.CALL_PHONE" />
-26-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:20:5-69
-26-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:20:22-66
+26-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:20:5-69
+26-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:20:22-66
 27    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-27-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:21:5-75
-27-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:21:22-72
+27-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:21:5-75
+27-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:21:22-72
 28    <uses-permission android:name="android.permission.READ_CONTACTS" />
-28-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:22:5-72
-28-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:22:22-69
+28-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:22:5-72
+28-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:22:22-69
 29    <uses-permission android:name="android.permission.RECORD_AUDIO" />
-29-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:16:5-71
-29-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:16:22-68
+29-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:16:5-71
+29-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:16:22-68
 30    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-30-->[:adsmodule] G:\Work Project Android\Color_Caller\adsmodule\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-76
-30-->[:adsmodule] G:\Work Project Android\Color_Caller\adsmodule\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-73
+30-->[:adsmodule] C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\adsmodule\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-76
+30-->[:adsmodule] C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\adsmodule\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-73
 31    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE" /> <!-- Android package visibility setting -->
-31-->[:adsmodule] G:\Work Project Android\Color_Caller\adsmodule\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-13:47
-31-->[:adsmodule] G:\Work Project Android\Color_Caller\adsmodule\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:9-70
+31-->[:adsmodule] C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\adsmodule\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-13:47
+31-->[:adsmodule] C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\adsmodule\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:9-70
 32    <queries>
-32-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\Tech360\.gradle\caches\transforms-3\332882266f5053a18097f0fb606b3284\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:32:5-48:15
+32-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\Admin\.gradle\caches\transforms-3\332882266f5053a18097f0fb606b3284\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:32:5-48:15
 33
 34        <!-- For browser content -->
 35        <intent>
-35-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\Tech360\.gradle\caches\transforms-3\332882266f5053a18097f0fb606b3284\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:35:9-41:18
+35-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\Admin\.gradle\caches\transforms-3\332882266f5053a18097f0fb606b3284\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:35:9-41:18
 36            <action android:name="android.intent.action.VIEW" />
-36-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\Tech360\.gradle\caches\transforms-3\332882266f5053a18097f0fb606b3284\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:36:13-65
-36-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\Tech360\.gradle\caches\transforms-3\332882266f5053a18097f0fb606b3284\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:36:21-62
+36-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\Admin\.gradle\caches\transforms-3\332882266f5053a18097f0fb606b3284\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:36:13-65
+36-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\Admin\.gradle\caches\transforms-3\332882266f5053a18097f0fb606b3284\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:36:21-62
 37
 38            <category android:name="android.intent.category.BROWSABLE" />
-38-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\Tech360\.gradle\caches\transforms-3\332882266f5053a18097f0fb606b3284\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:38:13-74
-38-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\Tech360\.gradle\caches\transforms-3\332882266f5053a18097f0fb606b3284\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:38:23-71
+38-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\Admin\.gradle\caches\transforms-3\332882266f5053a18097f0fb606b3284\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:38:13-74
+38-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\Admin\.gradle\caches\transforms-3\332882266f5053a18097f0fb606b3284\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:38:23-71
 39
 40            <data android:scheme="https" />
-40-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:91:17-46
-40-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:91:23-43
+40-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:93:17-46
+40-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:93:23-43
 41        </intent>
 42        <!-- End of browser content -->
 43        <!-- For CustomTabsService -->
 44        <intent>
-44-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\Tech360\.gradle\caches\transforms-3\332882266f5053a18097f0fb606b3284\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:44:9-46:18
+44-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\Admin\.gradle\caches\transforms-3\332882266f5053a18097f0fb606b3284\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:44:9-46:18
 45            <action android:name="android.support.customtabs.action.CustomTabsService" />
-45-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\Tech360\.gradle\caches\transforms-3\332882266f5053a18097f0fb606b3284\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:45:13-90
-45-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\Tech360\.gradle\caches\transforms-3\332882266f5053a18097f0fb606b3284\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:45:21-87
+45-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\Admin\.gradle\caches\transforms-3\332882266f5053a18097f0fb606b3284\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:45:13-90
+45-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\Admin\.gradle\caches\transforms-3\332882266f5053a18097f0fb606b3284\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:45:21-87
 46        </intent>
 47        <!-- End of CustomTabsService -->
 48        <package android:name="com.facebook.katana" />
-48-->[com.facebook.android:audience-network-sdk:6.16.0] C:\Users\Tech360\.gradle\caches\transforms-3\80cf46b83fa6f84b3883ba0adcfcef21\transformed\jetified-audience-network-sdk-6.16.0\AndroidManifest.xml:12:9-55
-48-->[com.facebook.android:audience-network-sdk:6.16.0] C:\Users\Tech360\.gradle\caches\transforms-3\80cf46b83fa6f84b3883ba0adcfcef21\transformed\jetified-audience-network-sdk-6.16.0\AndroidManifest.xml:12:18-52
+48-->[com.facebook.android:audience-network-sdk:6.16.0] C:\Users\Admin\.gradle\caches\transforms-3\80cf46b83fa6f84b3883ba0adcfcef21\transformed\jetified-audience-network-sdk-6.16.0\AndroidManifest.xml:12:9-55
+48-->[com.facebook.android:audience-network-sdk:6.16.0] C:\Users\Admin\.gradle\caches\transforms-3\80cf46b83fa6f84b3883ba0adcfcef21\transformed\jetified-audience-network-sdk-6.16.0\AndroidManifest.xml:12:18-52
 49    </queries>
 50
 51    <uses-permission android:name="android.permission.REORDER_TASKS" />
-51-->[androidx.test:core:1.5.0] C:\Users\Tech360\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:24:5-72
-51-->[androidx.test:core:1.5.0] C:\Users\Tech360\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:24:22-69
+51-->[androidx.test:core:1.5.0] C:\Users\Admin\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:24:5-72
+51-->[androidx.test:core:1.5.0] C:\Users\Admin\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:24:22-69
 52
 53    <permission
-53-->[androidx.core:core:1.9.0] C:\Users\Tech360\.gradle\caches\transforms-3\d55510fac77ff6675cbeca87ed584457\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+53-->[androidx.core:core:1.9.0] C:\Users\Admin\.gradle\caches\transforms-3\d55510fac77ff6675cbeca87ed584457\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
 54        android:name="com.themecolor.callerphone.wallpaper.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-54-->[androidx.core:core:1.9.0] C:\Users\Tech360\.gradle\caches\transforms-3\d55510fac77ff6675cbeca87ed584457\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+54-->[androidx.core:core:1.9.0] C:\Users\Admin\.gradle\caches\transforms-3\d55510fac77ff6675cbeca87ed584457\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
 55        android:protectionLevel="signature" />
-55-->[androidx.core:core:1.9.0] C:\Users\Tech360\.gradle\caches\transforms-3\d55510fac77ff6675cbeca87ed584457\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+55-->[androidx.core:core:1.9.0] C:\Users\Admin\.gradle\caches\transforms-3\d55510fac77ff6675cbeca87ed584457\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
 56
-57    <uses-permission android:name="com.themecolor.callerphone.wallpaper.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- android:name="com.themecolor.callerphone.wallpaper.App" -->
-57-->[androidx.core:core:1.9.0] C:\Users\Tech360\.gradle\caches\transforms-3\d55510fac77ff6675cbeca87ed584457\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
-57-->[androidx.core:core:1.9.0] C:\Users\Tech360\.gradle\caches\transforms-3\d55510fac77ff6675cbeca87ed584457\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
-58    <application
-58-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:26:5-317:19
-59        android:name="com.themecolor.callerphone.wallpaper.SingletonClasses.MyApplication"
-59-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:27:9-55
-60        android:allowBackup="false"
-60-->[:aosp] G:\Work Project Android\Color_Caller\aosp\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:9-36
-61        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-61-->[androidx.core:core:1.9.0] C:\Users\Tech360\.gradle\caches\transforms-3\d55510fac77ff6675cbeca87ed584457\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
-62        android:debuggable="true"
-63        android:extractNativeLibs="false"
-64        android:hardwareAccelerated="true"
-64-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:28:9-43
-65        android:icon="@mipmap/ic_launcher"
-65-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:29:9-43
-66        android:label="@string/app_name"
-66-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:30:9-41
-67        android:largeHeap="true"
-67-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:33:9-33
-68        android:roundIcon="@mipmap/ic_launcher_round"
-68-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:31:9-54
-69        android:supportsRtl="true"
-69-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:32:9-35
-70        android:testOnly="true"
-71        android:theme="@style/Theme.NeonKeyboardNew"
-71-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:34:9-53
-72        android:usesCleartextTraffic="true" >
-72-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:35:9-44
-73        <activity
-73-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:36:9-39:40
-74            android:name="com.themecolor.callerphone.wallpaper.ui.PrivacyActivity"
-74-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:37:13-83
-75            android:exported="false"
-75-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:39:13-37
-76            android:screenOrientation="portrait" />
-76-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:38:13-49
+57    <uses-permission android:name="com.themecolor.callerphone.wallpaper.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+57-->[androidx.core:core:1.9.0] C:\Users\Admin\.gradle\caches\transforms-3\d55510fac77ff6675cbeca87ed584457\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+57-->[androidx.core:core:1.9.0] C:\Users\Admin\.gradle\caches\transforms-3\d55510fac77ff6675cbeca87ed584457\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+58
+59    <application
+59-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:25:5-316:19
+60        android:name="com.themecolor.callerphone.wallpaper.App"
+60-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:26:9-28
+61        android:allowBackup="false"
+61-->[:aosp] C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\aosp\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:9-36
+62        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+62-->[androidx.core:core:1.9.0] C:\Users\Admin\.gradle\caches\transforms-3\d55510fac77ff6675cbeca87ed584457\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+63        android:debuggable="true"
+64        android:extractNativeLibs="false"
+65        android:hardwareAccelerated="true"
+65-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:27:9-43
+66        android:icon="@drawable/logo"
+66-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:28:9-38
+67        android:label="@string/app_name"
+67-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:29:9-41
+68        android:largeHeap="true"
+68-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:30:9-33
+69        android:roundIcon="@mipmap/ic_launcher_round"
+69-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:31:9-54
+70        android:supportsRtl="true"
+70-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:32:9-35
+71        android:testOnly="true"
+72        android:theme="@style/Theme.NeonKeyboardNew"
+72-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:33:9-53
+73        android:usesCleartextTraffic="true" >
+73-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:34:9-44
+74        <activity
+74-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:35:9-37:40
+75            android:name="com.themecolor.callerphone.wallpaper.StartupActivity"
+75-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:36:13-44
+76            android:exported="false" />
+76-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:37:13-37
 77        <activity
-77-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:40:9-43:40
-78            android:name="com.themecolor.callerphone.wallpaper.callertheme.ExitActivity"
-78-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:41:13-89
+77-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:38:9-41:52
+78            android:name="com.themecolor.callerphone.wallpaper.ui.PrivacyActivity"
+78-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:39:13-47
 79            android:exported="false"
-79-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:43:13-37
+79-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:40:13-37
 80            android:screenOrientation="portrait" />
-80-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:42:13-49
+80-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:41:13-49
 81        <activity
-81-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:44:9-51:20
-82            android:name="com.themecolor.callerphone.wallpaper.ui.PrivacyPolicyActivity"
-82-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:45:13-89
+81-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:42:9-45:52
+82            android:name="com.themecolor.callerphone.wallpaper.callertheme.ExitActivity"
+82-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:43:13-53
 83            android:exported="false"
-83-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:47:13-37
-84            android:screenOrientation="portrait" >
-84-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:46:13-49
-85            <meta-data
-85-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:48:13-50:36
-86                android:name="android.app.lib_name"
-86-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:49:17-52
-87                android:value="" />
-87-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:50:17-33
-88        </activity>
-89        <activity
-89-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:52:9-59:20
-90            android:name="com.themecolor.callerphone.wallpaper.callertheme.categoryui.PreviewActivity"
-90-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:53:13-103
-91            android:exported="false"
-91-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:55:13-37
-92            android:screenOrientation="portrait" >
-92-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:54:13-49
-93            <meta-data
-93-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:48:13-50:36
-94                android:name="android.app.lib_name"
-94-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:49:17-52
-95                android:value="" />
-95-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:50:17-33
-96        </activity>
-97        <activity
-97-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:60:9-62:40
-98            android:name="com.themecolor.callerphone.wallpaper.callertheme.FavouriteActivity"
-98-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:61:13-94
-99            android:exported="false" />
-99-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:62:13-37
-100        <activity
-100-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:63:9-65:40
-101            android:name="com.themecolor.callerphone.wallpaper.callertheme.categoryui.linearCategory.Theme_GifActivity_Calling_Theme_Preview"
-101-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:64:13-142
-102            android:exported="false" />
-102-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:65:13-37
-103        <activity
-103-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:66:9-76:20
-104            android:name="com.themecolor.callerphone.wallpaper.callertheme.dialer.CallingAnimActivity"
-104-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:67:13-103
-105            android:exported="false"
-105-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:68:13-37
-106            android:launchMode="singleInstance"
-106-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:69:13-48
-107            android:screenOrientation="portrait"
-107-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:70:13-49
-108            android:showOnLockScreen="true" >
-108-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:71:13-44
-109            <meta-data
-109-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:48:13-50:36
-110                android:name="android.app.lib_name"
-110-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:49:17-52
-111                android:value="" />
-111-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:50:17-33
-112        </activity>
-113        <activity
-113-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:77:9-93:20
-114            android:name="com.themecolor.callerphone.wallpaper.callertheme.dialer.DialerActivity"
-114-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:78:13-98
-115            android:exported="false"
-115-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:79:13-37
-116            android:screenOrientation="portrait" >
-116-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:80:13-49
-117            <intent-filter>
-117-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:81:13-85:29
-118                <action android:name="android.intent.action.DIAL" />
-118-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:82:17-69
-118-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:82:25-66
-119
-120                <category android:name="android.intent.category.DEFAULT" />
-120-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:84:17-76
-120-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:84:27-73
-121            </intent-filter>
-122            <intent-filter>
-122-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:86:13-92:29
-123                <action android:name="android.intent.action.DIAL" />
-123-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:82:17-69
-123-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:82:25-66
-124
-125                <category android:name="android.intent.category.DEFAULT" />
-125-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:84:17-76
-125-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:84:27-73
-126
-127                <data android:scheme="tel" />
-127-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:91:17-46
-127-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:91:23-43
-128            </intent-filter>
-129        </activity>
-130        <activity
-130-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:94:9-97:52
-131            android:name="com.themecolor.callerphone.wallpaper.callertheme.categoryui.UploadActivity"
-131-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:95:13-102
-132            android:exported="false"
-132-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:96:13-37
-133            android:screenOrientation="portrait" />
-133-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:97:13-49
+83-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:44:13-37
+84            android:screenOrientation="portrait" />
+84-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:45:13-49
+85        <activity
+85-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:46:9-53:20
+86            android:name="com.themecolor.callerphone.wallpaper.ui.PrivacyPolicyActivity"
+86-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:47:13-53
+87            android:exported="false"
+87-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:48:13-37
+88            android:screenOrientation="portrait" >
+88-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:49:13-49
+89            <meta-data
+89-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:50:13-52:36
+90                android:name="android.app.lib_name"
+90-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:51:17-52
+91                android:value="" />
+91-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:52:17-33
+92        </activity>
+93        <activity
+93-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:54:9-61:20
+94            android:name="com.themecolor.callerphone.wallpaper.callertheme.categoryui.PreviewActivity"
+94-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:55:13-67
+95            android:exported="false"
+95-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:56:13-37
+96            android:screenOrientation="portrait" >
+96-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:57:13-49
+97            <meta-data
+97-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:50:13-52:36
+98                android:name="android.app.lib_name"
+98-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:51:17-52
+99                android:value="" />
+99-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:52:17-33
+100        </activity>
+101        <activity
+101-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:62:9-64:40
+102            android:name="com.themecolor.callerphone.wallpaper.callertheme.FavouriteActivity"
+102-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:63:13-58
+103            android:exported="false" />
+103-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:64:13-37
+104        <activity
+104-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:65:9-67:40
+105            android:name="com.themecolor.callerphone.wallpaper.callertheme.categoryui.linearCategory.Theme_GifActivity_Calling_Theme_Preview"
+105-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:66:13-106
+106            android:exported="false" />
+106-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:67:13-37
+107        <activity
+107-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:68:9-78:20
+108            android:name="com.themecolor.callerphone.wallpaper.callertheme.dialer.CallingAnimActivity"
+108-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:69:13-67
+109            android:exported="false"
+109-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:70:13-37
+110            android:launchMode="singleInstance"
+110-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:71:13-48
+111            android:screenOrientation="portrait"
+111-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:72:13-49
+112            android:showOnLockScreen="true" >
+112-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:73:13-44
+113            <meta-data
+113-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:50:13-52:36
+114                android:name="android.app.lib_name"
+114-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:51:17-52
+115                android:value="" />
+115-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:52:17-33
+116        </activity>
+117        <activity
+117-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:79:9-95:20
+118            android:name="com.themecolor.callerphone.wallpaper.callertheme.dialer.DialerActivity"
+118-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:80:13-62
+119            android:exported="false"
+119-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:81:13-37
+120            android:screenOrientation="portrait" >
+120-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:82:13-49
+121            <intent-filter>
+121-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:83:13-87:29
+122                <action android:name="android.intent.action.DIAL" />
+122-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:84:17-69
+122-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:84:25-66
+123
+124                <category android:name="android.intent.category.DEFAULT" />
+124-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:86:17-76
+124-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:86:27-73
+125            </intent-filter>
+126            <intent-filter>
+126-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:88:13-94:29
+127                <action android:name="android.intent.action.DIAL" />
+127-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:84:17-69
+127-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:84:25-66
+128
+129                <category android:name="android.intent.category.DEFAULT" />
+129-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:86:17-76
+129-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:86:27-73
+130
+131                <data android:scheme="tel" />
+131-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:93:17-46
+131-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:93:23-43
+132            </intent-filter>
+133        </activity>
 134        <activity
-134-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:98:9-105:20
-135            android:name="com.themecolor.callerphone.wallpaper.callertheme.categoryui.CategoryShowVideoActivity"
-135-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:99:13-113
+134-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:96:9-99:52
+135            android:name="com.themecolor.callerphone.wallpaper.callertheme.categoryui.UploadActivity"
+135-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:97:13-66
 136            android:exported="false"
-136-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:100:13-37
-137            android:screenOrientation="portrait" >
-137-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:101:13-49
-138            <meta-data
-138-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:48:13-50:36
-139                android:name="android.app.lib_name"
-139-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:49:17-52
-140                android:value="" />
-140-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:50:17-33
-141        </activity>
-142        <activity
-142-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:106:9-109:52
-143            android:name="com.themecolor.callerphone.wallpaper.callertheme.categoryui.Theme_Activity_Calling_Theme_Preview"
-143-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:107:13-124
-144            android:exported="false"
-144-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:108:13-37
-145            android:screenOrientation="portrait" />
-145-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:109:13-49
+136-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:98:13-37
+137            android:screenOrientation="portrait" />
+137-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:99:13-49
+138        <activity
+138-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:100:9-107:20
+139            android:name="com.themecolor.callerphone.wallpaper.callertheme.categoryui.CategoryShowVideoActivity"
+139-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:101:13-77
+140            android:exported="false"
+140-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:102:13-37
+141            android:screenOrientation="portrait" >
+141-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:103:13-49
+142            <meta-data
+142-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:50:13-52:36
+143                android:name="android.app.lib_name"
+143-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:51:17-52
+144                android:value="" />
+144-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:52:17-33
+145        </activity>
 146        <activity
-146-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:110:9-113:52
-147            android:name="com.themecolor.callerphone.wallpaper.callertheme.categoryui.CategoryShowActivity"
-147-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:111:13-108
+146-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:108:9-111:52
+147            android:name="com.themecolor.callerphone.wallpaper.callertheme.categoryui.Theme_Activity_Calling_Theme_Preview"
+147-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:109:13-88
 148            android:exported="false"
-148-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:112:13-37
+148-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:110:13-37
 149            android:screenOrientation="portrait" />
-149-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:113:13-49
+149-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:111:13-49
 150        <activity
-150-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:114:9-121:20
-151            android:name="com.themecolor.callerphone.wallpaper.callertheme.categoryui.KpopCategoryActivity"
-151-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:115:13-108
+150-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:112:9-115:52
+151            android:name="com.themecolor.callerphone.wallpaper.callertheme.categoryui.CategoryShowActivity"
+151-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:113:13-72
 152            android:exported="false"
-152-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:116:13-37
-153            android:screenOrientation="portrait" >
-153-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:117:13-49
-154            <meta-data
-154-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:48:13-50:36
-155                android:name="android.app.lib_name"
-155-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:49:17-52
-156                android:value="" />
-156-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:50:17-33
-157        </activity>
-158        <activity
-158-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:122:9-125:52
-159            android:name="com.themecolor.callerphone.wallpaper.callertheme.ui.SearchActivity"
-159-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:123:13-94
-160            android:exported="false"
-160-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:124:13-37
-161            android:screenOrientation="portrait" />
-161-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:125:13-49
+152-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:114:13-37
+153            android:screenOrientation="portrait" />
+153-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:115:13-49
+154        <activity
+154-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:116:9-123:20
+155            android:name="com.themecolor.callerphone.wallpaper.callertheme.categoryui.KpopCategoryActivity"
+155-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:117:13-72
+156            android:exported="false"
+156-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:118:13-37
+157            android:screenOrientation="portrait" >
+157-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:119:13-49
+158            <meta-data
+158-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:50:13-52:36
+159                android:name="android.app.lib_name"
+159-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:51:17-52
+160                android:value="" />
+160-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:52:17-33
+161        </activity>
 162        <activity
-162-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:126:9-129:52
-163            android:name="com.themecolor.callerphone.wallpaper.callertheme.ui.RandomGenerateActivity"
-163-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:127:13-102
+162-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:124:9-127:52
+163            android:name="com.themecolor.callerphone.wallpaper.callertheme.ui.SearchActivity"
+163-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:125:13-58
 164            android:exported="false"
-164-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:128:13-37
+164-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:126:13-37
 165            android:screenOrientation="portrait" />
-165-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:129:13-49
+165-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:127:13-49
 166        <activity
-166-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:130:9-133:52
-167            android:name="com.themecolor.callerphone.wallpaper.callertheme.ui.CategoriesActivity"
-167-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:131:13-98
+166-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:128:9-131:52
+167            android:name="com.themecolor.callerphone.wallpaper.callertheme.ui.RandomGenerateActivity"
+167-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:129:13-66
 168            android:exported="false"
-168-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:132:13-37
+168-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:130:13-37
 169            android:screenOrientation="portrait" />
-169-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:133:13-49
+169-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:131:13-49
 170        <activity
-170-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:134:9-137:52
-171            android:name="com.themecolor.callerphone.wallpaper.callertheme.ui.PopularActivity"
-171-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:135:13-95
+170-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:132:9-135:52
+171            android:name="com.themecolor.callerphone.wallpaper.callertheme.ui.CategoriesActivity"
+171-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:133:13-62
 172            android:exported="false"
-172-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:136:13-37
+172-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:134:13-37
 173            android:screenOrientation="portrait" />
-173-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:137:13-49
-174
-175        <receiver
-175-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:139:9-147:20
-176            android:name="com.themecolor.callerphone.wallpaper.callertheme.ui.NetworkStateChangeReciver"
-176-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:140:13-105
-177            android:exported="false" >
-177-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:141:13-37
-178            <intent-filter>
-178-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:142:13-146:29
-179                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
-179-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:143:17-145:50
-179-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:144:21-72
-180            </intent-filter>
-181        </receiver>
-182
-183        <activity
-183-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:149:9-152:52
-184            android:name="com.themecolor.callerphone.wallpaper.callertheme.ui.FullViewActivity"
-184-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:150:13-96
-185            android:exported="false"
-185-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:151:13-37
-186            android:screenOrientation="portrait" />
-186-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:152:13-49
+173-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:135:13-49
+174        <activity
+174-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:136:9-139:52
+175            android:name="com.themecolor.callerphone.wallpaper.callertheme.ui.PopularActivity"
+175-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:137:13-59
+176            android:exported="false"
+176-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:138:13-37
+177            android:screenOrientation="portrait" />
+177-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:139:13-49
+178
+179        <receiver
+179-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:141:9-149:20
+180            android:name="com.themecolor.callerphone.wallpaper.callertheme.ui.NetworkStateChangeReciver"
+180-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:142:13-69
+181            android:exported="false" >
+181-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:143:13-37
+182            <intent-filter>
+182-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:144:13-148:29
+183                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+183-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:145:17-147:50
+183-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:146:21-72
+184            </intent-filter>
+185        </receiver>
+186
 187        <activity
-187-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:153:9-156:52
-188            android:name="com.themecolor.callerphone.wallpaper.callertheme.ui.MoreItemActivity"
-188-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:154:13-96
+187-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:151:9-154:52
+188            android:name="com.themecolor.callerphone.wallpaper.callertheme.ui.FullViewActivity"
+188-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:152:13-60
 189            android:exported="false"
-189-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:155:13-37
+189-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:153:13-37
 190            android:screenOrientation="portrait" />
-190-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:156:13-49
+190-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:154:13-49
 191        <activity
-191-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:157:9-160:52
-192            android:name="com.themecolor.callerphone.wallpaper.callertheme.OS.ActivityPerM"
-192-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:158:13-92
+191-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:155:9-158:52
+192            android:name="com.themecolor.callerphone.wallpaper.callertheme.ui.MoreItemActivity"
+192-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:156:13-60
 193            android:exported="false"
-193-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:159:13-37
+193-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:157:13-37
 194            android:screenOrientation="portrait" />
-194-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:160:13-49
+194-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:158:13-49
 195        <activity
-195-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:161:9-164:52
-196            android:name="com.themecolor.callerphone.wallpaper.ui.OnBoardingActivity"
-196-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:162:13-86
+195-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:159:9-162:52
+196            android:name="com.themecolor.callerphone.wallpaper.callertheme.OS.ActivityPerM"
+196-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:160:13-56
 197            android:exported="false"
-197-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:163:13-37
+197-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:161:13-37
 198            android:screenOrientation="portrait" />
-198-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:164:13-49
+198-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:162:13-49
 199        <activity
-199-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:165:9-235:20
-200            android:name="com.themecolor.callerphone.wallpaper.ui.SplashActivity"
-200-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:166:13-82
-201            android:exported="true"
-201-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:167:13-36
-202            android:screenOrientation="portrait" >
-202-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:168:13-49
-203            <intent-filter>
-203-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:169:13-173:29
-204                <action android:name="android.intent.action.MAIN" />
-204-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:170:17-69
-204-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:170:25-66
-205
-206                <category android:name="android.intent.category.LAUNCHER" />
-206-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:172:17-77
-206-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:172:27-74
-207            </intent-filter>
-208
-209            <!--
-210            <intent-filter>
-211                <action android:name="android.intent.action.CALL_PRIVILEGED" />
+199-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:163:9-166:52
+200            android:name="com.themecolor.callerphone.wallpaper.ui.OnBoardingActivity"
+200-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:164:13-50
+201            android:exported="false"
+201-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:165:13-37
+202            android:screenOrientation="portrait" />
+202-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:166:13-49
+203        <activity
+203-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:167:9-237:20
+204            android:name="com.themecolor.callerphone.wallpaper.ui.SplashActivity"
+204-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:168:13-46
+205            android:exported="true"
+205-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:169:13-36
+206            android:screenOrientation="portrait" >
+206-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:170:13-49
+207            <intent-filter>
+207-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:171:13-175:29
+208                <action android:name="android.intent.action.MAIN" />
+208-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:172:17-69
+208-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:172:25-66
+209
+210                <category android:name="android.intent.category.LAUNCHER" />
+210-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:174:17-77
+210-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:174:27-74
+211            </intent-filter>
 212
-213                <category android:name="android.intent.category.DEFAULT" />
-214
-215                <data android:scheme="tel" />
-216            </intent-filter>
-217            <intent-filter android:label="@string/app_name">
-218                <action android:name="android.intent.action.DIAL" />
-219
-220                <category android:name="android.intent.category.DEFAULT" />
-221                <category android:name="android.intent.category.BROWSABLE" />
-222
-223                <data android:mimeType="vnd.android.cursor.item/phone" />
-224                <data android:mimeType="vnd.android.cursor.item/person" />
-225            </intent-filter>
-226            <intent-filter android:label="@string/app_name">
-227                <action android:name="android.intent.action.DIAL" />
-228
-229                <category android:name="android.intent.category.DEFAULT" />
-230            </intent-filter>
-231            <intent-filter android:label="@string/app_name">
-232                <action android:name="android.intent.action.VIEW" />
-233                <action android:name="android.intent.action.DIAL" />
-234
-235                <category android:name="android.intent.category.DEFAULT" />
-236                <category android:name="android.intent.category.BROWSABLE" />
-237
-238                <data android:scheme="tel" />
-239            </intent-filter>
-240            -->
-241            <!-- <intent-filter android:label="@string/app_name" -->
-242            <!-- android:scheme="http"> -->
-243            <!-- <action android:name="android.intent.action.VIEW" /> -->
-244
-245
-246            <!-- <category android:name="android.intent.category.DEFAULT" /> -->
-247            <!-- <category android:name="android.intent.category.BROWSABLE" /> -->
+213            <!--
+214            <intent-filter>
+215                <action android:name="android.intent.action.CALL_PRIVILEGED" />
+216
+217                <category android:name="android.intent.category.DEFAULT" />
+218
+219                <data android:scheme="tel" />
+220            </intent-filter>
+221            <intent-filter android:label="@string/app_name">
+222                <action android:name="android.intent.action.DIAL" />
+223
+224                <category android:name="android.intent.category.DEFAULT" />
+225                <category android:name="android.intent.category.BROWSABLE" />
+226
+227                <data android:mimeType="vnd.android.cursor.item/phone" />
+228                <data android:mimeType="vnd.android.cursor.item/person" />
+229            </intent-filter>
+230            <intent-filter android:label="@string/app_name">
+231                <action android:name="android.intent.action.DIAL" />
+232
+233                <category android:name="android.intent.category.DEFAULT" />
+234            </intent-filter>
+235            <intent-filter android:label="@string/app_name">
+236                <action android:name="android.intent.action.VIEW" />
+237                <action android:name="android.intent.action.DIAL" />
+238
+239                <category android:name="android.intent.category.DEFAULT" />
+240                <category android:name="android.intent.category.BROWSABLE" />
+241
+242                <data android:scheme="tel" />
+243            </intent-filter>
+244            -->
+245            <!-- <intent-filter android:label="@string/app_name" -->
+246            <!-- android:scheme="http"> -->
+247            <!-- <action android:name="android.intent.action.VIEW" /> -->
 248
 249
-250            <!-- <data android:mimeType="vnd.android.cursor.dir/calls" /> -->
-251            <!-- </intent-filter> -->
-252            <!--
-253            <intent-filter android:label="@string/app_name">
-254                <action android:name="com.android.phone.action.RECENT_CALLS" />
-255
-256                <category android:name="android.intent.category.DEFAULT" />
-257            </intent-filter>
-258            <intent-filter>
-259                <action android:name="android.intent.action.CALL_BUTTON" />
-260
-261                <category android:name="android.intent.category.DEFAULT" />
-262            </intent-filter>
-263            <intent-filter>
-264                <action android:name="android.intent.action.MAIN" />
-265
-266                <category android:name="android.intent.category.LAUNCHER" />
-267            </intent-filter>
-268            -->
-269        </activity>
-270        <activity
-270-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:236:9-241:58
-271            android:name="com.themecolor.callerphone.wallpaper.TestKeyboardActivity"
-271-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:237:13-85
-272            android:exported="false"
-272-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:238:13-37
-273            android:label="Apply Theme"
-273-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:239:13-40
-274            android:launchMode="singleTop"
-274-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:240:13-43
-275            android:screenOrientation="sensorPortrait" />
-275-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:241:13-55
-276        <activity
-276-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:242:9-247:58
-277            android:name="com.themecolor.callerphone.wallpaper.EnableKeyboard"
-277-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:243:13-79
-278            android:exported="true"
-278-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:244:13-36
-279            android:label="Enable/Disable Keyboard"
-279-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:245:13-52
-280            android:launchMode="singleTop"
-280-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:246:13-43
-281            android:screenOrientation="sensorPortrait" />
-281-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:247:13-55
-282        <activity
-282-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:248:9-252:52
-283            android:name="com.themecolor.callerphone.wallpaper.MainActivity"
-283-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:249:13-77
-284            android:exported="false"
-284-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:250:13-37
-285            android:hardwareAccelerated="true"
-285-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:251:13-47
-286            android:screenOrientation="portrait" />
-286-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:252:13-49
-287
-288        <service
-288-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:254:9-267:19
-289            android:name="keyboard.neon.newboard.KeyboardImeiService"
-289-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:255:13-70
-290            android:directBootAware="true"
-290-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:256:13-43
-291            android:exported="true"
-291-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:257:13-36
-292            android:label="@string/keyboardServiceName"
-292-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:258:13-56
-293            android:permission="android.permission.BIND_INPUT_METHOD" >
-293-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:259:13-70
-294            <intent-filter>
-294-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:260:13-262:29
-295                <action android:name="android.view.InputMethod" />
-295-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:261:17-67
-295-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:261:25-64
-296            </intent-filter>
-297
-298            <meta-data
-298-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:264:13-266:50
-299                android:name="android.view.im"
-299-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:265:17-47
-300                android:resource="@xml/method" />
-300-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:266:17-47
-301        </service>
-302
-303        <activity
-303-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:269:9-272:72
-304            android:name="com.yalantis.ucrop.UCropActivity"
-304-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:270:13-60
-305            android:screenOrientation="portrait"
-305-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:271:13-49
-306            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-306-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:272:13-69
-307
-308        <service
-308-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:274:9-289:19
-309            android:name="com.themecolor.callerphone.wallpaper.callertheme.dialer.services.CallServiceAnim"
-309-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:275:13-108
-310            android:enabled="true"
-310-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:276:13-35
-311            android:exported="true"
-311-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:277:13-36
-312            android:permission="android.permission.BIND_INCALL_SERVICE" >
-312-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:278:13-72
-313            <meta-data
-313-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:279:13-281:40
-314                android:name="android.telecom.IN_CALL_SERVICE_UI"
-314-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:280:17-66
-315                android:value="true" />
-315-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:281:17-37
-316            <meta-data
-316-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:282:13-284:40
-317                android:name="android.telecom.IN_CALL_SERVICE_RINGING"
-317-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:283:17-71
-318                android:value="true" />
-318-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:284:17-37
-319
-320            <intent-filter>
-320-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:286:13-288:29
-321                <action android:name="android.telecom.InCallService" />
-321-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:287:17-72
-321-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:287:25-69
-322            </intent-filter>
-323        </service>
-324
-325        <receiver
-325-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:291:9-299:20
-326            android:name="com.themecolor.callerphone.wallpaper.callertheme.dialer.receivers.ActionReceiver"
-326-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:292:13-108
-327            android:enabled="true"
-327-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:293:13-35
-328            android:exported="false" >
-328-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:294:13-37
-329            <intent-filter>
-329-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:295:13-298:29
-330                <action android:name="YES" />
-330-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:296:17-46
-330-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:296:25-43
-331                <action android:name="NO" />
-331-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:297:17-45
-331-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:297:25-42
-332            </intent-filter>
-333        </receiver>
-334
-335        <provider
-336            android:name="androidx.core.content.FileProvider"
-336-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:302:13-62
-337            android:authorities="com.themecolor.callerphone.wallpaper.provider"
-337-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:303:13-60
-338            android:exported="false"
-338-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:304:13-37
-339            android:grantUriPermissions="true" >
-339-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:305:13-47
-340            <meta-data
-340-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:306:13-308:58
-341                android:name="android.support.FILE_PROVIDER_PATHS"
-341-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:307:17-67
-342                android:resource="@xml/provider_paths" />
-342-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:308:17-55
-343        </provider>
-344
-345        <meta-data
-345-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:311:9-313:57
-346            android:name="preloaded_fonts"
-346-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:312:13-43
-347            android:resource="@array/preloaded_fonts" />
-347-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:313:13-54
-348        <!--
-349            <meta-data
-350            android:name="com.google.android.gms.ads.APPLICATION_ID"
-351            android:value="@string/appId" />
-352        -->
-353        <meta-data
-353-->[:adsmodule] G:\Work Project Android\Color_Caller\adsmodule\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-18:70
-354            android:name="com.google.android.gms.ads.APPLICATION_ID"
-354-->[:adsmodule] G:\Work Project Android\Color_Caller\adsmodule\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-69
-355            android:value="ca-app-pub-3940256099942544~3347511713" /> <!-- Crash Dialog Activity -->
-355-->[:adsmodule] G:\Work Project Android\Color_Caller\adsmodule\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-67
-356        <activity
-356-->[:aosp] G:\Work Project Android\Color_Caller\aosp\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:9-20:55
-357            android:name="keyboard.neon.newboard.crashutility.CrashDialogActivity"
-357-->[:aosp] G:\Work Project Android\Color_Caller\aosp\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-83
-358            android:label="@string/crash_dialog__title"
-358-->[:aosp] G:\Work Project Android\Color_Caller\aosp\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-56
-359            android:theme="@style/CrashDialogTheme" />
-359-->[:aosp] G:\Work Project Android\Color_Caller\aosp\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-52
-360
-361        <provider
-361-->[:aosp] G:\Work Project Android\Color_Caller\aosp\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:9-26:50
-362            android:name="keyboard.neon.newboard.ime.clip.provider.FlorisContentProvider"
-362-->[:aosp] G:\Work Project Android\Color_Caller\aosp\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-90
-363            android:authorities="com.themecolor.callerphone.wallpaper"
-363-->[:aosp] G:\Work Project Android\Color_Caller\aosp\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-71
-364            android:exported="false"
-364-->[:aosp] G:\Work Project Android\Color_Caller\aosp\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:13-37
-365            android:grantUriPermissions="true" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
-365-->[:aosp] G:\Work Project Android\Color_Caller\aosp\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-47
-366        <activity
-366-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\Tech360\.gradle\caches\transforms-3\332882266f5053a18097f0fb606b3284\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:53:9-58:43
-367            android:name="com.google.android.gms.ads.AdActivity"
-367-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\Tech360\.gradle\caches\transforms-3\332882266f5053a18097f0fb606b3284\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:54:13-65
-368            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
-368-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\Tech360\.gradle\caches\transforms-3\332882266f5053a18097f0fb606b3284\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:55:13-122
-369            android:exported="false"
-369-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\Tech360\.gradle\caches\transforms-3\332882266f5053a18097f0fb606b3284\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:56:13-37
-370            android:theme="@android:style/Theme.Translucent" />
-370-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\Tech360\.gradle\caches\transforms-3\332882266f5053a18097f0fb606b3284\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:57:13-61
-371
-372        <provider
-372-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\Tech360\.gradle\caches\transforms-3\332882266f5053a18097f0fb606b3284\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:60:9-65:43
-373            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
-373-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\Tech360\.gradle\caches\transforms-3\332882266f5053a18097f0fb606b3284\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:61:13-76
-374            android:authorities="com.themecolor.callerphone.wallpaper.mobileadsinitprovider"
-374-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\Tech360\.gradle\caches\transforms-3\332882266f5053a18097f0fb606b3284\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:62:13-73
-375            android:exported="false"
-375-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\Tech360\.gradle\caches\transforms-3\332882266f5053a18097f0fb606b3284\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:63:13-37
-376            android:initOrder="100" />
-376-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\Tech360\.gradle\caches\transforms-3\332882266f5053a18097f0fb606b3284\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:64:13-36
-377
-378        <service
-378-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\Tech360\.gradle\caches\transforms-3\332882266f5053a18097f0fb606b3284\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:67:9-71:43
-379            android:name="com.google.android.gms.ads.AdService"
-379-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\Tech360\.gradle\caches\transforms-3\332882266f5053a18097f0fb606b3284\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:68:13-64
-380            android:enabled="true"
-380-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\Tech360\.gradle\caches\transforms-3\332882266f5053a18097f0fb606b3284\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:69:13-35
-381            android:exported="false" />
-381-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\Tech360\.gradle\caches\transforms-3\332882266f5053a18097f0fb606b3284\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:70:13-37
-382
-383        <activity
-383-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\Tech360\.gradle\caches\transforms-3\332882266f5053a18097f0fb606b3284\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:73:9-77:43
-384            android:name="com.google.android.gms.ads.OutOfContextTestingActivity"
-384-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\Tech360\.gradle\caches\transforms-3\332882266f5053a18097f0fb606b3284\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:74:13-82
-385            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
-385-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\Tech360\.gradle\caches\transforms-3\332882266f5053a18097f0fb606b3284\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:75:13-122
-386            android:exported="false" />
-386-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\Tech360\.gradle\caches\transforms-3\332882266f5053a18097f0fb606b3284\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:76:13-37
-387
-388        <provider
-388-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:29:9-37:20
-389            android:name="androidx.startup.InitializationProvider"
-389-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:30:13-67
-390            android:authorities="com.themecolor.callerphone.wallpaper.androidx-startup"
-390-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:31:13-68
-391            android:exported="false" >
-391-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:32:13-37
-392            <meta-data
-392-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:34:13-36:52
-393                android:name="androidx.work.WorkManagerInitializer"
-393-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:35:17-68
-394                android:value="androidx.startup" />
-394-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:36:17-49
-395            <meta-data
-395-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Tech360\.gradle\caches\transforms-3\292e055956c8bef8e45fe73187c0645a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-396                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-396-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Tech360\.gradle\caches\transforms-3\292e055956c8bef8e45fe73187c0645a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
-397                android:value="androidx.startup" />
-397-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Tech360\.gradle\caches\transforms-3\292e055956c8bef8e45fe73187c0645a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
-398            <meta-data
-398-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Tech360\.gradle\caches\transforms-3\8ba0b31b4e2a054cfc2b9eb90f112dec\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
-399                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-399-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Tech360\.gradle\caches\transforms-3\8ba0b31b4e2a054cfc2b9eb90f112dec\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
-400                android:value="androidx.startup" />
-400-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Tech360\.gradle\caches\transforms-3\8ba0b31b4e2a054cfc2b9eb90f112dec\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
-401            <meta-data
-401-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Tech360\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
-402                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-402-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Tech360\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
-403                android:value="androidx.startup" />
-403-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Tech360\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
-404        </provider>
-405
-406        <service
-406-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:39:9-45:35
-407            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
-407-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:40:13-88
-408            android:directBootAware="false"
-408-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:41:13-44
-409            android:enabled="@bool/enable_system_alarm_service_default"
-409-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:42:13-72
-410            android:exported="false" />
-410-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:43:13-37
-411        <service
-411-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:46:9-52:35
-412            android:name="androidx.work.impl.background.systemjob.SystemJobService"
-412-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:47:13-84
-413            android:directBootAware="false"
-413-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:48:13-44
-414            android:enabled="@bool/enable_system_job_service_default"
-414-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:49:13-70
-415            android:exported="true"
-415-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:50:13-36
-416            android:permission="android.permission.BIND_JOB_SERVICE" />
-416-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:51:13-69
-417        <service
-417-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:53:9-59:35
-418            android:name="androidx.work.impl.foreground.SystemForegroundService"
-418-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:54:13-81
-419            android:directBootAware="false"
-419-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:55:13-44
-420            android:enabled="@bool/enable_system_foreground_service_default"
-420-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:56:13-77
-421            android:exported="false" />
-421-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:57:13-37
-422
-423        <receiver
-423-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:61:9-66:35
-424            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
-424-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:62:13-88
-425            android:directBootAware="false"
-425-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:63:13-44
-426            android:enabled="true"
-426-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:64:13-35
-427            android:exported="false" />
-427-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:65:13-37
-428        <receiver
-428-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:67:9-77:20
-429            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
-429-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:68:13-106
-430            android:directBootAware="false"
-430-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:69:13-44
-431            android:enabled="false"
-431-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:70:13-36
-432            android:exported="false" >
-432-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:71:13-37
-433            <intent-filter>
-433-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:73:13-76:29
-434                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
-434-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:74:17-87
-434-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:74:25-84
-435                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
-435-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:75:17-90
-435-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:75:25-87
-436            </intent-filter>
-437        </receiver>
-438        <receiver
-438-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:78:9-88:20
-439            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
-439-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:79:13-104
-440            android:directBootAware="false"
-440-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:80:13-44
-441            android:enabled="false"
-441-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:81:13-36
-442            android:exported="false" >
-442-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:82:13-37
-443            <intent-filter>
-443-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:84:13-87:29
-444                <action android:name="android.intent.action.BATTERY_OKAY" />
-444-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:85:17-77
-444-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:85:25-74
-445                <action android:name="android.intent.action.BATTERY_LOW" />
-445-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:86:17-76
-445-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:86:25-73
-446            </intent-filter>
-447        </receiver>
-448        <receiver
-448-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:89:9-99:20
-449            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
-449-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:90:13-104
-450            android:directBootAware="false"
-450-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:91:13-44
-451            android:enabled="false"
-451-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:92:13-36
-452            android:exported="false" >
-452-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:93:13-37
-453            <intent-filter>
-453-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:95:13-98:29
-454                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
-454-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:96:17-83
-454-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:96:25-80
-455                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
-455-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:97:17-82
-455-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:97:25-79
-456            </intent-filter>
-457        </receiver>
-458        <receiver
-458-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:100:9-109:20
-459            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
-459-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:101:13-103
-460            android:directBootAware="false"
-460-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:102:13-44
-461            android:enabled="false"
-461-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:103:13-36
-462            android:exported="false" >
-462-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:104:13-37
-463            <intent-filter>
-463-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:142:13-146:29
-464                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
-464-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:143:17-145:50
-464-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:144:21-72
-465            </intent-filter>
-466        </receiver>
-467        <receiver
-467-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:110:9-121:20
-468            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
-468-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:111:13-88
-469            android:directBootAware="false"
-469-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:112:13-44
-470            android:enabled="false"
-470-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:113:13-36
-471            android:exported="false" >
-471-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:114:13-37
-472            <intent-filter>
-472-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:116:13-120:29
-473                <action android:name="android.intent.action.BOOT_COMPLETED" />
-473-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:117:17-79
-473-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:117:25-76
-474                <action android:name="android.intent.action.TIME_SET" />
-474-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:118:17-73
-474-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:118:25-70
-475                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
-475-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:119:17-81
-475-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:119:25-78
-476            </intent-filter>
-477        </receiver>
-478        <receiver
-478-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:122:9-131:20
-479            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
-479-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:123:13-99
-480            android:directBootAware="false"
-480-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:124:13-44
-481            android:enabled="@bool/enable_system_alarm_service_default"
-481-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:125:13-72
-482            android:exported="false" >
-482-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:126:13-37
-483            <intent-filter>
-483-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:128:13-130:29
-484                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
-484-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:129:17-98
-484-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:129:25-95
-485            </intent-filter>
-486        </receiver>
-487        <receiver
-487-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:132:9-142:20
-488            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
-488-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:133:13-78
-489            android:directBootAware="false"
-489-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:134:13-44
-490            android:enabled="true"
-490-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:135:13-35
-491            android:exported="true"
-491-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:136:13-36
-492            android:permission="android.permission.DUMP" >
-492-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:137:13-57
-493            <intent-filter>
-493-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:139:13-141:29
-494                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
-494-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:140:17-88
-494-->[androidx.work:work-runtime:2.8.1] C:\Users\Tech360\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:140:25-85
-495            </intent-filter>
-496        </receiver>
-497
-498        <activity
-498-->[com.facebook.android:audience-network-sdk:6.16.0] C:\Users\Tech360\.gradle\caches\transforms-3\80cf46b83fa6f84b3883ba0adcfcef21\transformed\jetified-audience-network-sdk-6.16.0\AndroidManifest.xml:20:9-24:75
-499            android:name="com.facebook.ads.AudienceNetworkActivity"
-499-->[com.facebook.android:audience-network-sdk:6.16.0] C:\Users\Tech360\.gradle\caches\transforms-3\80cf46b83fa6f84b3883ba0adcfcef21\transformed\jetified-audience-network-sdk-6.16.0\AndroidManifest.xml:21:13-68
-500            android:configChanges="keyboardHidden|orientation|screenSize|smallestScreenSize|screenLayout"
-500-->[com.facebook.android:audience-network-sdk:6.16.0] C:\Users\Tech360\.gradle\caches\transforms-3\80cf46b83fa6f84b3883ba0adcfcef21\transformed\jetified-audience-network-sdk-6.16.0\AndroidManifest.xml:22:13-106
-501            android:exported="false"
-501-->[com.facebook.android:audience-network-sdk:6.16.0] C:\Users\Tech360\.gradle\caches\transforms-3\80cf46b83fa6f84b3883ba0adcfcef21\transformed\jetified-audience-network-sdk-6.16.0\AndroidManifest.xml:23:13-37
-502            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-502-->[com.facebook.android:audience-network-sdk:6.16.0] C:\Users\Tech360\.gradle\caches\transforms-3\80cf46b83fa6f84b3883ba0adcfcef21\transformed\jetified-audience-network-sdk-6.16.0\AndroidManifest.xml:24:13-72
-503
-504        <provider
-504-->[com.facebook.android:audience-network-sdk:6.16.0] C:\Users\Tech360\.gradle\caches\transforms-3\80cf46b83fa6f84b3883ba0adcfcef21\transformed\jetified-audience-network-sdk-6.16.0\AndroidManifest.xml:26:9-29:40
-505            android:name="com.facebook.ads.AudienceNetworkContentProvider"
-505-->[com.facebook.android:audience-network-sdk:6.16.0] C:\Users\Tech360\.gradle\caches\transforms-3\80cf46b83fa6f84b3883ba0adcfcef21\transformed\jetified-audience-network-sdk-6.16.0\AndroidManifest.xml:27:13-75
-506            android:authorities="com.themecolor.callerphone.wallpaper.AudienceNetworkContentProvider"
-506-->[com.facebook.android:audience-network-sdk:6.16.0] C:\Users\Tech360\.gradle\caches\transforms-3\80cf46b83fa6f84b3883ba0adcfcef21\transformed\jetified-audience-network-sdk-6.16.0\AndroidManifest.xml:28:13-82
-507            android:exported="false" />
-507-->[com.facebook.android:audience-network-sdk:6.16.0] C:\Users\Tech360\.gradle\caches\transforms-3\80cf46b83fa6f84b3883ba0adcfcef21\transformed\jetified-audience-network-sdk-6.16.0\AndroidManifest.xml:29:13-37
-508
-509        <activity
-509-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\Tech360\.gradle\caches\transforms-3\50855519160cb07cfe62defee2cf1573\transformed\jetified-play-services-base-18.0.0\AndroidManifest.xml:20:9-22:45
-510            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-510-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\Tech360\.gradle\caches\transforms-3\50855519160cb07cfe62defee2cf1573\transformed\jetified-play-services-base-18.0.0\AndroidManifest.xml:20:19-85
-511            android:exported="false"
-511-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\Tech360\.gradle\caches\transforms-3\50855519160cb07cfe62defee2cf1573\transformed\jetified-play-services-base-18.0.0\AndroidManifest.xml:22:19-43
-512            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-512-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\Tech360\.gradle\caches\transforms-3\50855519160cb07cfe62defee2cf1573\transformed\jetified-play-services-base-18.0.0\AndroidManifest.xml:21:19-78
-513
-514        <meta-data
-514-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Tech360\.gradle\caches\transforms-3\41604dfb5d1c05282a287abb8b35c2e8\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
-515            android:name="com.google.android.gms.version"
-515-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Tech360\.gradle\caches\transforms-3\41604dfb5d1c05282a287abb8b35c2e8\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
-516            android:value="@integer/google_play_services_version" />
-516-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Tech360\.gradle\caches\transforms-3\41604dfb5d1c05282a287abb8b35c2e8\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
-517
-518        <activity
-518-->[androidx.test:core:1.5.0] C:\Users\Tech360\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:27:9-34:20
-519            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
-519-->[androidx.test:core:1.5.0] C:\Users\Tech360\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:28:13-99
-520            android:exported="true"
-520-->[androidx.test:core:1.5.0] C:\Users\Tech360\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:29:13-36
-521            android:theme="@style/WhiteBackgroundTheme" >
-521-->[androidx.test:core:1.5.0] C:\Users\Tech360\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:30:13-56
-522            <intent-filter android:priority="-100" >
-522-->[androidx.test:core:1.5.0] C:\Users\Tech360\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:31:13-33:29
-522-->[androidx.test:core:1.5.0] C:\Users\Tech360\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:31:28-51
-523                <category android:name="android.intent.category.LAUNCHER" />
-523-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:172:17-77
-523-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:172:27-74
-524            </intent-filter>
-525        </activity>
-526        <activity
-526-->[androidx.test:core:1.5.0] C:\Users\Tech360\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:35:9-42:20
-527            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
-527-->[androidx.test:core:1.5.0] C:\Users\Tech360\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:36:13-95
-528            android:exported="true"
-528-->[androidx.test:core:1.5.0] C:\Users\Tech360\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:37:13-36
-529            android:theme="@style/WhiteBackgroundTheme" >
-529-->[androidx.test:core:1.5.0] C:\Users\Tech360\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:38:13-56
-530            <intent-filter android:priority="-100" >
-530-->[androidx.test:core:1.5.0] C:\Users\Tech360\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:31:13-33:29
-530-->[androidx.test:core:1.5.0] C:\Users\Tech360\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:31:28-51
-531                <category android:name="android.intent.category.LAUNCHER" />
-531-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:172:17-77
-531-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:172:27-74
-532            </intent-filter>
-533        </activity>
-534        <activity
-534-->[androidx.test:core:1.5.0] C:\Users\Tech360\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:43:9-50:20
-535            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
-535-->[androidx.test:core:1.5.0] C:\Users\Tech360\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:44:13-103
-536            android:exported="true"
-536-->[androidx.test:core:1.5.0] C:\Users\Tech360\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:45:13-36
-537            android:theme="@style/WhiteBackgroundDialogTheme" >
-537-->[androidx.test:core:1.5.0] C:\Users\Tech360\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:46:13-62
-538            <intent-filter android:priority="-100" >
-538-->[androidx.test:core:1.5.0] C:\Users\Tech360\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:31:13-33:29
-538-->[androidx.test:core:1.5.0] C:\Users\Tech360\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:31:28-51
-539                <category android:name="android.intent.category.LAUNCHER" />
-539-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:172:17-77
-539-->G:\Work Project Android\Color_Caller\app\src\main\AndroidManifest.xml:172:27-74
-540            </intent-filter>
-541        </activity>
-542
-543        <provider
-543-->[com.squareup.picasso:picasso:2.71828] C:\Users\Tech360\.gradle\caches\transforms-3\4e99edf7b554ac4f18064090a15e7559\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
-544            android:name="com.squareup.picasso.PicassoProvider"
-544-->[com.squareup.picasso:picasso:2.71828] C:\Users\Tech360\.gradle\caches\transforms-3\4e99edf7b554ac4f18064090a15e7559\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
-545            android:authorities="com.themecolor.callerphone.wallpaper.com.squareup.picasso"
-545-->[com.squareup.picasso:picasso:2.71828] C:\Users\Tech360\.gradle\caches\transforms-3\4e99edf7b554ac4f18064090a15e7559\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
-546            android:exported="false" />
-546-->[com.squareup.picasso:picasso:2.71828] C:\Users\Tech360\.gradle\caches\transforms-3\4e99edf7b554ac4f18064090a15e7559\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
-547
-548        <service
-548-->[androidx.room:room-runtime:2.5.0] C:\Users\Tech360\.gradle\caches\transforms-3\5936d1401b11ad2eecf8204baac62556\transformed\room-runtime-2.5.0\AndroidManifest.xml:24:9-28:63
-549            android:name="androidx.room.MultiInstanceInvalidationService"
-549-->[androidx.room:room-runtime:2.5.0] C:\Users\Tech360\.gradle\caches\transforms-3\5936d1401b11ad2eecf8204baac62556\transformed\room-runtime-2.5.0\AndroidManifest.xml:25:13-74
-550            android:directBootAware="true"
-550-->[androidx.room:room-runtime:2.5.0] C:\Users\Tech360\.gradle\caches\transforms-3\5936d1401b11ad2eecf8204baac62556\transformed\room-runtime-2.5.0\AndroidManifest.xml:26:13-43
-551            android:exported="false" />
-551-->[androidx.room:room-runtime:2.5.0] C:\Users\Tech360\.gradle\caches\transforms-3\5936d1401b11ad2eecf8204baac62556\transformed\room-runtime-2.5.0\AndroidManifest.xml:27:13-37
-552
-553        <receiver
-553-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Tech360\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
-554            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-554-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Tech360\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
-555            android:directBootAware="false"
-555-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Tech360\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
-556            android:enabled="true"
-556-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Tech360\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
-557            android:exported="true"
-557-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Tech360\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
-558            android:permission="android.permission.DUMP" >
-558-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Tech360\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
-559            <intent-filter>
-559-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Tech360\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
-560                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-560-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Tech360\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
-560-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Tech360\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
-561            </intent-filter>
-562            <intent-filter>
-562-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Tech360\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
-563                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-563-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Tech360\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
-563-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Tech360\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
-564            </intent-filter>
-565            <intent-filter>
-565-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Tech360\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
-566                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-566-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Tech360\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
-566-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Tech360\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
-567            </intent-filter>
-568            <intent-filter>
-568-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Tech360\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
-569                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-569-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Tech360\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
-569-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Tech360\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
-570            </intent-filter>
-571        </receiver>
-572    </application>
-573
-574</manifest>
+250            <!-- <category android:name="android.intent.category.DEFAULT" /> -->
+251            <!-- <category android:name="android.intent.category.BROWSABLE" /> -->
+252
+253
+254            <!-- <data android:mimeType="vnd.android.cursor.dir/calls" /> -->
+255            <!-- </intent-filter> -->
+256            <!--
+257            <intent-filter android:label="@string/app_name">
+258                <action android:name="com.android.phone.action.RECENT_CALLS" />
+259
+260                <category android:name="android.intent.category.DEFAULT" />
+261            </intent-filter>
+262            <intent-filter>
+263                <action android:name="android.intent.action.CALL_BUTTON" />
+264
+265                <category android:name="android.intent.category.DEFAULT" />
+266            </intent-filter>
+267            <intent-filter>
+268                <action android:name="android.intent.action.MAIN" />
+269
+270                <category android:name="android.intent.category.LAUNCHER" />
+271            </intent-filter>
+272            -->
+273        </activity>
+274        <activity
+274-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:238:9-243:58
+275            android:name="com.themecolor.callerphone.wallpaper.TestKeyboardActivity"
+275-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:239:13-49
+276            android:exported="false"
+276-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:240:13-37
+277            android:label="Apply Theme"
+277-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:241:13-40
+278            android:launchMode="singleTop"
+278-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:242:13-43
+279            android:screenOrientation="sensorPortrait" />
+279-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:243:13-55
+280        <activity
+280-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:244:9-249:58
+281            android:name="com.themecolor.callerphone.wallpaper.EnableKeyboard"
+281-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:245:13-43
+282            android:exported="true"
+282-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:246:13-36
+283            android:label="Enable/Disable Keyboard"
+283-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:247:13-52
+284            android:launchMode="singleTop"
+284-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:248:13-43
+285            android:screenOrientation="sensorPortrait" />
+285-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:249:13-55
+286        <activity
+286-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:250:9-254:52
+287            android:name="com.themecolor.callerphone.wallpaper.MainActivity"
+287-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:251:13-41
+288            android:exported="false"
+288-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:252:13-37
+289            android:hardwareAccelerated="true"
+289-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:253:13-47
+290            android:screenOrientation="portrait" />
+290-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:254:13-49
+291
+292        <service
+292-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:256:9-269:19
+293            android:name="keyboard.neon.newboard.KeyboardImeiService"
+293-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:257:13-70
+294            android:directBootAware="true"
+294-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:258:13-43
+295            android:exported="true"
+295-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:259:13-36
+296            android:label="@string/keyboardServiceName"
+296-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:260:13-56
+297            android:permission="android.permission.BIND_INPUT_METHOD" >
+297-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:261:13-70
+298            <intent-filter>
+298-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:262:13-264:29
+299                <action android:name="android.view.InputMethod" />
+299-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:263:17-67
+299-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:263:25-64
+300            </intent-filter>
+301
+302            <meta-data
+302-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:266:13-268:50
+303                android:name="android.view.im"
+303-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:267:17-47
+304                android:resource="@xml/method" />
+304-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:268:17-47
+305        </service>
+306
+307        <activity
+307-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:271:9-274:72
+308            android:name="com.yalantis.ucrop.UCropActivity"
+308-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:272:13-60
+309            android:screenOrientation="portrait"
+309-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:273:13-49
+310            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+310-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:274:13-69
+311
+312        <service
+312-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:276:9-291:19
+313            android:name="com.themecolor.callerphone.wallpaper.callertheme.dialer.services.CallServiceAnim"
+313-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:277:13-72
+314            android:enabled="true"
+314-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:278:13-35
+315            android:exported="true"
+315-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:279:13-36
+316            android:permission="android.permission.BIND_INCALL_SERVICE" >
+316-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:280:13-72
+317            <meta-data
+317-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:281:13-283:40
+318                android:name="android.telecom.IN_CALL_SERVICE_UI"
+318-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:282:17-66
+319                android:value="true" />
+319-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:283:17-37
+320            <meta-data
+320-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:284:13-286:40
+321                android:name="android.telecom.IN_CALL_SERVICE_RINGING"
+321-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:285:17-71
+322                android:value="true" />
+322-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:286:17-37
+323
+324            <intent-filter>
+324-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:288:13-290:29
+325                <action android:name="android.telecom.InCallService" />
+325-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:289:17-72
+325-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:289:25-69
+326            </intent-filter>
+327        </service>
+328
+329        <receiver
+329-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:293:9-301:20
+330            android:name="com.themecolor.callerphone.wallpaper.callertheme.dialer.receivers.ActionReceiver"
+330-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:294:13-72
+331            android:enabled="true"
+331-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:295:13-35
+332            android:exported="false" >
+332-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:296:13-37
+333            <intent-filter>
+333-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:297:13-300:29
+334                <action android:name="YES" />
+334-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:298:17-46
+334-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:298:25-43
+335                <action android:name="NO" />
+335-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:299:17-45
+335-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:299:25-42
+336            </intent-filter>
+337        </receiver>
+338
+339        <provider
+340            android:name="androidx.core.content.FileProvider"
+340-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:304:13-62
+341            android:authorities="com.themecolor.callerphone.wallpaper.provider"
+341-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:305:13-60
+342            android:exported="false"
+342-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:306:13-37
+343            android:grantUriPermissions="true" >
+343-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:307:13-47
+344            <meta-data
+344-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:308:13-310:58
+345                android:name="android.support.FILE_PROVIDER_PATHS"
+345-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:309:17-67
+346                android:resource="@xml/provider_paths" />
+346-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:310:17-55
+347        </provider>
+348
+349        <meta-data
+349-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:313:9-315:57
+350            android:name="preloaded_fonts"
+350-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:314:13-43
+351            android:resource="@array/preloaded_fonts" />
+351-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:315:13-54
+352        <meta-data
+352-->[:adsmodule] C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\adsmodule\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-18:70
+353            android:name="com.google.android.gms.ads.APPLICATION_ID"
+353-->[:adsmodule] C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\adsmodule\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-69
+354            android:value="ca-app-pub-3940256099942544~3347511713" /> <!-- Crash Dialog Activity -->
+354-->[:adsmodule] C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\adsmodule\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-67
+355        <activity
+355-->[:aosp] C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\aosp\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:9-20:55
+356            android:name="keyboard.neon.newboard.crashutility.CrashDialogActivity"
+356-->[:aosp] C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\aosp\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-83
+357            android:label="@string/crash_dialog__title"
+357-->[:aosp] C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\aosp\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-56
+358            android:theme="@style/CrashDialogTheme" />
+358-->[:aosp] C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\aosp\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-52
+359
+360        <provider
+360-->[:aosp] C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\aosp\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:9-26:50
+361            android:name="keyboard.neon.newboard.ime.clip.provider.FlorisContentProvider"
+361-->[:aosp] C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\aosp\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-90
+362            android:authorities="com.themecolor.callerphone.wallpaper"
+362-->[:aosp] C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\aosp\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-71
+363            android:exported="false"
+363-->[:aosp] C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\aosp\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:13-37
+364            android:grantUriPermissions="true" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+364-->[:aosp] C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\aosp\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-47
+365        <activity
+365-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\Admin\.gradle\caches\transforms-3\332882266f5053a18097f0fb606b3284\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:53:9-58:43
+366            android:name="com.google.android.gms.ads.AdActivity"
+366-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\Admin\.gradle\caches\transforms-3\332882266f5053a18097f0fb606b3284\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:54:13-65
+367            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+367-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\Admin\.gradle\caches\transforms-3\332882266f5053a18097f0fb606b3284\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:55:13-122
+368            android:exported="false"
+368-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\Admin\.gradle\caches\transforms-3\332882266f5053a18097f0fb606b3284\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:56:13-37
+369            android:theme="@android:style/Theme.Translucent" />
+369-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\Admin\.gradle\caches\transforms-3\332882266f5053a18097f0fb606b3284\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:57:13-61
+370
+371        <provider
+371-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\Admin\.gradle\caches\transforms-3\332882266f5053a18097f0fb606b3284\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:60:9-65:43
+372            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+372-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\Admin\.gradle\caches\transforms-3\332882266f5053a18097f0fb606b3284\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:61:13-76
+373            android:authorities="com.themecolor.callerphone.wallpaper.mobileadsinitprovider"
+373-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\Admin\.gradle\caches\transforms-3\332882266f5053a18097f0fb606b3284\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:62:13-73
+374            android:exported="false"
+374-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\Admin\.gradle\caches\transforms-3\332882266f5053a18097f0fb606b3284\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:63:13-37
+375            android:initOrder="100" />
+375-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\Admin\.gradle\caches\transforms-3\332882266f5053a18097f0fb606b3284\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:64:13-36
+376
+377        <service
+377-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\Admin\.gradle\caches\transforms-3\332882266f5053a18097f0fb606b3284\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:67:9-71:43
+378            android:name="com.google.android.gms.ads.AdService"
+378-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\Admin\.gradle\caches\transforms-3\332882266f5053a18097f0fb606b3284\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:68:13-64
+379            android:enabled="true"
+379-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\Admin\.gradle\caches\transforms-3\332882266f5053a18097f0fb606b3284\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:69:13-35
+380            android:exported="false" />
+380-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\Admin\.gradle\caches\transforms-3\332882266f5053a18097f0fb606b3284\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:70:13-37
+381
+382        <activity
+382-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\Admin\.gradle\caches\transforms-3\332882266f5053a18097f0fb606b3284\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:73:9-77:43
+383            android:name="com.google.android.gms.ads.OutOfContextTestingActivity"
+383-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\Admin\.gradle\caches\transforms-3\332882266f5053a18097f0fb606b3284\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:74:13-82
+384            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+384-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\Admin\.gradle\caches\transforms-3\332882266f5053a18097f0fb606b3284\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:75:13-122
+385            android:exported="false" />
+385-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\Admin\.gradle\caches\transforms-3\332882266f5053a18097f0fb606b3284\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:76:13-37
+386
+387        <provider
+387-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:29:9-37:20
+388            android:name="androidx.startup.InitializationProvider"
+388-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:30:13-67
+389            android:authorities="com.themecolor.callerphone.wallpaper.androidx-startup"
+389-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:31:13-68
+390            android:exported="false" >
+390-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:32:13-37
+391            <meta-data
+391-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:34:13-36:52
+392                android:name="androidx.work.WorkManagerInitializer"
+392-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:35:17-68
+393                android:value="androidx.startup" />
+393-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:36:17-49
+394            <meta-data
+394-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Admin\.gradle\caches\transforms-3\292e055956c8bef8e45fe73187c0645a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+395                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+395-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Admin\.gradle\caches\transforms-3\292e055956c8bef8e45fe73187c0645a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+396                android:value="androidx.startup" />
+396-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Admin\.gradle\caches\transforms-3\292e055956c8bef8e45fe73187c0645a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+397            <meta-data
+397-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Admin\.gradle\caches\transforms-3\8ba0b31b4e2a054cfc2b9eb90f112dec\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+398                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+398-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Admin\.gradle\caches\transforms-3\8ba0b31b4e2a054cfc2b9eb90f112dec\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+399                android:value="androidx.startup" />
+399-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Admin\.gradle\caches\transforms-3\8ba0b31b4e2a054cfc2b9eb90f112dec\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+400            <meta-data
+400-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+401                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+401-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+402                android:value="androidx.startup" />
+402-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+403        </provider>
+404
+405        <service
+405-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:39:9-45:35
+406            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+406-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:40:13-88
+407            android:directBootAware="false"
+407-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:41:13-44
+408            android:enabled="@bool/enable_system_alarm_service_default"
+408-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:42:13-72
+409            android:exported="false" />
+409-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:43:13-37
+410        <service
+410-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:46:9-52:35
+411            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+411-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:47:13-84
+412            android:directBootAware="false"
+412-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:48:13-44
+413            android:enabled="@bool/enable_system_job_service_default"
+413-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:49:13-70
+414            android:exported="true"
+414-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:50:13-36
+415            android:permission="android.permission.BIND_JOB_SERVICE" />
+415-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:51:13-69
+416        <service
+416-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:53:9-59:35
+417            android:name="androidx.work.impl.foreground.SystemForegroundService"
+417-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:54:13-81
+418            android:directBootAware="false"
+418-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:55:13-44
+419            android:enabled="@bool/enable_system_foreground_service_default"
+419-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:56:13-77
+420            android:exported="false" />
+420-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:57:13-37
+421
+422        <receiver
+422-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:61:9-66:35
+423            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+423-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:62:13-88
+424            android:directBootAware="false"
+424-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:63:13-44
+425            android:enabled="true"
+425-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:64:13-35
+426            android:exported="false" />
+426-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:65:13-37
+427        <receiver
+427-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:67:9-77:20
+428            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+428-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:68:13-106
+429            android:directBootAware="false"
+429-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:69:13-44
+430            android:enabled="false"
+430-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:70:13-36
+431            android:exported="false" >
+431-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:71:13-37
+432            <intent-filter>
+432-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:73:13-76:29
+433                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+433-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:74:17-87
+433-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:74:25-84
+434                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+434-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:75:17-90
+434-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:75:25-87
+435            </intent-filter>
+436        </receiver>
+437        <receiver
+437-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:78:9-88:20
+438            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+438-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:79:13-104
+439            android:directBootAware="false"
+439-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:80:13-44
+440            android:enabled="false"
+440-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:81:13-36
+441            android:exported="false" >
+441-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:82:13-37
+442            <intent-filter>
+442-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:84:13-87:29
+443                <action android:name="android.intent.action.BATTERY_OKAY" />
+443-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:85:17-77
+443-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:85:25-74
+444                <action android:name="android.intent.action.BATTERY_LOW" />
+444-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:86:17-76
+444-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:86:25-73
+445            </intent-filter>
+446        </receiver>
+447        <receiver
+447-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:89:9-99:20
+448            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+448-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:90:13-104
+449            android:directBootAware="false"
+449-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:91:13-44
+450            android:enabled="false"
+450-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:92:13-36
+451            android:exported="false" >
+451-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:93:13-37
+452            <intent-filter>
+452-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:95:13-98:29
+453                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+453-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:96:17-83
+453-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:96:25-80
+454                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+454-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:97:17-82
+454-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:97:25-79
+455            </intent-filter>
+456        </receiver>
+457        <receiver
+457-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:100:9-109:20
+458            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+458-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:101:13-103
+459            android:directBootAware="false"
+459-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:102:13-44
+460            android:enabled="false"
+460-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:103:13-36
+461            android:exported="false" >
+461-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:104:13-37
+462            <intent-filter>
+462-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:144:13-148:29
+463                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+463-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:145:17-147:50
+463-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:146:21-72
+464            </intent-filter>
+465        </receiver>
+466        <receiver
+466-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:110:9-121:20
+467            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+467-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:111:13-88
+468            android:directBootAware="false"
+468-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:112:13-44
+469            android:enabled="false"
+469-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:113:13-36
+470            android:exported="false" >
+470-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:114:13-37
+471            <intent-filter>
+471-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:116:13-120:29
+472                <action android:name="android.intent.action.BOOT_COMPLETED" />
+472-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:117:17-79
+472-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:117:25-76
+473                <action android:name="android.intent.action.TIME_SET" />
+473-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:118:17-73
+473-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:118:25-70
+474                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+474-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:119:17-81
+474-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:119:25-78
+475            </intent-filter>
+476        </receiver>
+477        <receiver
+477-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:122:9-131:20
+478            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+478-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:123:13-99
+479            android:directBootAware="false"
+479-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:124:13-44
+480            android:enabled="@bool/enable_system_alarm_service_default"
+480-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:125:13-72
+481            android:exported="false" >
+481-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:126:13-37
+482            <intent-filter>
+482-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:128:13-130:29
+483                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+483-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:129:17-98
+483-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:129:25-95
+484            </intent-filter>
+485        </receiver>
+486        <receiver
+486-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:132:9-142:20
+487            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+487-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:133:13-78
+488            android:directBootAware="false"
+488-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:134:13-44
+489            android:enabled="true"
+489-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:135:13-35
+490            android:exported="true"
+490-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:136:13-36
+491            android:permission="android.permission.DUMP" >
+491-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:137:13-57
+492            <intent-filter>
+492-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:139:13-141:29
+493                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+493-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:140:17-88
+493-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:140:25-85
+494            </intent-filter>
+495        </receiver>
+496
+497        <activity
+497-->[com.facebook.android:audience-network-sdk:6.16.0] C:\Users\Admin\.gradle\caches\transforms-3\80cf46b83fa6f84b3883ba0adcfcef21\transformed\jetified-audience-network-sdk-6.16.0\AndroidManifest.xml:20:9-24:75
+498            android:name="com.facebook.ads.AudienceNetworkActivity"
+498-->[com.facebook.android:audience-network-sdk:6.16.0] C:\Users\Admin\.gradle\caches\transforms-3\80cf46b83fa6f84b3883ba0adcfcef21\transformed\jetified-audience-network-sdk-6.16.0\AndroidManifest.xml:21:13-68
+499            android:configChanges="keyboardHidden|orientation|screenSize|smallestScreenSize|screenLayout"
+499-->[com.facebook.android:audience-network-sdk:6.16.0] C:\Users\Admin\.gradle\caches\transforms-3\80cf46b83fa6f84b3883ba0adcfcef21\transformed\jetified-audience-network-sdk-6.16.0\AndroidManifest.xml:22:13-106
+500            android:exported="false"
+500-->[com.facebook.android:audience-network-sdk:6.16.0] C:\Users\Admin\.gradle\caches\transforms-3\80cf46b83fa6f84b3883ba0adcfcef21\transformed\jetified-audience-network-sdk-6.16.0\AndroidManifest.xml:23:13-37
+501            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+501-->[com.facebook.android:audience-network-sdk:6.16.0] C:\Users\Admin\.gradle\caches\transforms-3\80cf46b83fa6f84b3883ba0adcfcef21\transformed\jetified-audience-network-sdk-6.16.0\AndroidManifest.xml:24:13-72
+502
+503        <provider
+503-->[com.facebook.android:audience-network-sdk:6.16.0] C:\Users\Admin\.gradle\caches\transforms-3\80cf46b83fa6f84b3883ba0adcfcef21\transformed\jetified-audience-network-sdk-6.16.0\AndroidManifest.xml:26:9-29:40
+504            android:name="com.facebook.ads.AudienceNetworkContentProvider"
+504-->[com.facebook.android:audience-network-sdk:6.16.0] C:\Users\Admin\.gradle\caches\transforms-3\80cf46b83fa6f84b3883ba0adcfcef21\transformed\jetified-audience-network-sdk-6.16.0\AndroidManifest.xml:27:13-75
+505            android:authorities="com.themecolor.callerphone.wallpaper.AudienceNetworkContentProvider"
+505-->[com.facebook.android:audience-network-sdk:6.16.0] C:\Users\Admin\.gradle\caches\transforms-3\80cf46b83fa6f84b3883ba0adcfcef21\transformed\jetified-audience-network-sdk-6.16.0\AndroidManifest.xml:28:13-82
+506            android:exported="false" />
+506-->[com.facebook.android:audience-network-sdk:6.16.0] C:\Users\Admin\.gradle\caches\transforms-3\80cf46b83fa6f84b3883ba0adcfcef21\transformed\jetified-audience-network-sdk-6.16.0\AndroidManifest.xml:29:13-37
+507
+508        <activity
+508-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\Admin\.gradle\caches\transforms-3\50855519160cb07cfe62defee2cf1573\transformed\jetified-play-services-base-18.0.0\AndroidManifest.xml:20:9-22:45
+509            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+509-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\Admin\.gradle\caches\transforms-3\50855519160cb07cfe62defee2cf1573\transformed\jetified-play-services-base-18.0.0\AndroidManifest.xml:20:19-85
+510            android:exported="false"
+510-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\Admin\.gradle\caches\transforms-3\50855519160cb07cfe62defee2cf1573\transformed\jetified-play-services-base-18.0.0\AndroidManifest.xml:22:19-43
+511            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+511-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\Admin\.gradle\caches\transforms-3\50855519160cb07cfe62defee2cf1573\transformed\jetified-play-services-base-18.0.0\AndroidManifest.xml:21:19-78
+512
+513        <meta-data
+513-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Admin\.gradle\caches\transforms-3\41604dfb5d1c05282a287abb8b35c2e8\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+514            android:name="com.google.android.gms.version"
+514-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Admin\.gradle\caches\transforms-3\41604dfb5d1c05282a287abb8b35c2e8\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+515            android:value="@integer/google_play_services_version" />
+515-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Admin\.gradle\caches\transforms-3\41604dfb5d1c05282a287abb8b35c2e8\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+516
+517        <activity
+517-->[androidx.test:core:1.5.0] C:\Users\Admin\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:27:9-34:20
+518            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+518-->[androidx.test:core:1.5.0] C:\Users\Admin\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:28:13-99
+519            android:exported="true"
+519-->[androidx.test:core:1.5.0] C:\Users\Admin\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:29:13-36
+520            android:theme="@style/WhiteBackgroundTheme" >
+520-->[androidx.test:core:1.5.0] C:\Users\Admin\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:30:13-56
+521            <intent-filter android:priority="-100" >
+521-->[androidx.test:core:1.5.0] C:\Users\Admin\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:31:13-33:29
+521-->[androidx.test:core:1.5.0] C:\Users\Admin\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:31:28-51
+522                <category android:name="android.intent.category.LAUNCHER" />
+522-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:174:17-77
+522-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:174:27-74
+523            </intent-filter>
+524        </activity>
+525        <activity
+525-->[androidx.test:core:1.5.0] C:\Users\Admin\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:35:9-42:20
+526            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+526-->[androidx.test:core:1.5.0] C:\Users\Admin\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:36:13-95
+527            android:exported="true"
+527-->[androidx.test:core:1.5.0] C:\Users\Admin\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:37:13-36
+528            android:theme="@style/WhiteBackgroundTheme" >
+528-->[androidx.test:core:1.5.0] C:\Users\Admin\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:38:13-56
+529            <intent-filter android:priority="-100" >
+529-->[androidx.test:core:1.5.0] C:\Users\Admin\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:31:13-33:29
+529-->[androidx.test:core:1.5.0] C:\Users\Admin\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:31:28-51
+530                <category android:name="android.intent.category.LAUNCHER" />
+530-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:174:17-77
+530-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:174:27-74
+531            </intent-filter>
+532        </activity>
+533        <activity
+533-->[androidx.test:core:1.5.0] C:\Users\Admin\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:43:9-50:20
+534            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+534-->[androidx.test:core:1.5.0] C:\Users\Admin\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:44:13-103
+535            android:exported="true"
+535-->[androidx.test:core:1.5.0] C:\Users\Admin\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:45:13-36
+536            android:theme="@style/WhiteBackgroundDialogTheme" >
+536-->[androidx.test:core:1.5.0] C:\Users\Admin\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:46:13-62
+537            <intent-filter android:priority="-100" >
+537-->[androidx.test:core:1.5.0] C:\Users\Admin\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:31:13-33:29
+537-->[androidx.test:core:1.5.0] C:\Users\Admin\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:31:28-51
+538                <category android:name="android.intent.category.LAUNCHER" />
+538-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:174:17-77
+538-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:174:27-74
+539            </intent-filter>
+540        </activity>
+541
+542        <provider
+542-->[com.squareup.picasso:picasso:2.71828] C:\Users\Admin\.gradle\caches\transforms-3\4e99edf7b554ac4f18064090a15e7559\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+543            android:name="com.squareup.picasso.PicassoProvider"
+543-->[com.squareup.picasso:picasso:2.71828] C:\Users\Admin\.gradle\caches\transforms-3\4e99edf7b554ac4f18064090a15e7559\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+544            android:authorities="com.themecolor.callerphone.wallpaper.com.squareup.picasso"
+544-->[com.squareup.picasso:picasso:2.71828] C:\Users\Admin\.gradle\caches\transforms-3\4e99edf7b554ac4f18064090a15e7559\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+545            android:exported="false" />
+545-->[com.squareup.picasso:picasso:2.71828] C:\Users\Admin\.gradle\caches\transforms-3\4e99edf7b554ac4f18064090a15e7559\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+546
+547        <service
+547-->[androidx.room:room-runtime:2.5.0] C:\Users\Admin\.gradle\caches\transforms-3\5936d1401b11ad2eecf8204baac62556\transformed\room-runtime-2.5.0\AndroidManifest.xml:24:9-28:63
+548            android:name="androidx.room.MultiInstanceInvalidationService"
+548-->[androidx.room:room-runtime:2.5.0] C:\Users\Admin\.gradle\caches\transforms-3\5936d1401b11ad2eecf8204baac62556\transformed\room-runtime-2.5.0\AndroidManifest.xml:25:13-74
+549            android:directBootAware="true"
+549-->[androidx.room:room-runtime:2.5.0] C:\Users\Admin\.gradle\caches\transforms-3\5936d1401b11ad2eecf8204baac62556\transformed\room-runtime-2.5.0\AndroidManifest.xml:26:13-43
+550            android:exported="false" />
+550-->[androidx.room:room-runtime:2.5.0] C:\Users\Admin\.gradle\caches\transforms-3\5936d1401b11ad2eecf8204baac62556\transformed\room-runtime-2.5.0\AndroidManifest.xml:27:13-37
+551
+552        <receiver
+552-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+553            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+553-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+554            android:directBootAware="false"
+554-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+555            android:enabled="true"
+555-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+556            android:exported="true"
+556-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+557            android:permission="android.permission.DUMP" >
+557-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+558            <intent-filter>
+558-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+559                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+559-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+559-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+560            </intent-filter>
+561            <intent-filter>
+561-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+562                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+562-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+562-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+563            </intent-filter>
+564            <intent-filter>
+564-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+565                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+565-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+565-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+566            </intent-filter>
+567            <intent-filter>
+567-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+568                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+568-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+568-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+569            </intent-filter>
+570        </receiver>
+571    </application>
+572
+573</manifest>

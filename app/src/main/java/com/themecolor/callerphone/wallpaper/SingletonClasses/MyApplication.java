@@ -18,7 +18,7 @@ import keyboard.neon.newboard.KeyboardInitClass;
 
 public class MyApplication extends Application {
 
-    static AppPreferences preferences;
+  /*  static AppPreferences preferences;
     private static MyApplication app;
     private static ConnectionDetector cd;
 
@@ -54,7 +54,7 @@ public class MyApplication extends Application {
         new KeyboardInitClass(this).onCreate();
 
 //        GlobalContextKt.startKoin(this, modules(getApplicationModules()));
-
+*/
 
 /*
         startKoin {
@@ -67,9 +67,11 @@ public class MyApplication extends Application {
 */
 
 
-        new AppOpenAds(app);
+
+/*
 
     }
+*/
 
 
 }

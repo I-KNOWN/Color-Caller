@@ -1,52 +1,52 @@
 -- Merging decision tree log ---
 manifest
-ADDED from G:\Work Project Android\Color_Caller\aosp\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from G:\Work Project Android\Color_Caller\aosp\src\main\AndroidManifest.xml:2:1-29:12
+ADDED from C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\aosp\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\aosp\src\main\AndroidManifest.xml:2:1-29:12
 	package
-		INJECTED from G:\Work Project Android\Color_Caller\aosp\src\main\AndroidManifest.xml
+		INJECTED from C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\aosp\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from G:\Work Project Android\Color_Caller\aosp\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\aosp\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from G:\Work Project Android\Color_Caller\aosp\src\main\AndroidManifest.xml:5:5-79
+ADDED from C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\aosp\src\main\AndroidManifest.xml:5:5-79
 	android:name
-		ADDED from G:\Work Project Android\Color_Caller\aosp\src\main\AndroidManifest.xml:5:22-76
+		ADDED from C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\aosp\src\main\AndroidManifest.xml:5:22-76
 uses-permission#android.permission.VIBRATE
-ADDED from G:\Work Project Android\Color_Caller\aosp\src\main\AndroidManifest.xml:6:5-66
+ADDED from C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\aosp\src\main\AndroidManifest.xml:6:5-66
 	android:name
-		ADDED from G:\Work Project Android\Color_Caller\aosp\src\main\AndroidManifest.xml:6:22-63
+		ADDED from C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\aosp\src\main\AndroidManifest.xml:6:22-63
 uses-permission#android.permission.INTERNET
-ADDED from G:\Work Project Android\Color_Caller\aosp\src\main\AndroidManifest.xml:7:5-67
+ADDED from C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\aosp\src\main\AndroidManifest.xml:7:5-67
 	android:name
-		ADDED from G:\Work Project Android\Color_Caller\aosp\src\main\AndroidManifest.xml:7:22-64
+		ADDED from C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\aosp\src\main\AndroidManifest.xml:7:22-64
 application
-ADDED from G:\Work Project Android\Color_Caller\aosp\src\main\AndroidManifest.xml:9:5-27:19
+ADDED from C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\aosp\src\main\AndroidManifest.xml:9:5-27:19
 	android:supportsRtl
-		ADDED from G:\Work Project Android\Color_Caller\aosp\src\main\AndroidManifest.xml:11:9-35
+		ADDED from C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\aosp\src\main\AndroidManifest.xml:11:9-35
 	android:allowBackup
-		ADDED from G:\Work Project Android\Color_Caller\aosp\src\main\AndroidManifest.xml:10:9-36
+		ADDED from C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\aosp\src\main\AndroidManifest.xml:10:9-36
 activity#keyboard.neon.newboard.crashutility.CrashDialogActivity
-ADDED from G:\Work Project Android\Color_Caller\aosp\src\main\AndroidManifest.xml:15:9-18:55
+ADDED from C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\aosp\src\main\AndroidManifest.xml:15:9-18:55
 	android:label
-		ADDED from G:\Work Project Android\Color_Caller\aosp\src\main\AndroidManifest.xml:17:13-56
+		ADDED from C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\aosp\src\main\AndroidManifest.xml:17:13-56
 	android:theme
-		ADDED from G:\Work Project Android\Color_Caller\aosp\src\main\AndroidManifest.xml:18:13-52
+		ADDED from C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\aosp\src\main\AndroidManifest.xml:18:13-52
 	android:name
-		ADDED from G:\Work Project Android\Color_Caller\aosp\src\main\AndroidManifest.xml:16:13-83
+		ADDED from C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\aosp\src\main\AndroidManifest.xml:16:13-83
 provider#keyboard.neon.newboard.ime.clip.provider.FlorisContentProvider
-ADDED from G:\Work Project Android\Color_Caller\aosp\src\main\AndroidManifest.xml:21:9-25:50
+ADDED from C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\aosp\src\main\AndroidManifest.xml:21:9-25:50
 	android:grantUriPermissions
-		ADDED from G:\Work Project Android\Color_Caller\aosp\src\main\AndroidManifest.xml:25:13-47
+		ADDED from C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\aosp\src\main\AndroidManifest.xml:25:13-47
 	android:authorities
-		ADDED from G:\Work Project Android\Color_Caller\aosp\src\main\AndroidManifest.xml:23:13-71
+		ADDED from C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\aosp\src\main\AndroidManifest.xml:23:13-71
 	android:exported
-		ADDED from G:\Work Project Android\Color_Caller\aosp\src\main\AndroidManifest.xml:24:13-37
+		ADDED from C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\aosp\src\main\AndroidManifest.xml:24:13-37
 	android:name
-		ADDED from G:\Work Project Android\Color_Caller\aosp\src\main\AndroidManifest.xml:22:13-90
+		ADDED from C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\aosp\src\main\AndroidManifest.xml:22:13-90
 uses-sdk
-INJECTED from G:\Work Project Android\Color_Caller\aosp\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from G:\Work Project Android\Color_Caller\aosp\src\main\AndroidManifest.xml
-INJECTED from G:\Work Project Android\Color_Caller\aosp\src\main\AndroidManifest.xml
+INJECTED from C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\aosp\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\aosp\src\main\AndroidManifest.xml
+INJECTED from C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\aosp\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from G:\Work Project Android\Color_Caller\aosp\src\main\AndroidManifest.xml
+		INJECTED from C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\aosp\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from G:\Work Project Android\Color_Caller\aosp\src\main\AndroidManifest.xml
+		INJECTED from C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\aosp\src\main\AndroidManifest.xml

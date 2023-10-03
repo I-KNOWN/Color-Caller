@@ -3,12 +3,14 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:paddingHorizontal="20dp"
+    android:paddingVertical="10dp">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_margin="7dp">
+        >
 
         <androidx.core.widget.NestedScrollView
             android:id="@+id/scroll"
@@ -58,17 +60,12 @@
                     android:layout_height="210dp" />
 
 
-                <LinearLayout
-                    android:id="@+id/adsView"
-                    android:layout_width="match_parent"
-                    android:layout_height="260dp"
-                    android:orientation="vertical">
 
-                </LinearLayout>
 
                 <RelativeLayout
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp">
 
                     <TextView
                         android:id="@+id/kpop_txt"
@@ -106,7 +103,9 @@
 
                 <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp">
+
 
                     <TextView
                         android:id="@+id/neon_txt"
@@ -142,17 +141,13 @@
                     android:layout_height="210dp" />
 
 
-                <LinearLayout
-                    android:id="@+id/adsView1"
-                    android:layout_width="match_parent"
-                    android:layout_height="260dp"
-                    android:orientation="vertical">
 
-                </LinearLayout>
 
                 <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp">
+
 
                     <TextView
                         android:id="@+id/love_txt"
@@ -189,7 +184,9 @@
 
                 <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp">
+
 
                     <TextView
                         android:id="@+id/call_of_duty_txt"
@@ -225,17 +222,12 @@
                     android:layout_height="210dp" />
 
 
-                <LinearLayout
-                    android:id="@+id/adsView2"
-                    android:layout_width="match_parent"
-                    android:layout_height="260dp"
-                    android:orientation="vertical">
-
-                </LinearLayout>
 
                 <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp">
+
 
                     <TextView
                         android:id="@+id/anime_txt"
@@ -272,7 +264,9 @@
 
                 <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp">
+
 
                     <TextView
                         android:id="@+id/soccer_txt"
@@ -308,18 +302,12 @@
                     android:layout_height="210dp" />
 
 
-                <LinearLayout
-                    android:id="@+id/adsView3"
-                    android:layout_width="match_parent"
-                    android:layout_height="260dp"
-                    android:orientation="vertical">
-
-
-                </LinearLayout>
 
                 <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp">
+
 
                     <TextView
                         android:id="@+id/cutefunny_txt"
@@ -356,7 +344,9 @@
 
                 <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp">
+
 
                     <TextView
                         android:id="@+id/modern_txt"
@@ -392,18 +382,13 @@
                     android:layout_height="210dp" />
 
 
-                <LinearLayout
-                    android:id="@+id/adsView4"
-                    android:layout_width="match_parent"
-                    android:layout_height="260dp"
-                    android:orientation="vertical">
 
-
-                </LinearLayout>
 
                 <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp">
+
 
                     <TextView
                         android:id="@+id/nature_txt"
@@ -440,7 +425,9 @@
 
                 <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp">
+
 
                     <TextView
                         android:id="@+id/animals_txt"
@@ -476,18 +463,12 @@
                     android:layout_height="210dp" />
 
 
-                <LinearLayout
-                    android:id="@+id/adsView5"
-                    android:layout_width="match_parent"
-                    android:layout_height="260dp"
-                    android:orientation="vertical">
-
-
-                </LinearLayout>
 
                 <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp">
+
 
                     <TextView
                         android:id="@+id/christmas_txt"

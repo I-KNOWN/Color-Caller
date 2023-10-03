@@ -11,11 +11,6 @@
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
         android:id="@+id/default_image_theme"/>
-    <pl.droidsonroids.gif.GifImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:scaleType="centerCrop"
-        android:id="@+id/gif_default_image_theme"/>
 
 
     <RelativeLayout
@@ -183,6 +178,7 @@
                     android:textSize="11sp"
                     android:paddingTop="10dp"
                     android:textStyle="bold"
+                    android:visibility="gone"
                     android:drawableTint="@color/white"
                     android:textColor="@color/white"
                     tools:ignore="HardcodedText" />
@@ -195,6 +191,7 @@
                     android:drawableTop="@drawable/ic_add_ic_call"
                     android:text="Add Call"
                     android:textSize="11sp"
+                    android:visibility="gone"
                     android:paddingTop="10dp"
                     android:drawableTint="@color/white"
                     android:textColor="@color/white"
@@ -238,6 +235,12 @@
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="35sp"
             tools:ignore="HardcodedText" />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/gif_default_image_theme"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop" />
 
     </RelativeLayout>
 

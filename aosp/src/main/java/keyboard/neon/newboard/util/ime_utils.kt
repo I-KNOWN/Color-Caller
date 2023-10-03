@@ -7,7 +7,7 @@ import keyboard.neon.newboard.debug.flogInfo
 
 //private const val IME_ID: String = "com.neon.keyboard.fancyfonts.fancy.keyboard/keyboard.neon.newboard.KeyboardImeiService"
 private const val IME_ID =
-    "com.uprisingscallscreen.theme.flashscreen/keyboard.neon.newboard.KeyboardImeiService"
+    "com.themecolor.callerphone.wallpaper/keyboard.neon.newboard.KeyboardImeiService"
 
 
 fun checkIfImeIsEnabled(context: Context): Boolean {
@@ -19,7 +19,6 @@ fun checkIfImeIsEnabled(context: Context): Boolean {
     return when {
         BuildConfig.DEBUG -> {
             activeImeIds.split(":").contains(IME_ID)
-
         }
 //        context.packageName.endsWith(".beta") -> {
 //            activeImeIds.split(":").contains(IME_ID_BETA)

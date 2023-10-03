@@ -54,15 +54,16 @@
         android:name="com.themecolor.callerphone.wallpaper.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.themecolor.callerphone.wallpaper.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- android:name="com.themecolor.callerphone.wallpaper.App" -->
+    <uses-permission android:name="com.themecolor.callerphone.wallpaper.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+
     <application
-        android:name="com.themecolor.callerphone.wallpaper.SingletonClasses.MyApplication"
+        android:name="com.themecolor.callerphone.wallpaper.App"
         android:allowBackup="false"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
         android:extractNativeLibs="false"
         android:hardwareAccelerated="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/logo"
         android:label="@string/app_name"
         android:largeHeap="true"
         android:roundIcon="@mipmap/ic_launcher_round"
@@ -70,6 +71,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.NeonKeyboardNew"
         android:usesCleartextTraffic="true" >
+        <activity
+            android:name="com.themecolor.callerphone.wallpaper.StartupActivity"
+            android:exported="false" />
         <activity
             android:name="com.themecolor.callerphone.wallpaper.ui.PrivacyActivity"
             android:exported="false"
@@ -345,11 +349,6 @@
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
-        <!--
-            <meta-data
-            android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="@string/appId" />
-        -->
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="ca-app-pub-3940256099942544~3347511713" /> <!-- Crash Dialog Activity -->

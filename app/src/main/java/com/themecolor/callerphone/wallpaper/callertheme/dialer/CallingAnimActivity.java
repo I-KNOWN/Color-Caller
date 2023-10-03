@@ -115,14 +115,13 @@ public class CallingAnimActivity extends AppCompatActivity {
 //        ______________________________________________________________________________
         BroadcastReceiver broadcastReceiver = new BroadcastReceiver() {
 
-            @SuppressLint("SetTextI18n")
             @Override
             public void onReceive(Context arg0, Intent intent) {
 
                 String action = intent.getAction();
 
                 if (action.equals("call_ended")) {
-                    finishAndRemoveTask();
+                    finishAffinity();
                 } else if (action.equals("call_answered")) {
 
                     inProgressCallRLView.setVisibility(View.VISIBLE);
@@ -387,7 +386,7 @@ public class CallingAnimActivity extends AppCompatActivity {
 
                 callerPhoneNumberTV.setText(PHONE_NUMBER);
                 callerNameTV.setText(CALLER_NAME);
-
+                loadImage();
 //                NotificationHelper.createOutgoingNotification(this, CallListHelper.callList.get(CallManager.NUMBER_OF_CALLS - 1));
             }
         } else if (call_state == Call.STATE_ACTIVE || call_state == Call.STATE_HOLDING) {
@@ -397,7 +396,9 @@ public class CallingAnimActivity extends AppCompatActivity {
         } else if (call_state == Call.STATE_RINGING) {
             Uri defaultDialerRingtoneUri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_RINGTONE);
             defaultDialerRingtone = RingtoneManager.getRingtone(getApplicationContext(), defaultDialerRingtoneUri);
-            defaultDialerRingtone.play();
+//            if(!defaultDialerRingtone.isPlaying()){
+//                defaultDialerRingtone.play();
+//            }
             inProgressCallRLView.setVisibility(View.GONE);
             incomingRLView.setVisibility(View.VISIBLE);
             incomingreply.setOnClickListener(new View.OnClickListener() {
@@ -425,7 +426,8 @@ public class CallingAnimActivity extends AppCompatActivity {
 
                 NotificationHelper.createIncomingNotification(this, CallListHelper.callList.get(CallManager.NUMBER_OF_CALLS - 1));
             }
-        } else {
+        } else if(call_state == Call.STATE_DIALING) {
+            loadImage();
         }
     }
 
@@ -437,37 +439,35 @@ public class CallingAnimActivity extends AppCompatActivity {
         String gifUrl = gifSharedPreferences.getString("image_url1", null);
         Log.d("isthisstarting", imageUrl);
 
-        if (imageUrl != null && gifUrl != null) {
-            long imageTimestamp = imageSharedPreferences.getLong("timestamp", 0);
-            long gifTimestamp = gifSharedPreferences.getLong("timestamp", 0);
-            Log.d("isthisstarting", "inside top");
-            if (imageTimestamp > gifTimestamp) {
+        try {
+            if (imageUrl != null && gifUrl != null) {
+                long imageTimestamp = imageSharedPreferences.getLong("timestamp", 0);
+                long gifTimestamp = gifSharedPreferences.getLong("timestamp", 0);
+                if (imageTimestamp > gifTimestamp) {
+                    default_image_theme.setVisibility(View.VISIBLE);
+                    gif_default_image_theme.setVisibility(View.GONE);
+                    Picasso.get().load(imageUrl).into(default_image_theme);
+                } else {
+                    default_image_theme.setVisibility(View.GONE);
+                    gif_default_image_theme.setVisibility(View.VISIBLE);
+                    Glide.with(CallingAnimActivity.this).load(gifUrl).into(gif_default_image_theme);
+                }
+            } else if (imageUrl != null) {
                 default_image_theme.setVisibility(View.VISIBLE);
                 gif_default_image_theme.setVisibility(View.GONE);
                 Picasso.get().load(imageUrl).into(default_image_theme);
-            } else {
+
+            } else if (gifUrl != null) {
                 default_image_theme.setVisibility(View.GONE);
                 gif_default_image_theme.setVisibility(View.VISIBLE);
-
-
                 Glide.with(CallingAnimActivity.this).load(gifUrl).into(gif_default_image_theme);
+            } else {
+                default_image_theme.setVisibility(View.GONE);
+                gif_default_image_theme.setVisibility(View.GONE);
+
             }
-        } else if (imageUrl != null) {
-            default_image_theme.setVisibility(View.VISIBLE);
-            gif_default_image_theme.setVisibility(View.GONE);
-            Picasso.get().load(imageUrl).into(default_image_theme);
-            Log.d("isthisstarting", "inside 2 top");
-
-        } else if (gifUrl != null) {
-            default_image_theme.setVisibility(View.GONE);
-            gif_default_image_theme.setVisibility(View.VISIBLE);
-            Glide.with(CallingAnimActivity.this).load(gifUrl).into(gif_default_image_theme);
-            Log.d("isthisstarting", "inside 3 top");
-        } else {
-            default_image_theme.setVisibility(View.GONE);
-            gif_default_image_theme.setVisibility(View.GONE);
-            Log.d("isthisstarting", "inside top");
-
+        } catch (Exception e) {
+            e.printStackTrace();
         }
     }
 
@@ -625,7 +625,7 @@ public class CallingAnimActivity extends AppCompatActivity {
             switch (event.getAction()) {
                 case MotionEvent.ACTION_DOWN:
                     isSwiping = false;
-                    initialX = event.getX();
+                    initialX = event.getRawX();
                     showArrows();
                     fadeOutAnimator.cancel();
                     fadeInAnimator.cancel();
@@ -643,7 +643,7 @@ public class CallingAnimActivity extends AppCompatActivity {
                 case MotionEvent.ACTION_UP:
                     hideArrows();
                     if (isSwiping) {
-                        float deltaX = event.getX() - initialX;
+                        float deltaX = event.getRawX() - initialX;
                         if (deltaX > 0) {
                             // Swiped right
                             // Handle receive call action here

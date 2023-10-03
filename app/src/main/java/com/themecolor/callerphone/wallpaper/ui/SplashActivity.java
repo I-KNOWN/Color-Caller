@@ -2,7 +2,6 @@ package com.themecolor.callerphone.wallpaper.ui;
 
 import static com.adsmodule.api.adsModule.retrofit.APICallHandler.callAdsApi;
 import static com.themecolor.callerphone.wallpaper.SingletonClasses.AppOpenAds.activity;
-import static com.themecolor.callerphone.wallpaper.SingletonClasses.MyApplication.getConnectionStatus;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -20,7 +19,6 @@ import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 
-import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
@@ -29,11 +27,11 @@ import android.widget.TextView;
 
 import com.adsmodule.api.adsModule.AdUtils;
 import com.adsmodule.api.adsModule.retrofit.AdsDataRequestModel;
-import com.adsmodule.api.adsModule.retrofit.AdsResponseModel;
 import com.adsmodule.api.adsModule.utils.Constants;
+import com.themecolor.callerphone.wallpaper.App;
 import com.themecolor.callerphone.wallpaper.MainActivity;
 import com.themecolor.callerphone.wallpaper.R;
-import com.themecolor.callerphone.wallpaper.callertheme.OS.OtherUntil;
+import com.themecolor.callerphone.wallpaper.StartupActivity;
 
 
 public class SplashActivity extends AppCompatActivity {
@@ -52,7 +50,7 @@ public class SplashActivity extends AppCompatActivity {
         getWindow().setBackgroundDrawable(background);
 
 
-        if (getConnectionStatus().isConnectingToInternet()) {
+        if (App.Companion.getConnectionStatus().isConnectingToInternet()) {
             callAdsApi(activity, Constants.MAIN_BASE_URL, new AdsDataRequestModel(this.getPackageName(), ""), adsResponseModel -> {
                 if (adsResponseModel != null) {
                     AdUtils.showAppOpenAds(Constants.adsResponseModel.getApp_open_ads().getAdx(), activity, state_load -> {
@@ -177,7 +175,7 @@ public class SplashActivity extends AppCompatActivity {
 
 
     public void gotoMainActivity() {
-        startActivity(new Intent(this, MainActivity.class));
+        startActivity(new Intent(this, StartupActivity.class));
         finish();
     }
 }

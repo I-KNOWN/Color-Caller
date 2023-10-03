@@ -4134,6 +4134,7 @@ drawable admob_close_button_black_circle_white_cross
 drawable admob_close_button_white_circle_black_cross
 drawable ads_background
 drawable after_received_call_btn_bg
+drawable animal
 drawable app_update
 drawable autofill_inline_suggestion_chip_background
 drawable avd_hide_password
@@ -4166,6 +4167,7 @@ drawable button_transparent_bg_on_press
 drawable button_transparent_bg_on_press_with_border
 drawable buttondefaultend
 drawable buttondefaultreceive
+drawable call_btn_phone
 drawable caller_screen_icon
 drawable caller_screen_nav_item
 drawable categories
@@ -4202,6 +4204,7 @@ drawable cricle_arrow_right
 drawable custom_seekbar
 drawable custom_thumb
 drawable customize
+drawable cute
 drawable decline_button
 drawable decline_button_eight
 drawable decline_button_eleven
@@ -4248,6 +4251,7 @@ drawable gnt_rounded_corners_shape
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable gradient
+drawable gradient_back
 drawable gradient_bottom
 drawable gradient_bottom_side
 drawable gradient_button
@@ -4444,8 +4448,10 @@ drawable im_style4
 drawable im_style_0
 drawable im_style_1
 drawable incoming_call_button_style
+drawable itisabutton
 drawable key_popup_bgshape
 drawable keyboard
+drawable keyboard_btn
 drawable keyboard_clear
 drawable keyboard_front
 drawable keyboard_icon
@@ -4453,9 +4459,11 @@ drawable keyboard_layout_black
 drawable keyboard_nav_item
 drawable keyboard_unchecked
 drawable keylock_icon
+drawable kpop
 drawable large_ad
 drawable loading
 drawable logo
+drawable love
 drawable m3_appbar_background
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
@@ -4468,6 +4476,8 @@ drawable m3_tabs_line_indicator
 drawable m3_tabs_rounded_line_indicator
 drawable m3_tabs_transparent_background
 drawable main_button
+drawable main_front
+drawable main_sub
 drawable main_unchecked_button
 drawable mask
 drawable material_cursor_drawable
@@ -4520,8 +4530,10 @@ drawable mtrl_switch_thumb_unchecked_pressed
 drawable mtrl_switch_track
 drawable mtrl_switch_track_decoration
 drawable mtrl_tabs_default_indicator
+drawable multiple_image
 drawable navgradient
 drawable navigation_empty_icon
+drawable neon
 drawable neon1
 drawable neon2
 drawable neonbg1
@@ -4596,6 +4608,7 @@ drawable rating_dialog_bg
 drawable rating_layerlist
 drawable reply
 drawable right_arrow
+drawable right_arrow_white
 drawable right_swipe
 drawable ripple_click
 drawable rounded_stick
@@ -4633,6 +4646,7 @@ drawable splash_background
 drawable spot_mask
 drawable starfill
 drawable staroutline
+drawable start_btn
 drawable status_gradient
 drawable steponebg
 drawable stepthreebg
@@ -4707,6 +4721,7 @@ drawable third_onboard
 drawable thumb_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable trending
 drawable trending_icon
 drawable triangle_bottom_right
 drawable ucrop_crop
@@ -4730,6 +4745,7 @@ drawable ucrop_vector_loader_animated
 drawable ucrop_wrapper_controls_shape
 drawable unfilled
 drawable unfilled_adbg
+drawable unselected_back
 drawable vibrate
 font inter_bold
 font inter_medium
@@ -4915,8 +4931,17 @@ id btn08
 id btn09
 id btnHash
 id btnStar
+id btn_Love
+id btn_Neon
+id btn_animal
+id btn_caller_icon
+id btn_caller_keyboard
+id btn_cute
+id btn_kpop
 id btn_next
 id btn_set_theam
+id btn_template
+id btn_trending
 id buttonPanel
 id cache_measures
 id callBtn
@@ -5142,6 +5167,7 @@ id home
 id homeAsUp
 id honorRequest
 id horizontal
+id horizontalScrollView
 id horizontal_only
 id icon
 id icon_frame
@@ -5168,6 +5194,9 @@ id imageView111
 id imageView13
 id imageView2
 id imageView3
+id imageView5
+id imageView7
+id imageView9
 id imageViewProfile
 id imageViewProfiledefault
 id image_view
@@ -5202,6 +5231,12 @@ id invisible
 id inward
 id italic
 id item_touch_helper_previous_elevation
+id iv_bg_btn
+id iv_bg_btn_Cute
+id iv_bg_btn_Love
+id iv_bg_btn_Neon
+id iv_bg_btn_animal
+id iv_bg_btn_kpop
 id iv_update
 id jumpToEnd
 id jumpToStart
@@ -5482,6 +5517,7 @@ id row
 id row_index_key
 id row_reverse
 id rv
+id rv_cat
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -5635,9 +5671,16 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
+id textView00
+id textView10
 id textView2
 id textView3
 id textView4
+id textView5
+id textView6
+id textView7
+id textView8
+id textView9
 id textViewName
 id textWatcher
 id text_input
@@ -5707,6 +5750,7 @@ id tv_time
 id tv_title
 id tv_title_lag
 id tv_topheaer
+id tv_type
 id tv_updateText
 id tvallow
 id tvptext
@@ -5924,6 +5968,7 @@ layout activity_setting
 layout activity_setting_fake
 layout activity_show
 layout activity_splash
+layout activity_startup
 layout activity_theme_calling_theme_preview
 layout activity_theme_callinggif_theme_preview
 layout activity_upload
@@ -5992,6 +6037,8 @@ layout fragment_main_settings
 layout fragment_neon
 layout fragment_page
 layout fragment_per
+layout fragment_specific_caller
+layout fragment_start_up
 layout fragment_theme_fav
 layout fragment_themes
 layout full_native_ad_param

@@ -24,6 +24,7 @@ import com.adsmodule.api.adsModule.retrofit.APICallHandler;
 import com.adsmodule.api.adsModule.retrofit.AdsDataRequestModel;
 import com.adsmodule.api.adsModule.retrofit.AdsResponseModel;
 import com.adsmodule.api.adsModule.utils.Constants;
+import com.themecolor.callerphone.wallpaper.App;
 import com.themecolor.callerphone.wallpaper.ui.SplashActivity;
 
 
@@ -32,12 +33,12 @@ public class AppOpenAds implements LifecycleObserver, Application.ActivityLifecy
 
     @SuppressLint("StaticFieldLeak")
     public static Activity activity;
-    MyApplication application;
+    App application;
     boolean isAdShowing;
     Bundle bundle;
 
 
-    public AppOpenAds(MyApplication application) {
+    public AppOpenAds(App application) {
         this.application = application;
         application.registerActivityLifecycleCallbacks(this);
         ProcessLifecycleOwner.get().getLifecycle().addObserver(this);
@@ -58,16 +59,18 @@ public class AppOpenAds implements LifecycleObserver, Application.ActivityLifecy
 
     @OnLifecycleEvent(Lifecycle.Event.ON_START)
     public void onStart() {
-        if (Constants.adsResponseModel != null && Constants.adsResponseModel.isShow_ads()) {
-            if (!isAdShowing && AppOpenAds.activity != null && (!AppOpenAds.activity.getClass().getName().equals(SplashActivity.class.getName()))) {
-                isAdShowing = true;
+        if (!activity.getComponentName().getClassName().equals("com.themecolor.callerphone.wallpaper.callertheme.dialer.CallingAnimActivity")) {
+            if (Constants.adsResponseModel != null && Constants.adsResponseModel.isShow_ads()) {
+                if (!isAdShowing && AppOpenAds.activity != null && (!AppOpenAds.activity.getClass().getName().equals(SplashActivity.class.getName()))) {
+                    isAdShowing = true;
 
-                AdUtils.showAppOpenAds(Constants.adsResponseModel.getApp_open_ads().getAdx(), AppOpenAds.activity, state_load -> {
+                    AdUtils.showAppOpenAds(Constants.adsResponseModel.getApp_open_ads().getAdx(), AppOpenAds.activity, state_load -> {
+                        isAdShowing = false;
+                    });
+
+                } else {
                     isAdShowing = false;
-                });
-
-            } else {
-                isAdShowing = false;
+                }
             }
         }
 
@@ -116,7 +119,7 @@ public class AppOpenAds implements LifecycleObserver, Application.ActivityLifecy
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-                isConnected.postValue(MyApplication.getConnectionStatus().isConnectingToInternet());
+                isConnected.postValue(App.Companion.getConnectionStatus().isConnectingToInternet());
                 handler.postDelayed(this, 1000);
             }
         }, 1000);
