@@ -38,13 +38,16 @@ public class VerticalViewPager extends ViewPager {
 
         boolean interceped = super.onInterceptTouchEvent(swapXY(ev));
         swapXY(ev); // swap x,y back for other touch events.
-        return interceped;
+//        return interceped;
+        return false;
     }
+
 
 
     @Override
     public boolean onTouchEvent(MotionEvent ev) {
-        return super.onTouchEvent(swapXY(ev));
+//        return super.onTouchEvent(swapXY(ev));
+        return false;
     }
 
 

@@ -472,11 +472,6 @@ id ad_choices_container
 id addCallBtn
 id adsView
 id adsView0
-id adsView1
-id adsView2
-id adsView3
-id adsView4
-id adsView5
 id allThemesRv
 id animals_recycler
 id animals_see

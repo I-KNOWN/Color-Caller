@@ -6,42 +6,42 @@
 6
 7    <!-- Permission needed to vibrate if the user has key press vibration enabled -->
 8    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-8-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\aosp\src\main\AndroidManifest.xml:5:5-79
-8-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\aosp\src\main\AndroidManifest.xml:5:22-76
+8-->G:\Work Project Android\Color_Caller\aosp\src\main\AndroidManifest.xml:5:5-79
+8-->G:\Work Project Android\Color_Caller\aosp\src\main\AndroidManifest.xml:5:22-76
 9    <uses-permission android:name="android.permission.VIBRATE" />
-9-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\aosp\src\main\AndroidManifest.xml:6:5-66
-9-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\aosp\src\main\AndroidManifest.xml:6:22-63
+9-->G:\Work Project Android\Color_Caller\aosp\src\main\AndroidManifest.xml:6:5-66
+9-->G:\Work Project Android\Color_Caller\aosp\src\main\AndroidManifest.xml:6:22-63
 10    <uses-permission android:name="android.permission.INTERNET" />
-10-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\aosp\src\main\AndroidManifest.xml:7:5-67
-10-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\aosp\src\main\AndroidManifest.xml:7:22-64
+10-->G:\Work Project Android\Color_Caller\aosp\src\main\AndroidManifest.xml:7:5-67
+10-->G:\Work Project Android\Color_Caller\aosp\src\main\AndroidManifest.xml:7:22-64
 11
 12    <application
-12-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\aosp\src\main\AndroidManifest.xml:9:5-27:19
+12-->G:\Work Project Android\Color_Caller\aosp\src\main\AndroidManifest.xml:9:5-27:19
 13        android:allowBackup="false"
-13-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\aosp\src\main\AndroidManifest.xml:10:9-36
+13-->G:\Work Project Android\Color_Caller\aosp\src\main\AndroidManifest.xml:10:9-36
 14        android:supportsRtl="true" >
-14-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\aosp\src\main\AndroidManifest.xml:11:9-35
+14-->G:\Work Project Android\Color_Caller\aosp\src\main\AndroidManifest.xml:11:9-35
 15
 16        <!-- Crash Dialog Activity -->
 17        <activity
-17-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\aosp\src\main\AndroidManifest.xml:15:9-18:55
+17-->G:\Work Project Android\Color_Caller\aosp\src\main\AndroidManifest.xml:15:9-18:55
 18            android:name="keyboard.neon.newboard.crashutility.CrashDialogActivity"
-18-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\aosp\src\main\AndroidManifest.xml:16:13-83
+18-->G:\Work Project Android\Color_Caller\aosp\src\main\AndroidManifest.xml:16:13-83
 19            android:label="@string/crash_dialog__title"
-19-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\aosp\src\main\AndroidManifest.xml:17:13-56
+19-->G:\Work Project Android\Color_Caller\aosp\src\main\AndroidManifest.xml:17:13-56
 20            android:theme="@style/CrashDialogTheme" />
-20-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\aosp\src\main\AndroidManifest.xml:18:13-52
+20-->G:\Work Project Android\Color_Caller\aosp\src\main\AndroidManifest.xml:18:13-52
 21
 22        <provider
-22-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\aosp\src\main\AndroidManifest.xml:21:9-25:50
+22-->G:\Work Project Android\Color_Caller\aosp\src\main\AndroidManifest.xml:21:9-25:50
 23            android:name="keyboard.neon.newboard.ime.clip.provider.FlorisContentProvider"
-23-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\aosp\src\main\AndroidManifest.xml:22:13-90
+23-->G:\Work Project Android\Color_Caller\aosp\src\main\AndroidManifest.xml:22:13-90
 24            android:authorities="com.themecolor.callerphone.wallpaper"
-24-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\aosp\src\main\AndroidManifest.xml:23:13-71
+24-->G:\Work Project Android\Color_Caller\aosp\src\main\AndroidManifest.xml:23:13-71
 25            android:exported="false"
-25-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\aosp\src\main\AndroidManifest.xml:24:13-37
+25-->G:\Work Project Android\Color_Caller\aosp\src\main\AndroidManifest.xml:24:13-37
 26            android:grantUriPermissions="true" />
-26-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\aosp\src\main\AndroidManifest.xml:25:13-47
+26-->G:\Work Project Android\Color_Caller\aosp\src\main\AndroidManifest.xml:25:13-47
 27    </application>
 28
 29</manifest>

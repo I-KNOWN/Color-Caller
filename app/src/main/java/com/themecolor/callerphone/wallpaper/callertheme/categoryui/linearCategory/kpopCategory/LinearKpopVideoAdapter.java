@@ -14,6 +14,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 
+import com.bumptech.glide.request.RequestOptions;
 import com.themecolor.callerphone.wallpaper.R;
 import com.themecolor.callerphone.wallpaper.callertheme.categoryui.CategoryShowVideoActivity;
 import com.themecolor.callerphone.wallpaper.callertheme.categoryui.Images;
@@ -26,10 +27,10 @@ import pl.droidsonroids.gif.GifImageView;
 public class LinearKpopVideoAdapter extends RecyclerView.Adapter<LinearKpopVideoAdapter.ViewHolder> {
     public static final String TAG = "LinearKpopVideoAdapter";
     private Context context;
-    private ArrayList<Images> arrayList;
+    private ArrayList<String> arrayList;
 
 
-    public LinearKpopVideoAdapter(Context context, ArrayList<Images> arrayList) {
+    public LinearKpopVideoAdapter(Context context, ArrayList<String> arrayList) {
         this.context = context;
         this.arrayList = arrayList;
     }
@@ -44,17 +45,23 @@ public class LinearKpopVideoAdapter extends RecyclerView.Adapter<LinearKpopVideo
 
     @Override
     public void onBindViewHolder(@NonNull LinearKpopVideoAdapter.ViewHolder holder, int position) {
-        Glide.with(context).load(arrayList.get(position).getUrl()).into(holder.imageView);
+        RequestOptions myOptions = new RequestOptions()
+                .override(200, 200);
+        Glide.with(context)
+                .asBitmap()
+                .apply(myOptions)
+                .load(arrayList.get(position))
+                .into(holder.imageView);
 //        Picasso.get().load(arrayList.get(position).getUrl()).into(holder.imageView);
-        final Images temp = arrayList.get(position);
+        final String temp = arrayList.get(position);
 
         holder.imageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 
                         Intent intent = new Intent(context, CategoryShowVideoActivity.class);
-                        ArrayList<? extends Parcelable> parcelableList = new ArrayList<>(arrayList);
-                        intent.putParcelableArrayListExtra("imageUrl", parcelableList);
+                        ArrayList<String> parcelableList = new ArrayList<>(arrayList);
+                        intent.putExtra("imageUrl", parcelableList);
                         intent.putExtra("position", position);
                         intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                         context.startActivity(intent);

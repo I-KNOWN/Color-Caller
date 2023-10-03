@@ -58,13 +58,7 @@
                     android:layout_height="210dp" />
 
 
-                <LinearLayout
-                    android:id="@+id/adsView"
-                    android:layout_width="match_parent"
-                    android:layout_height="260dp"
-                    android:orientation="vertical">
 
-                </LinearLayout>
 
                 <RelativeLayout
                     android:layout_width="wrap_content"
@@ -142,13 +136,7 @@
                     android:layout_height="210dp" />
 
 
-                <LinearLayout
-                    android:id="@+id/adsView1"
-                    android:layout_width="match_parent"
-                    android:layout_height="260dp"
-                    android:orientation="vertical">
 
-                </LinearLayout>
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -225,13 +213,6 @@
                     android:layout_height="210dp" />
 
 
-                <LinearLayout
-                    android:id="@+id/adsView2"
-                    android:layout_width="match_parent"
-                    android:layout_height="260dp"
-                    android:orientation="vertical">
-
-                </LinearLayout>
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -308,14 +289,6 @@
                     android:layout_height="210dp" />
 
 
-                <LinearLayout
-                    android:id="@+id/adsView3"
-                    android:layout_width="match_parent"
-                    android:layout_height="260dp"
-                    android:orientation="vertical">
-
-
-                </LinearLayout>
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -392,14 +365,7 @@
                     android:layout_height="210dp" />
 
 
-                <LinearLayout
-                    android:id="@+id/adsView4"
-                    android:layout_width="match_parent"
-                    android:layout_height="260dp"
-                    android:orientation="vertical">
 
-
-                </LinearLayout>
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -476,14 +442,6 @@
                     android:layout_height="210dp" />
 
 
-                <LinearLayout
-                    android:id="@+id/adsView5"
-                    android:layout_width="match_parent"
-                    android:layout_height="260dp"
-                    android:orientation="vertical">
-
-
-                </LinearLayout>
 
                 <RelativeLayout
                     android:layout_width="match_parent"

@@ -35,20 +35,20 @@ public class CategoryShowVideoActivity extends AppCompatActivity {
         ViewPager viewPager = findViewById(R.id.view_pager);
         back = findViewById(R.id.back);
 
-        ArrayList<Parcelable> parcelableArrayList = getIntent().getParcelableArrayListExtra("imageUrl");
-        if (parcelableArrayList != null) {
+        ArrayList<String> parcelableArrayList = getIntent().getStringArrayListExtra("imageUrl");
+/*        if (parcelableArrayList != null) {
             for (Parcelable parcelable : parcelableArrayList) {
                 if (parcelable instanceof Images) {
                     Images image = (Images) parcelable;
                     lstImages.add(image);
                 }
             }
-        }
+        }*/
         clickedPosition = getIntent().getIntExtra("position", 0);
-        Log.println(Log.ASSERT, TAG, "lstImages: " + lstImages.size());
+        Log.println(Log.ASSERT, TAG, "lstImages: " + parcelableArrayList.size());
 
 
-        ViewPager1Adapter adapter = new ViewPager1Adapter(this, lstImages);
+        ViewPager1Adapter adapter = new ViewPager1Adapter(this, parcelableArrayList);
         viewPager.setAdapter(adapter);
         viewPager.setCurrentItem(clickedPosition);
         ExecutorService service = Executors.newSingleThreadExecutor();

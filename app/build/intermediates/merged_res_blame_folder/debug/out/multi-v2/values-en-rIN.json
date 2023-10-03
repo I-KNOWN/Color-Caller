@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.themecolor.callerphone.wallpaper.app-mergeDebugResources-4:/values-en-rIN/values-en-rIN.xml",
+            "outputFile": "com.themecolor.callerphone.wallpaper.app-mergeDebugResources-70:/values-en-rIN/values-en-rIN.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\1a2305cfd681275de8a2761003fa037d\\transformed\\appcompat-1.6.1\\res\\values-en-rIN\\values-en-rIN.xml",
+                    "source": "C:\\Users\\Tech360\\.gradle\\caches\\transforms-3\\1a2305cfd681275de8a2761003fa037d\\transformed\\appcompat-1.6.1\\res\\values-en-rIN\\values-en-rIN.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,24 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\d55510fac77ff6675cbeca87ed584457\\transformed\\core-1.9.0\\res\\values-en-rIN\\values-en-rIN.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "38",
-                        "startColumns": "4",
-                        "startOffsets": "3610",
-                        "endColumns": "100",
-                        "endOffsets": "3706"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\5c1f30225557efd636a21b17fd362a44\\transformed\\browser-1.4.0\\res\\values-en-rIN\\values-en-rIN.xml",
+                    "source": "C:\\Users\\Tech360\\.gradle\\caches\\transforms-3\\5c1f30225557efd636a21b17fd362a44\\transformed\\browser-1.4.0\\res\\values-en-rIN\\values-en-rIN.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -55,7 +38,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\5f55e8c85098d96d7c648ed5cbd38d30\\transformed\\preference-1.1.1\\res\\values-en-rIN\\values-en-rIN.xml",
+                    "source": "C:\\Users\\Tech360\\.gradle\\caches\\transforms-3\\d55510fac77ff6675cbeca87ed584457\\transformed\\core-1.9.0\\res\\values-en-rIN\\values-en-rIN.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "38",
+                        "startColumns": "4",
+                        "startOffsets": "3610",
+                        "endColumns": "100",
+                        "endOffsets": "3706"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Tech360\\.gradle\\caches\\transforms-3\\5f55e8c85098d96d7c648ed5cbd38d30\\transformed\\preference-1.1.1\\res\\values-en-rIN\\values-en-rIN.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",

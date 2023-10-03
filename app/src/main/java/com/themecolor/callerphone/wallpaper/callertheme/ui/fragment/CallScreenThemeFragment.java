@@ -79,12 +79,7 @@ public class CallScreenThemeFragment extends Fragment {
         animals_see = view.findViewById(R.id.animals_see);
         christmas_see = view.findViewById(R.id.christmas_see);
         trending_see = view.findViewById(R.id.trending_see);
-        adsView = view.findViewById(R.id.adsView);
-        adsView1 = view.findViewById(R.id.adsView1);
-        adsView2 = view.findViewById(R.id.adsView2);
-        adsView3 = view.findViewById(R.id.adsView3);
-        adsView4 = view.findViewById(R.id.adsView4);
-        adsView5 = view.findViewById(R.id.adsView5);
+
 
         ExecutorService service = Executors.newFixedThreadPool(12);
         Future<?> future = service.submit(() -> {

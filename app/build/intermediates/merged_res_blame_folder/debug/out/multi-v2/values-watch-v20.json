@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.themecolor.callerphone.wallpaper.app-mergeDebugResources-4:/values-watch-v20/values-watch-v20.xml",
+            "outputFile": "com.themecolor.callerphone.wallpaper.app-mergeDebugResources-70:/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\1a2305cfd681275de8a2761003fa037d\\transformed\\appcompat-1.6.1\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "source": "C:\\Users\\Tech360\\.gradle\\caches\\transforms-3\\1a2305cfd681275de8a2761003fa037d\\transformed\\appcompat-1.6.1\\res\\values-watch-v20\\values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",

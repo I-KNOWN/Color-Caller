@@ -25,10 +25,10 @@ import java.util.ArrayList;
 public class ImagesAdapter extends RecyclerView.Adapter<ImagesAdapter.ViewHolder> {
     public static final String TAG = "ImagesAdapter";
     private Context context;
-    private ArrayList<Images> arrayList;
+    private ArrayList<String> arrayList;
 
 
-    public ImagesAdapter(Context context, ArrayList<Images> arrayList) {
+    public ImagesAdapter(Context context, ArrayList<String> arrayList) {
         this.context = context;
         this.arrayList = arrayList;
     }
@@ -42,8 +42,8 @@ public class ImagesAdapter extends RecyclerView.Adapter<ImagesAdapter.ViewHolder
     }
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-        Picasso.get().load(arrayList.get(position).getUrl()).into(holder.imageView);
-        final Images temp = arrayList.get(position);
+        Picasso.get().load(arrayList.get(position)).into(holder.imageView);
+        final String temp = arrayList.get(position);
 
         holder.imageView.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -51,8 +51,8 @@ public class ImagesAdapter extends RecyclerView.Adapter<ImagesAdapter.ViewHolder
                 Activity activity = getActivityFromView(view);
                 if (activity != null) {
                     Intent intent = new Intent(activity, CategoryShowActivity.class);
-                    ArrayList<? extends Parcelable> parcelableList = new ArrayList<>(arrayList);
-                    intent.putParcelableArrayListExtra("imageUrl", parcelableList);
+                    ArrayList<String> parcelableList = new ArrayList<>(arrayList);
+                    intent.putExtra("imageUrl", parcelableList);
                     intent.putExtra("position", position);
                     intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                     activity.startActivity(intent);

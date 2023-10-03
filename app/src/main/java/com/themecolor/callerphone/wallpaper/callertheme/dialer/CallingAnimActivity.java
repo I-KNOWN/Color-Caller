@@ -435,11 +435,12 @@ public class CallingAnimActivity extends AppCompatActivity {
 
         String imageUrl = imageSharedPreferences.getString("image_url1", null);
         String gifUrl = gifSharedPreferences.getString("image_url1", null);
+        Log.d("isthisstarting", imageUrl);
 
         if (imageUrl != null && gifUrl != null) {
             long imageTimestamp = imageSharedPreferences.getLong("timestamp", 0);
             long gifTimestamp = gifSharedPreferences.getLong("timestamp", 0);
-
+            Log.d("isthisstarting", "inside top");
             if (imageTimestamp > gifTimestamp) {
                 default_image_theme.setVisibility(View.VISIBLE);
                 gif_default_image_theme.setVisibility(View.GONE);
@@ -447,19 +448,26 @@ public class CallingAnimActivity extends AppCompatActivity {
             } else {
                 default_image_theme.setVisibility(View.GONE);
                 gif_default_image_theme.setVisibility(View.VISIBLE);
+
+
                 Glide.with(CallingAnimActivity.this).load(gifUrl).into(gif_default_image_theme);
             }
         } else if (imageUrl != null) {
             default_image_theme.setVisibility(View.VISIBLE);
             gif_default_image_theme.setVisibility(View.GONE);
             Picasso.get().load(imageUrl).into(default_image_theme);
+            Log.d("isthisstarting", "inside 2 top");
+
         } else if (gifUrl != null) {
             default_image_theme.setVisibility(View.GONE);
             gif_default_image_theme.setVisibility(View.VISIBLE);
             Glide.with(CallingAnimActivity.this).load(gifUrl).into(gif_default_image_theme);
+            Log.d("isthisstarting", "inside 3 top");
         } else {
             default_image_theme.setVisibility(View.GONE);
             gif_default_image_theme.setVisibility(View.GONE);
+            Log.d("isthisstarting", "inside top");
+
         }
     }
 

@@ -13,6 +13,7 @@ import android.view.WindowManager;
 import android.widget.LinearLayout;
 
 
+import com.adsmodule.api.adsModule.utils.Constants;
 import com.themecolor.callerphone.wallpaper.R;
 
 
@@ -56,30 +57,30 @@ public class KpopCategoryActivity extends AppCompatActivity/* implements Recycle
     ImagesVideoAdapter liveanimalAdapter = null;
     ImagesAdapter christmasAdapter = null;
     ImagesVideoAdapter livechristmasAdapter = null;
-    private ArrayList<Images> imagesList = new ArrayList<>();
-    private ArrayList<Images> trendingList = new ArrayList<>();
-    private ArrayList<Images> christmaslist = new ArrayList<>();
-    private ArrayList<Images> animalsList = new ArrayList<>();
-    private ArrayList<Images> natureList = new ArrayList<>();
-    private ArrayList<Images> modernList = new ArrayList<>();
-    private ArrayList<Images> cutefunnyList = new ArrayList<>();
-    private ArrayList<Images> soccerList = new ArrayList<>();
-    private ArrayList<Images> neonList = new ArrayList<>();
-    private ArrayList<Images> loveList = new ArrayList<>();
-    private ArrayList<Images> callofdutyList = new ArrayList<>();
-    private ArrayList<Images> animeList = new ArrayList<>();
-    private ArrayList<Images> imagesListLiveKpop = new ArrayList<>();
-    private ArrayList<Images> imagesListLiveChristmas = new ArrayList<>();
-    private ArrayList<Images> imagesListLiveAnimals = new ArrayList<>();
-    private ArrayList<Images> imagesListLiveNature = new ArrayList<>();
-    private ArrayList<Images> imagesListLiveModern = new ArrayList<>();
-    private ArrayList<Images> imagesListLiveCute = new ArrayList<>();
-    private ArrayList<Images> imagesListLiveSoccer = new ArrayList<>();
-    private ArrayList<Images> imagesListLiveNeon = new ArrayList<>();
-    private ArrayList<Images> imagesListLiveLove = new ArrayList<>();
-    private ArrayList<Images> imagesListLiveCall = new ArrayList<>();
-    private ArrayList<Images> imagesListLiveAnime = new ArrayList<>();
-    private ArrayList<Images> imagesListLiveTrending = new ArrayList<>();
+    private ArrayList<String> imagesList = new ArrayList<>();
+    private ArrayList<String> trendingList = new ArrayList<>();
+    private ArrayList<String> christmaslist = new ArrayList<>();
+    private ArrayList<String> animalsList = new ArrayList<>();
+    private ArrayList<String> natureList = new ArrayList<>();
+    private ArrayList<String> modernList = new ArrayList<>();
+    private ArrayList<String> cutefunnyList = new ArrayList<>();
+    private ArrayList<String> soccerList = new ArrayList<>();
+    private ArrayList<String> neonList = new ArrayList<>();
+    private ArrayList<String> loveList = new ArrayList<>();
+    private ArrayList<String> callofdutyList = new ArrayList<>();
+    private ArrayList<String> animeList = new ArrayList<>();
+    private ArrayList<String> imagesListLiveKpop = new ArrayList<>();
+    private ArrayList<String> imagesListLiveChristmas = new ArrayList<>();
+    private ArrayList<String> imagesListLiveAnimals = new ArrayList<>();
+    private ArrayList<String> imagesListLiveNature = new ArrayList<>();
+    private ArrayList<String> imagesListLiveModern = new ArrayList<>();
+    private ArrayList<String> imagesListLiveCute = new ArrayList<>();
+    private ArrayList<String> imagesListLiveSoccer = new ArrayList<>();
+    private ArrayList<String> imagesListLiveNeon = new ArrayList<>();
+    private ArrayList<String> imagesListLiveLove = new ArrayList<>();
+    private ArrayList<String> imagesListLiveCall = new ArrayList<>();
+    private ArrayList<String> imagesListLiveAnime = new ArrayList<>();
+    private ArrayList<String> imagesListLiveTrending = new ArrayList<>();
 
 
     @Override
@@ -102,6 +103,174 @@ public class KpopCategoryActivity extends AppCompatActivity/* implements Recycle
         recyclerView.setHasFixedSize(true);
         recyclerView.setNestedScrollingEnabled(false);
 
+        imagesList = new ArrayList<>();
+        imagesList.clear();
+        imagesList.addAll(Constants.adsResponseModel.getExtra_data_field().getCategories().getKpop().getUrls());
+        neonList = new ArrayList<>();
+        neonList.clear();
+        neonList.addAll(Constants.adsResponseModel.getExtra_data_field().getCategories().getNeon().getUrls());
+        loveList = new ArrayList<>();
+        loveList.clear();
+        loveList.addAll(Constants.adsResponseModel.getExtra_data_field().getCategories().getLove().getUrls());
+        callofdutyList = new ArrayList<>();
+        callofdutyList.clear();
+        callofdutyList.addAll(Constants.adsResponseModel.getExtra_data_field().getCategories().getCallOfDuty().getUrls());
+        animeList = new ArrayList<>();
+        animeList.clear();
+        animeList.addAll(Constants.adsResponseModel.getExtra_data_field().getCategories().getAnime().getUrls());
+        soccerList = new ArrayList<>();
+        soccerList.clear();
+        soccerList.addAll(Constants.adsResponseModel.getExtra_data_field().getCategories().getSoccer().getUrls());
+        cutefunnyList = new ArrayList<>();
+        cutefunnyList.clear();
+        cutefunnyList.addAll(Constants.adsResponseModel.getExtra_data_field().getCategories().getCuteAndFunny().getUrls());
+        modernList = new ArrayList<>();
+        modernList.clear();
+        modernList.addAll(Constants.adsResponseModel.getExtra_data_field().getCategories().getModern().getUrls());
+        natureList = new ArrayList<>();
+        natureList.clear();
+        natureList.addAll(Constants.adsResponseModel.getExtra_data_field().getCategories().getNature().getUrls());
+        animalsList = new ArrayList<>();
+        animalsList.clear();
+        animalsList.addAll(Constants.adsResponseModel.getExtra_data_field().getCategories().getAnimal().getUrls());
+        christmaslist = new ArrayList<>();
+        christmaslist.clear();
+        christmaslist.addAll(Constants.adsResponseModel.getExtra_data_field().getCategories().getChristmas().getUrls());
+        trendingList = new ArrayList<>();
+        trendingList.clear();
+        trendingList.addAll(Constants.adsResponseModel.getExtra_data_field().getCategories().getTrending().getUrls());
+
+        imagesListLiveKpop.clear();
+        imagesListLiveKpop.addAll(Constants.adsResponseModel.getExtra_data_field().getCategories().getLiveKpop().getUrls());
+        imagesListLiveNeon.clear();
+        imagesListLiveNeon.addAll(Constants.adsResponseModel.getExtra_data_field().getCategories().getLiveNeon().getUrls());
+        imagesListLiveLove.clear();
+        imagesListLiveLove.addAll(Constants.adsResponseModel.getExtra_data_field().getCategories().getLiveLove().getUrls());
+        imagesListLiveCall.clear();
+        imagesListLiveCall.addAll(Constants.adsResponseModel.getExtra_data_field().getCategories().getLiveCallOfDuty().getUrls());
+        imagesListLiveAnime.clear();
+        imagesListLiveAnime.addAll(Constants.adsResponseModel.getExtra_data_field().getCategories().getLiveAnime().getUrls());
+        imagesListLiveSoccer.clear();
+        imagesListLiveSoccer.addAll(Constants.adsResponseModel.getExtra_data_field().getCategories().getLiveSoccer().getUrls());
+        imagesListLiveCute.clear();
+        imagesListLiveCute.addAll(Constants.adsResponseModel.getExtra_data_field().getCategories().getLiveCuteAndFunny().getUrls());
+        imagesListLiveModern.clear();
+        imagesListLiveModern.addAll(Constants.adsResponseModel.getExtra_data_field().getCategories().getLiveModern().getUrls());
+        imagesListLiveNature.clear();
+        imagesListLiveNature.addAll(Constants.adsResponseModel.getExtra_data_field().getCategories().getLiveNature().getUrls());
+        imagesListLiveAnimals.clear();
+        imagesListLiveAnimals.addAll(Constants.adsResponseModel.getExtra_data_field().getCategories().getLiveAnimal().getUrls());
+        imagesListLiveChristmas.clear();
+        imagesListLiveChristmas.addAll(Constants.adsResponseModel.getExtra_data_field().getCategories().getLiveChristmas().getUrls());
+        imagesListLiveTrending.clear();
+        imagesListLiveTrending.addAll(Constants.adsResponseModel.getExtra_data_field().getCategories().getLiveTrending().getUrls());
+
+        ArrayList<Images> categoryIdentifier = getIntent().getParcelableArrayListExtra("categoryIdentifier");
+
+        for (Images image : categoryIdentifier) {
+            String category1 = image.getUrl();
+
+            switch (category1) {
+                case "Images":
+                    ImagesAdapter kpopAdapter = new ImagesAdapter(KpopCategoryActivity.this, imagesList);
+                    recyclerView.setAdapter(kpopAdapter);
+                    break;
+                case "Trending":
+                    ImagesAdapter trendingAdapter = new ImagesAdapter(KpopCategoryActivity.this, trendingList);
+                    recyclerView.setAdapter(trendingAdapter);
+                    break;
+                case "Animals":
+                    ImagesAdapter animalAdapter = new ImagesAdapter(KpopCategoryActivity.this, animalsList);
+                    recyclerView.setAdapter(animalAdapter);
+                    break;
+                case "Christmas":
+                    ImagesAdapter christmasAdapter = new ImagesAdapter(KpopCategoryActivity.this, christmaslist);
+                    recyclerView.setAdapter(christmasAdapter);
+                    break;
+                case "Nature":
+                    ImagesAdapter natureAdapter = new ImagesAdapter(KpopCategoryActivity.this, natureList);
+                    recyclerView.setAdapter(natureAdapter);
+                    break;
+                case "Modern":
+                    ImagesAdapter modernAdapter = new ImagesAdapter(KpopCategoryActivity.this, modernList);
+                    recyclerView.setAdapter(modernAdapter);
+                    break;
+                case "CuteFunny":
+                    ImagesAdapter cuteAdapter = new ImagesAdapter(KpopCategoryActivity.this, cutefunnyList);
+                    recyclerView.setAdapter(cuteAdapter);
+                    break;
+                case "Soccer":
+                    ImagesAdapter soccerAdapter = new ImagesAdapter(KpopCategoryActivity.this, soccerList);
+                    recyclerView.setAdapter(soccerAdapter);
+                    break;
+                case "Neon":
+                    ImagesAdapter neonAdapter = new ImagesAdapter(KpopCategoryActivity.this, neonList);
+                    recyclerView.setAdapter(neonAdapter);
+                    break;
+                case "Love":
+                    ImagesAdapter loveAdapter = new ImagesAdapter(KpopCategoryActivity.this, loveList);
+                    recyclerView.setAdapter(loveAdapter);
+                    break;
+                case "CallOfDuty":
+                    ImagesAdapter callAdapter = new ImagesAdapter(KpopCategoryActivity.this, callofdutyList);
+                    recyclerView.setAdapter(callAdapter);
+                    break;
+                case "Anime":
+                    ImagesAdapter animeAdapter = new ImagesAdapter(KpopCategoryActivity.this, animeList);
+                    recyclerView.setAdapter(animeAdapter);
+                    break;
+                case "LiveTrending":
+                    ImagesVideoAdapter livetrendingAdapter = new ImagesVideoAdapter(KpopCategoryActivity.this, imagesListLiveTrending);
+                    recyclerView.setAdapter(livetrendingAdapter);
+
+                    break;
+                case "LiveKpop":
+                    ImagesVideoAdapter livekpopAdapter = new ImagesVideoAdapter(KpopCategoryActivity.this, imagesListLiveKpop);
+                    recyclerView.setAdapter(livekpopAdapter);
+                    break;
+                case "LiveChristmas":
+                    ImagesVideoAdapter livechristmasAdapter = new ImagesVideoAdapter(KpopCategoryActivity.this, imagesListLiveChristmas);
+                    recyclerView.setAdapter(livechristmasAdapter);
+                    break;
+                case "LiveAnimal":
+                    ImagesVideoAdapter liveanimalAdapter = new ImagesVideoAdapter(KpopCategoryActivity.this, imagesListLiveAnimals);
+                    recyclerView.setAdapter(liveanimalAdapter);
+                    break;
+                case "LiveNature":
+                    ImagesVideoAdapter livenatureAdapter = new ImagesVideoAdapter(KpopCategoryActivity.this, imagesListLiveNature);
+                    recyclerView.setAdapter(livenatureAdapter);
+                    break;
+                case "LiveModern":
+                    ImagesVideoAdapter livemodernAdapter = new ImagesVideoAdapter(KpopCategoryActivity.this, imagesListLiveModern);
+                    recyclerView.setAdapter(livemodernAdapter);
+                    break;
+                case "LiveCuteFunny":
+                    ImagesVideoAdapter livecuteAdapter = new ImagesVideoAdapter(KpopCategoryActivity.this, imagesListLiveCute);
+                    recyclerView.setAdapter(livecuteAdapter);
+                    break;
+                case "LiveSoccer":
+                    ImagesVideoAdapter livesoccerAdapter = new ImagesVideoAdapter(KpopCategoryActivity.this, imagesListLiveSoccer);
+                    recyclerView.setAdapter(livesoccerAdapter);
+                    break;
+                case "LiveNeon":
+                    ImagesVideoAdapter liveneonAdapter = new ImagesVideoAdapter(KpopCategoryActivity.this, imagesListLiveNeon);
+                    recyclerView.setAdapter(liveneonAdapter);
+                    break;
+                case "LiveLove":
+                    ImagesVideoAdapter liveloveAdapter = new ImagesVideoAdapter(KpopCategoryActivity.this, imagesListLiveLove);
+                    recyclerView.setAdapter(liveloveAdapter);
+                    break;
+                case "LiveCallOfDuty":
+                    ImagesVideoAdapter livecallAdapter = new ImagesVideoAdapter(KpopCategoryActivity.this, imagesListLiveCall);
+                    recyclerView.setAdapter(livecallAdapter);
+                    break;
+                case "LiveAnime":
+                    ImagesVideoAdapter liveanimeAdapter = new ImagesVideoAdapter(KpopCategoryActivity.this, imagesListLiveAnime);
+                    recyclerView.setAdapter(liveanimeAdapter);
+                    break;
+
+            }
+        }
 
 
         /*fetchTimer = new Timer();

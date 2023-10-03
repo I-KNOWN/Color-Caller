@@ -4841,11 +4841,6 @@ int id adjust_height 0x7f0b0064
 int id adjust_width 0x7f0b0065
 int id adsView 0x7f0b0066
 int id adsView0 0x7f0b0067
-int id adsView1 0x7f0b0068
-int id adsView2 0x7f0b0069
-int id adsView3 0x7f0b006a
-int id adsView4 0x7f0b006b
-int id adsView5 0x7f0b006c
 int id alertTitle 0x7f0b006d
 int id aligned 0x7f0b006e
 int id all 0x7f0b006f

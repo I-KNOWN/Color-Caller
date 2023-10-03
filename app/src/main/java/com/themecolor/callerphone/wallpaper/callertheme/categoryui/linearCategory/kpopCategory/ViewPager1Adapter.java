@@ -49,14 +49,14 @@ import pl.droidsonroids.gif.GifImageView;
 public class ViewPager1Adapter extends PagerAdapter {
     private static final String TAG = "ViewPager1Adapter";
     private Context context;
-    private List<Images> lstImages;
+    private List<String> lstImages;
     private LayoutInflater layoutInflater;
     GradientProgressBar progressBar;
     Dialog dialog;
     private SharedPreferenceManager preferenceManager;
     LinearLayout leftArrowContainer, rightArrowContainer;
 
-    public ViewPager1Adapter(Context context, List<Images> lstImages) {
+    public ViewPager1Adapter(Context context, List<String> lstImages) {
         this.context = context;
         this.lstImages = lstImages;
         this.layoutInflater = LayoutInflater.from(context);
@@ -118,7 +118,7 @@ public class ViewPager1Adapter extends PagerAdapter {
         receive.setOnTouchListener(new SwipeTouchListener(leftArrowContainer, rightArrowContainer, receive));
         end.setOnTouchListener(new SwipeTouchListener(leftArrowContainer, rightArrowContainer, end));
 
-        String imageUrl = lstImages.get(position).getUrl();
+        String imageUrl = lstImages.get(position);
 
         Glide.with(context)
                 .as(File.class)

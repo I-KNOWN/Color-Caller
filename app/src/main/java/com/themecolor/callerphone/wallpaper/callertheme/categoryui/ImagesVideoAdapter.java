@@ -15,6 +15,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 
+import com.bumptech.glide.request.RequestOptions;
 import com.themecolor.callerphone.wallpaper.R;
 import com.bumptech.glide.Glide;
 
@@ -26,10 +27,10 @@ public class ImagesVideoAdapter extends RecyclerView.Adapter<ImagesVideoAdapter.
 
     public static final String TAG = "ImagesVideoAdapter";
     private Context context;
-    private ArrayList<Images> arrayList;
+    private ArrayList<String> arrayList;
 
 
-    public ImagesVideoAdapter(Context context, ArrayList<Images> arrayList) {
+    public ImagesVideoAdapter(Context context, ArrayList<String> arrayList) {
         this.context = context;
         this.arrayList = arrayList;
     }
@@ -44,8 +45,14 @@ public class ImagesVideoAdapter extends RecyclerView.Adapter<ImagesVideoAdapter.
 
     @Override
     public void onBindViewHolder(@NonNull ImagesVideoAdapter.ViewHolder holder, int position) {
-        Glide.with(context).load(arrayList.get(position).getUrl()).into(holder.imageView);
-        final Images temp = arrayList.get(position);
+        RequestOptions myOptions = new RequestOptions()
+                .override(200, 200);
+        Glide.with(context)
+                .asBitmap()
+                .load(arrayList.get(position))
+                .apply(myOptions)
+                .into(holder.imageView);
+        final String temp = arrayList.get(position);
 
         holder.imageView.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -53,8 +60,8 @@ public class ImagesVideoAdapter extends RecyclerView.Adapter<ImagesVideoAdapter.
                 Activity activity = getActivityFromView(view);
                 if (activity != null) {
                     Intent intent = new Intent(context, CategoryShowVideoActivity.class);
-                    ArrayList<? extends Parcelable> parcelableList = new ArrayList<>(arrayList);
-                    intent.putParcelableArrayListExtra("imageUrl", parcelableList);
+                    ArrayList<String> parcelableList = new ArrayList<>(arrayList);
+                    intent.putExtra("imageUrl", parcelableList);
                     intent.putExtra("position", position);
                     intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                     context.startActivity(intent);
