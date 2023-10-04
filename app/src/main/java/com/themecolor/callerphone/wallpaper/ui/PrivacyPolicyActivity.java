@@ -1,6 +1,8 @@
 package com.themecolor.callerphone.wallpaper.ui;
 
 
+import static com.themecolor.callerphone.wallpaper.SingletonClasses.AppOpenAds.activity;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
 
@@ -12,6 +14,8 @@ import android.view.View;
 import android.view.WindowManager;
 
 
+import com.adsmodule.api.adsModule.AdUtils;
+import com.adsmodule.api.adsModule.utils.Constants;
 import com.themecolor.callerphone.wallpaper.MainActivity;
 import com.themecolor.callerphone.wallpaper.R;
 import com.themecolor.callerphone.wallpaper.StartupActivity;
@@ -33,7 +37,10 @@ public class PrivacyPolicyActivity extends AppCompatActivity {
         startBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(PrivacyPolicyActivity.this, StartupActivity.class));
+
+                AdUtils.showInterstitialAd(Constants.adsResponseModel.getInterstitial_ads().getAdx(), activity, isLoaded -> {
+                    startActivity(new Intent(PrivacyPolicyActivity.this, StartupActivity.class));
+                });
             }
         });
     }

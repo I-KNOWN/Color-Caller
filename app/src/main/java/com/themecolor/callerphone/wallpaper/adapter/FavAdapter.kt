@@ -26,22 +26,17 @@ class FavAdapter(
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {
 
 
-        return when (viewType) {
-            0 -> {
-                ItemViewHolder(
+        return ItemViewHolder(
                     AllthemesItemLayoutBinding.inflate(
                         LayoutInflater.from(parent.context),
                         parent,
                         false
                     ), onThemeClicked
                 )
-            }
-            else -> {
-                TODO()
-            }
+
         }
 
-    }
+
 
     override fun getItemViewType(position: Int): Int {
         return if (currentList[position].isNativeAd) 1

@@ -1,5 +1,7 @@
 package com.themecolor.callerphone.wallpaper;
 
+import static com.themecolor.callerphone.wallpaper.SingletonClasses.AppOpenAds.activity;
+
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
@@ -19,6 +21,8 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.Toast;
 
+import com.adsmodule.api.adsModule.AdUtils;
+import com.adsmodule.api.adsModule.utils.Constants;
 import com.permissionx.guolindev.PermissionX;
 import com.permissionx.guolindev.callback.RequestCallback;
 import com.themecolor.callerphone.wallpaper.callertheme.OS.DialogSetting;
@@ -71,9 +75,13 @@ public class StartupActivity extends AppCompatActivity {
         binding.btnTemplate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(StartupActivity.this, MainActivity.class);
-                intent.putExtra("state", "All");
-                startActivity(intent);
+
+                AdUtils.showInterstitialAd(Constants.adsResponseModel.getInterstitial_ads().getAdx(), activity, isLoaded -> {
+                    Intent intent = new Intent(StartupActivity.this, MainActivity.class);
+                    intent.putExtra("state", "All");
+                    startActivity(intent);
+                });
+
             }
         });
 
@@ -81,18 +89,25 @@ public class StartupActivity extends AppCompatActivity {
         binding.btnCallerIcon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(StartupActivity.this, MainActivity.class);
-                intent.putExtra("state", "callericon");
-                startActivity(intent);
+
+                AdUtils.showInterstitialAd(Constants.adsResponseModel.getInterstitial_ads().getAdx(), activity, isLoaded -> {
+                    Intent intent = new Intent(StartupActivity.this, MainActivity.class);
+                    intent.putExtra("state", "callericon");
+                    startActivity(intent);
+                });
+
+
             }
         });
 
         binding.btnCallerKeyboard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(StartupActivity.this, MainActivity.class);
-                intent.putExtra("state", "keyboard");
-                startActivity(intent);
+                AdUtils.showInterstitialAd(Constants.adsResponseModel.getInterstitial_ads().getAdx(), activity, isLoaded -> {
+                    Intent intent = new Intent(StartupActivity.this, MainActivity.class);
+                    intent.putExtra("state", "keyboard");
+                    startActivity(intent);
+                });
             }
         });
 
@@ -165,49 +180,69 @@ public class StartupActivity extends AppCompatActivity {
         binding.btnTrending.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(StartupActivity.this, MainActivity.class);
-                intent.putExtra("category", "Trending");
-                startActivity(intent);
+
+                AdUtils.showInterstitialAd(Constants.adsResponseModel.getInterstitial_ads().getAdx(), activity, isLoaded -> {
+                    Intent intent = new Intent(StartupActivity.this, MainActivity.class);
+                    intent.putExtra("category", "Trending");
+                    startActivity(intent);
+                });
+
+
             }
         });
         binding.btnNeon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(StartupActivity.this, MainActivity.class);
-                intent.putExtra("category", "Neon");
-                startActivity(intent);
+                AdUtils.showInterstitialAd(Constants.adsResponseModel.getInterstitial_ads().getAdx(), activity, isLoaded -> {
+                    Intent intent = new Intent(StartupActivity.this, MainActivity.class);
+                    intent.putExtra("category", "Neon");
+                    startActivity(intent);
+                });
+
             }
         });
         binding.btnLove.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(StartupActivity.this, MainActivity.class);
-                intent.putExtra("category", "Love");
-                startActivity(intent);
+                AdUtils.showInterstitialAd(Constants.adsResponseModel.getInterstitial_ads().getAdx(), activity, isLoaded -> {
+                    Intent intent = new Intent(StartupActivity.this, MainActivity.class);
+                    intent.putExtra("category", "Love");
+                    startActivity(intent);
+                });
+
             }
         });
         binding.btnCute.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(StartupActivity.this, MainActivity.class);
-                intent.putExtra("category", "Cute");
-                startActivity(intent);
+                AdUtils.showInterstitialAd(Constants.adsResponseModel.getInterstitial_ads().getAdx(), activity, isLoaded -> {
+                    Intent intent = new Intent(StartupActivity.this, MainActivity.class);
+                    intent.putExtra("category", "Cute");
+                    startActivity(intent);
+                });
+
             }
         });
         binding.btnKpop.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(StartupActivity.this, MainActivity.class);
-                intent.putExtra("category", "Kpop");
-                startActivity(intent);
+                AdUtils.showInterstitialAd(Constants.adsResponseModel.getInterstitial_ads().getAdx(), activity, isLoaded -> {
+                    Intent intent = new Intent(StartupActivity.this, MainActivity.class);
+                    intent.putExtra("category", "Kpop");
+                    startActivity(intent);
+                });
+
             }
         });
         binding.btnAnimal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(StartupActivity.this, MainActivity.class);
-                intent.putExtra("category", "Animal");
-                startActivity(intent);
+                AdUtils.showInterstitialAd(Constants.adsResponseModel.getInterstitial_ads().getAdx(), activity, isLoaded -> {
+                    Intent intent = new Intent(StartupActivity.this, MainActivity.class);
+                    intent.putExtra("category", "Animal");
+                    startActivity(intent);
+                });
+
             }
         });
 

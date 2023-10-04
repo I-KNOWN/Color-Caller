@@ -11,6 +11,8 @@ import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.adsmodule.api.adsModule.AdUtils;
+import com.adsmodule.api.adsModule.utils.Constants;
 import com.themecolor.callerphone.wallpaper.R;
 import com.bumptech.glide.Glide;
 
@@ -42,12 +44,15 @@ public class FavouritesLiveAdapter extends RecyclerView.Adapter<FavouritesLiveAd
             public void onClick(View view) {
                 Activity activity = getActivityFromView(view);
                 if (activity != null) {
-                    Intent intent = new Intent(activity, CategoryShowVideoActivity.class);
-                    ArrayList<String> parcelableList = new ArrayList<>(favoriteDataList);
-                    intent.putExtra("imageUrl", parcelableList);
-                    intent.putExtra("position", position);
-                    intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                    activity.startActivity(intent);
+                    AdUtils.showInterstitialAd(Constants.adsResponseModel.getInterstitial_ads().getAdx(), activity, isLoaded -> {
+                        Intent intent = new Intent(activity, CategoryShowVideoActivity.class);
+                        ArrayList<String> parcelableList = new ArrayList<>(favoriteDataList);
+                        intent.putExtra("imageUrl", parcelableList);
+                        intent.putExtra("position", position);
+                        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                        activity.startActivity(intent);
+                    });
+
                 }
 
             }

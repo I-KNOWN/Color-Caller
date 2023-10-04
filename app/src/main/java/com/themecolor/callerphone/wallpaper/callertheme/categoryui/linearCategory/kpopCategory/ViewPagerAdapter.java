@@ -3,6 +3,7 @@ package com.themecolor.callerphone.wallpaper.callertheme.categoryui.linearCatego
 
 
 
+import static com.themecolor.callerphone.wallpaper.SingletonClasses.AppOpenAds.activity;
 import static com.themecolor.callerphone.wallpaper.utils.GifDrawableUtil.pxFromDp;
 
 import android.animation.AnimatorSet;
@@ -30,6 +31,8 @@ import androidx.annotation.NonNull;
 import androidx.viewpager.widget.PagerAdapter;
 
 
+import com.adsmodule.api.adsModule.AdUtils;
+import com.adsmodule.api.adsModule.utils.Constants;
 import com.themecolor.callerphone.wallpaper.R;
 import com.themecolor.callerphone.wallpaper.callertheme.categoryui.Images;
 import com.themecolor.callerphone.wallpaper.callertheme.categoryui.Theme_Activity_Calling_Theme_Preview;
@@ -137,16 +140,18 @@ public class ViewPagerAdapter extends PagerAdapter {
         tv_apply.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                
-                        boolean isDownloaded = preferenceManager.getImageUrl().equals(imageUrl);
-                        if (isDownloaded) {
-                            Intent intent = new Intent(context, Theme_Activity_Calling_Theme_Preview.class);
-                            intent.putExtra("image_url", imageUrl);
-                            context.startActivity(intent);
-                        } else {
-                            // Image is not downloaded, show the download dialog
-                            downloadDialog(imageUrl);
-                        }
+
+                AdUtils.showInterstitialAd(Constants.adsResponseModel.getInterstitial_ads().getAdx(), activity, isLoaded -> {
+                    boolean isDownloaded = preferenceManager.getImageUrl().equals(imageUrl);
+                    if (isDownloaded) {
+                        Intent intent = new Intent(context, Theme_Activity_Calling_Theme_Preview.class);
+                        intent.putExtra("image_url", imageUrl);
+                        context.startActivity(intent);
+                    } else {
+                        // Image is not downloaded, show the download dialog
+                        downloadDialog(imageUrl);
+                    }
+                });
                     
             }
         });

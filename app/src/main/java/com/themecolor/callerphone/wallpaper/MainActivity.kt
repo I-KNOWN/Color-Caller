@@ -8,7 +8,9 @@ import android.view.Gravity
 import android.view.Menu
 import android.view.WindowManager
 import androidx.fragment.app.Fragment
-import com.themecolor.callerphone.wallpaper.callertheme.ExitActivity
+import com.adsmodule.api.adsModule.AdUtils
+import com.adsmodule.api.adsModule.utils.Constants
+import com.themecolor.callerphone.wallpaper.SingletonClasses.AppOpenAds.activity
 import com.themecolor.callerphone.wallpaper.callertheme.FavouriteActivity
 import com.themecolor.callerphone.wallpaper.callertheme.dialer.DialerActivity
 import com.themecolor.callerphone.wallpaper.databinding.ActivityMainBinding
@@ -78,7 +80,7 @@ class MainActivity : BaseActivity() {
 
     mainActivityBinding.callerScreenLl.setOnClickListener {
 
-                mainActivityBinding.drawer.closeDrawer(Gravity.LEFT)
+        mainActivityBinding.drawer.closeDrawer(Gravity.LEFT)
                 loadFragmentWithIcon(HomeFragment(), R.drawable.home_clear)
 
 
@@ -140,7 +142,13 @@ with(mainActivityBinding) {
         }
 
         mainActivityBinding.favouriteBtn.setOnClickListener {
-            startActivity(Intent(this@MainActivity, FavouriteActivity::class.java))
+            AdUtils.showInterstitialAd(
+                Constants.adsResponseModel.interstitial_ads.adx, activity
+            ) { isLoaded: Boolean ->
+                run {
+                    startActivity(Intent(this@MainActivity, FavouriteActivity::class.java))
+                }
+            }
 
         }
 
@@ -181,7 +189,10 @@ with(mainActivityBinding) {
     }
 
     override fun onBackPressed() {
-        finish()
+        AdUtils.showBackPressAds(
+            activity, Constants.adsResponseModel.app_open_ads.adx
+        ) { state_load: Boolean -> finish() }
+
 //        startActivity(Intent(this@MainActivity, ExitActivity::class.java))
     }
 
@@ -195,6 +206,8 @@ with(mainActivityBinding) {
     override fun onResume() {
         super.onResume()
     }
+
+
 
 
 }

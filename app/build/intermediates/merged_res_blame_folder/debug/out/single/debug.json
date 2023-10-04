@@ -28,12 +28,12 @@
         "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.themecolor.callerphone.wallpaper.app-main-8:\\drawable\\ucrop_ic_angle.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.themecolor.callerphone.wallpaper.app-merged_res-6:\\drawable_material_symbols_download.xml.flat",
-        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.themecolor.callerphone.wallpaper.app-main-8:\\drawable\\material_symbols_download.xml"
-    },
-    {
         "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.themecolor.callerphone.wallpaper.app-merged_res-6:\\drawable_stepthreebg.webp.flat",
         "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.themecolor.callerphone.wallpaper.app-main-8:\\drawable\\stepthreebg.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.themecolor.callerphone.wallpaper.app-merged_res-6:\\drawable_material_symbols_download.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.themecolor.callerphone.wallpaper.app-main-8:\\drawable\\material_symbols_download.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.themecolor.callerphone.wallpaper.app-merged_res-6:\\drawable_gradient_bottom_side.xml.flat",
@@ -644,10 +644,6 @@
         "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.themecolor.callerphone.wallpaper.app-main-8:\\drawable\\ic_pad_galaxy.png"
     },
     {
-        "merged": "com.themecolor.callerphone.wallpaper.app-merged_res-6:/drawable_home_icon.xml.flat",
-        "source": "com.themecolor.callerphone.wallpaper.app-main-8:/drawable/home_icon.xml"
-    },
-    {
         "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.themecolor.callerphone.wallpaper.app-merged_res-6:\\drawable_downloaded.xml.flat",
         "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.themecolor.callerphone.wallpaper.app-main-8:\\drawable\\downloaded.xml"
     },
@@ -834,6 +830,10 @@
     {
         "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.themecolor.callerphone.wallpaper.app-merged_res-6:\\drawable-v24_accept_button_thirteen.png.flat",
         "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.themecolor.callerphone.wallpaper.app-main-8:\\drawable-v24\\accept_button_thirteen.png"
+    },
+    {
+        "merged": "com.themecolor.callerphone.wallpaper.app-merged_res-6:/layout_fragment_live_theme_fav.xml.flat",
+        "source": "com.themecolor.callerphone.wallpaper.app-main-8:/layout/fragment_live_theme_fav.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.themecolor.callerphone.wallpaper.app-merged_res-6:\\drawable-v24_ic_people_alt.xml.flat",
@@ -1070,10 +1070,6 @@
     {
         "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.themecolor.callerphone.wallpaper.app-merged_res-6:\\drawable_ic_sd.png.flat",
         "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.themecolor.callerphone.wallpaper.app-main-8:\\drawable\\ic_sd.png"
-    },
-    {
-        "merged": "com.themecolor.callerphone.wallpaper.app-merged_res-6:/layout_activity_main.xml.flat",
-        "source": "com.themecolor.callerphone.wallpaper.app-main-8:/layout/activity_main.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.themecolor.callerphone.wallpaper.app-merged_res-6:\\layout_themes_layout.xml.flat",
@@ -1746,6 +1742,10 @@
     {
         "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.themecolor.callerphone.wallpaper.app-merged_res-6:\\layout_icon_layout_design.xml.flat",
         "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.themecolor.callerphone.wallpaper.app-main-8:\\layout\\icon_layout_design.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.themecolor.callerphone.wallpaper.app-merged_res-6:\\drawable_home_icon.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.themecolor.callerphone.wallpaper.app-main-8:\\drawable\\home_icon.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.themecolor.callerphone.wallpaper.app-merged_res-6:\\drawable_love.png.flat",

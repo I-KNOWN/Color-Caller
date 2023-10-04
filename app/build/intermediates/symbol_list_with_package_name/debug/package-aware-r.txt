@@ -4466,7 +4466,6 @@ drawable keyboard_nav_item
 drawable keyboard_unchecked
 drawable keylock_icon
 drawable kpop
-drawable large_ad
 drawable loading
 drawable logo
 drawable love
@@ -4652,7 +4651,6 @@ drawable shape_rect_rounded_3
 drawable share_icon
 drawable sim_card
 drawable sim_icon_with_bg
-drawable small_ads
 drawable splash_anim
 drawable splash_background
 drawable spot_mask
@@ -5153,6 +5151,7 @@ id frame
 id frost
 id full_progressbar
 id full_view_toolbar
+id fulllad
 id fullscreen_header
 id ghost_view
 id ghost_view_holder
@@ -5627,6 +5626,7 @@ id skipCollapsed
 id skipped
 id slide
 id slide_over
+id smallad
 id smartbar
 id snackbar_action
 id snackbar_text
@@ -8518,6 +8518,7 @@ styleable include constraintSet
 styleable ucrop_AspectRatioTextView ucrop_artv_ratio_title ucrop_artv_ratio_x ucrop_artv_ratio_y
 styleable ucrop_UCropView ucrop_aspect_ratio_x ucrop_aspect_ratio_y ucrop_circle_dimmed_layer ucrop_dimmed_color ucrop_frame_color ucrop_frame_stroke_size ucrop_grid_color ucrop_grid_column_count ucrop_grid_row_count ucrop_grid_stroke_size ucrop_show_frame ucrop_show_grid ucrop_show_oval_crop_frame
 xml accessibilityservice
+xml gma_ad_services_config
 xml image_share_filepaths
 xml method
 xml pref_my_keyboard

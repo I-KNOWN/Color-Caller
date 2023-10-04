@@ -190,7 +190,7 @@
     <string name="splash_text2_top">Wallpaper Keyboard</string>
 
 
-    <string name="tmc_header">Application is warning you about the app that gives you many services and important information for safer and efficient use.\n\nUser-Generated Content Policy(UGC) By pressing the Accept button, I declare I have read and accepted the following condition of use:</string>
+    <string name="tmc_header">Application is warning you about the app that gives you many services and important information for safer and efficient use.</string>
     <string name="tmc_1">By pressing the Accept button, I declare I have read and accepted the following condition of use.</string>
     <string name="tmc_2">If we find the app is being used outside its terms of use, we may restrict access to it.</string>
     <string name="tmc_3">Any type of modification to the app or its components is not allowed.</string>

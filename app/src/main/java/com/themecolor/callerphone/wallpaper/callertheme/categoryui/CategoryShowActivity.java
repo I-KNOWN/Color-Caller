@@ -2,6 +2,8 @@ package com.themecolor.callerphone.wallpaper.callertheme.categoryui;
 
 
 
+import static com.themecolor.callerphone.wallpaper.SingletonClasses.AppOpenAds.activity;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
 
@@ -13,6 +15,8 @@ import android.view.WindowManager;
 import android.widget.ImageView;
 
 
+import com.adsmodule.api.adsModule.AdUtils;
+import com.adsmodule.api.adsModule.utils.Constants;
 import com.themecolor.callerphone.wallpaper.R;
 import com.themecolor.callerphone.wallpaper.callertheme.categoryui.linearCategory.kpopCategory.ViewPagerAdapter;
 
@@ -53,7 +57,7 @@ public class CategoryShowActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                        CategoryShowActivity.super.onBackPressed();
+                        onBackPressed();
 
             }
         });
@@ -70,7 +74,9 @@ public class CategoryShowActivity extends AppCompatActivity {
     @Override
     public void onBackPressed() {
 
-                CategoryShowActivity.super.onBackPressed();
+        AdUtils.showBackPressAds(activity, Constants.adsResponseModel.getApp_open_ads().getAdx(), state_load -> {
+            CategoryShowActivity.super.onBackPressed();
+        });
 
     }
 }

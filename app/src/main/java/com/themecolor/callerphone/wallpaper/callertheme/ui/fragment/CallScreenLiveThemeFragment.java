@@ -18,6 +18,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 
+import com.adsmodule.api.adsModule.AdUtils;
 import com.adsmodule.api.adsModule.utils.Constants;
 import com.themecolor.callerphone.wallpaper.R;
 import com.themecolor.callerphone.wallpaper.callertheme.categoryui.Images;
@@ -78,11 +79,13 @@ public class CallScreenLiveThemeFragment extends Fragment {
         kpop_see.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                AdUtils.showInterstitialAd(Constants.adsResponseModel.getInterstitial_ads().getAdx(), activity, isLoaded -> {
+                    categoryIdentifier.add(new Images("LiveKpop"));
+                    Intent intent = new Intent(getActivity(), KpopCategoryActivity.class);
+                    intent.putParcelableArrayListExtra("categoryIdentifier", categoryIdentifier);
+                    startActivity(intent);
+                });
 
-                        categoryIdentifier.add(new Images("LiveKpop"));
-                        Intent intent = new Intent(getActivity(), KpopCategoryActivity.class);
-                        intent.putParcelableArrayListExtra("categoryIdentifier", categoryIdentifier);
-                        startActivity(intent);
 
             }
         });
@@ -90,10 +93,14 @@ public class CallScreenLiveThemeFragment extends Fragment {
             @Override
             public void onClick(View view) {
 
-                        categoryIdentifier.add(new Images("LiveTrending"));
-                        Intent intent = new Intent(getActivity(), KpopCategoryActivity.class);
-                        intent.putExtra("categoryIdentifier", categoryIdentifier);
-                        startActivity(intent);
+                AdUtils.showInterstitialAd(Constants.adsResponseModel.getInterstitial_ads().getAdx(), activity, isLoaded -> {
+                    categoryIdentifier.add(new Images("LiveTrending"));
+                    Intent intent = new Intent(getActivity(), KpopCategoryActivity.class);
+                    intent.putExtra("categoryIdentifier", categoryIdentifier);
+                    startActivity(intent);
+                });
+
+
 
 
             }
@@ -101,11 +108,13 @@ public class CallScreenLiveThemeFragment extends Fragment {
         christmas_see.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                AdUtils.showInterstitialAd(Constants.adsResponseModel.getInterstitial_ads().getAdx(), activity, isLoaded -> {
+                    categoryIdentifier.add(new Images("LiveChristmas"));
+                    Intent intent = new Intent(getActivity(), KpopCategoryActivity.class);
+                    intent.putExtra("categoryIdentifier", categoryIdentifier);
+                    startActivity(intent);
+                });
 
-                        categoryIdentifier.add(new Images("LiveChristmas"));
-                        Intent intent = new Intent(getActivity(), KpopCategoryActivity.class);
-                        intent.putExtra("categoryIdentifier", categoryIdentifier);
-                        startActivity(intent);
 
             }
         });
@@ -113,10 +122,13 @@ public class CallScreenLiveThemeFragment extends Fragment {
             @Override
             public void onClick(View view) {
 
-                        categoryIdentifier.add(new Images("LiveAnimal"));
-                        Intent intent = new Intent(getActivity(), KpopCategoryActivity.class);
-                        intent.putExtra("categoryIdentifier", categoryIdentifier);
-                        startActivity(intent);
+                AdUtils.showInterstitialAd(Constants.adsResponseModel.getInterstitial_ads().getAdx(), activity, isLoaded -> {
+                    categoryIdentifier.add(new Images("LiveAnimal"));
+                    Intent intent = new Intent(getActivity(), KpopCategoryActivity.class);
+                    intent.putExtra("categoryIdentifier", categoryIdentifier);
+                    startActivity(intent);
+                });
+
 
             }
         });
@@ -124,32 +136,41 @@ public class CallScreenLiveThemeFragment extends Fragment {
             @Override
             public void onClick(View view) {
 
-                        categoryIdentifier.add(new Images("LiveNature"));
-                        Intent intent = new Intent(getActivity(), KpopCategoryActivity.class);
-                        intent.putExtra("categoryIdentifier", categoryIdentifier);
-                        startActivity(intent);
+
+                AdUtils.showInterstitialAd(Constants.adsResponseModel.getInterstitial_ads().getAdx(), activity, isLoaded -> {
+                    categoryIdentifier.add(new Images("LiveNature"));
+                    Intent intent = new Intent(getActivity(), KpopCategoryActivity.class);
+                    intent.putExtra("categoryIdentifier", categoryIdentifier);
+                    startActivity(intent);
+                });
+
+
 
             }
         });
         modern_see.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                AdUtils.showInterstitialAd(Constants.adsResponseModel.getInterstitial_ads().getAdx(), activity, isLoaded -> {
+                    categoryIdentifier.add(new Images("LiveModern"));
+                    Intent intent = new Intent(getActivity(), KpopCategoryActivity.class);
+                    intent.putExtra("categoryIdentifier", categoryIdentifier);
+                    startActivity(intent);
+                });
 
-                        categoryIdentifier.add(new Images("LiveModern"));
-                        Intent intent = new Intent(getActivity(), KpopCategoryActivity.class);
-                        intent.putExtra("categoryIdentifier", categoryIdentifier);
-                        startActivity(intent);
 
             }
         });
         cutefunny_see.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                AdUtils.showInterstitialAd(Constants.adsResponseModel.getInterstitial_ads().getAdx(), activity, isLoaded -> {
+                    categoryIdentifier.add(new Images("LiveCuteFunny"));
+                    Intent intent = new Intent(getActivity(), KpopCategoryActivity.class);
+                    intent.putExtra("categoryIdentifier", categoryIdentifier);
+                    startActivity(intent);
+                });
 
-                        categoryIdentifier.add(new Images("LiveCuteFunny"));
-                        Intent intent = new Intent(getActivity(), KpopCategoryActivity.class);
-                        intent.putExtra("categoryIdentifier", categoryIdentifier);
-                        startActivity(intent);
 
 
             }
@@ -157,22 +178,26 @@ public class CallScreenLiveThemeFragment extends Fragment {
         soccer_see.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                AdUtils.showInterstitialAd(Constants.adsResponseModel.getInterstitial_ads().getAdx(), activity, isLoaded -> {
+                    categoryIdentifier.add(new Images("LiveSoccer"));
+                    Intent intent = new Intent(getActivity(), KpopCategoryActivity.class);
+                    intent.putExtra("categoryIdentifier", categoryIdentifier);
+                    startActivity(intent);
+                });
 
-                        categoryIdentifier.add(new Images("LiveSoccer"));
-                        Intent intent = new Intent(getActivity(), KpopCategoryActivity.class);
-                        intent.putExtra("categoryIdentifier", categoryIdentifier);
-                        startActivity(intent);
 
             }
         });
         neon_see.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                AdUtils.showInterstitialAd(Constants.adsResponseModel.getInterstitial_ads().getAdx(), activity, isLoaded -> {
+                    categoryIdentifier.add(new Images("LiveNeon"));
+                    Intent intent = new Intent(getActivity(), KpopCategoryActivity.class);
+                    intent.putExtra("categoryIdentifier", categoryIdentifier);
+                    startActivity(intent);
+                });
 
-                        categoryIdentifier.add(new Images("LiveNeon"));
-                        Intent intent = new Intent(getActivity(), KpopCategoryActivity.class);
-                        intent.putExtra("categoryIdentifier", categoryIdentifier);
-                        startActivity(intent);
 
 
             }
@@ -180,33 +205,39 @@ public class CallScreenLiveThemeFragment extends Fragment {
         love_see.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                AdUtils.showInterstitialAd(Constants.adsResponseModel.getInterstitial_ads().getAdx(), activity, isLoaded -> {
+                    categoryIdentifier.add(new Images("LiveLove"));
+                    Intent intent = new Intent(getActivity(), KpopCategoryActivity.class);
+                    intent.putExtra("categoryIdentifier", categoryIdentifier);
+                    startActivity(intent);
+                });
 
-                        categoryIdentifier.add(new Images("LiveLove"));
-                        Intent intent = new Intent(getActivity(), KpopCategoryActivity.class);
-                        intent.putExtra("categoryIdentifier", categoryIdentifier);
-                        startActivity(intent);
 
             }
         });
         call_of_duty_see.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                AdUtils.showInterstitialAd(Constants.adsResponseModel.getInterstitial_ads().getAdx(), activity, isLoaded -> {
+                    categoryIdentifier.add(new Images("LiveCallOfDuty"));
+                    Intent intent = new Intent(getActivity(), KpopCategoryActivity.class);
+                    intent.putExtra("categoryIdentifier", categoryIdentifier);
+                    startActivity(intent);
+                });
 
-                        categoryIdentifier.add(new Images("LiveCallOfDuty"));
-                        Intent intent = new Intent(getActivity(), KpopCategoryActivity.class);
-                        intent.putExtra("categoryIdentifier", categoryIdentifier);
-                        startActivity(intent);
 
             }
         });
         anime_see.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                AdUtils.showInterstitialAd(Constants.adsResponseModel.getInterstitial_ads().getAdx(), activity, isLoaded -> {
+                    categoryIdentifier.add(new Images("LiveAnime"));
+                    Intent intent = new Intent(getActivity(), KpopCategoryActivity.class);
+                    intent.putExtra("categoryIdentifier", categoryIdentifier);
+                    startActivity(intent);
+                });
 
-                        categoryIdentifier.add(new Images("LiveAnime"));
-                        Intent intent = new Intent(getActivity(), KpopCategoryActivity.class);
-                        intent.putExtra("categoryIdentifier", categoryIdentifier);
-                        startActivity(intent);
 
             }
         });

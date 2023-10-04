@@ -2,6 +2,8 @@ package com.themecolor.callerphone.wallpaper.ui;
 
 
 
+import static com.themecolor.callerphone.wallpaper.SingletonClasses.AppOpenAds.activity;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
 
@@ -14,6 +16,8 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 
 
+import com.adsmodule.api.adsModule.AdUtils;
+import com.adsmodule.api.adsModule.utils.Constants;
 import com.themecolor.callerphone.wallpaper.R;
 import com.themecolor.callerphone.wallpaper.adapter.IndicatorAdapter;
 import com.themecolor.callerphone.wallpaper.databinding.ActivityOnBoardingBinding;
@@ -77,14 +81,19 @@ public class OnBoardingActivity extends AppCompatActivity {
 
         binding.txtNext.setOnClickListener(v -> {
 
-                    if (binding.tvNext.getText().equals("Next")) {
-                        int current = getItem(+1);
-                        if (current < 3) {
-                            binding.viewPager.setCurrentItem(current);
-                        }
-                    } else {
-                        startActivity(new Intent(OnBoardingActivity.this, PrivacyPolicyActivity.class));
+            AdUtils.showInterstitialAd(Constants.adsResponseModel.getInterstitial_ads().getAdx(), activity, isLoaded -> {
+                if (binding.tvNext.getText().equals("Next")) {
+                    int current = getItem(+1);
+                    if (current < 3) {
+                        binding.viewPager.setCurrentItem(current);
                     }
+                } else {
+                    startActivity(new Intent(OnBoardingActivity.this, PrivacyPolicyActivity.class));
+                }
+            });
+
+
+
 
 
         });

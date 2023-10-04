@@ -1,6 +1,7 @@
 package com.themecolor.callerphone.wallpaper.callertheme.categoryui;
 
 
+import static com.themecolor.callerphone.wallpaper.SingletonClasses.AppOpenAds.activity;
 import static com.themecolor.callerphone.wallpaper.utils.GifDrawableUtil.pxFromDp;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -27,6 +28,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 
+import com.adsmodule.api.adsModule.AdUtils;
+import com.adsmodule.api.adsModule.utils.Constants;
 import com.themecolor.callerphone.wallpaper.MainActivity;
 import com.themecolor.callerphone.wallpaper.R;
 import com.squareup.picasso.Picasso;
@@ -117,7 +120,10 @@ public class Theme_Activity_Calling_Theme_Preview extends AppCompatActivity {
         favourites.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                addToFavoritesIfImageSet(imageUrl);
+                AdUtils.showInterstitialAd(Constants.adsResponseModel.getInterstitial_ads().getAdx(), activity, isLoaded -> {
+                    addToFavoritesIfImageSet(imageUrl);
+                });
+
             }
         });
 
@@ -140,21 +146,23 @@ public class Theme_Activity_Calling_Theme_Preview extends AppCompatActivity {
                     requestDefault();
                 }else{
                     SharedPreferences sharedPreferences = getSharedPreferences("image_theme", Context.MODE_PRIVATE);
+                    AdUtils.showInterstitialAd(Constants.adsResponseModel.getInterstitial_ads().getAdx(), activity, isLoaded -> {
+                        if (imageUrl != null) {
+                            // Perform the necessary actions with the downloaded image URL
+                            SharedPreferences.Editor editor = sharedPreferences.edit();
+                            editor.putString("image_url1", imageUrl);
+                            editor.putLong("timestamp", System.currentTimeMillis());
+                            editor.apply();
 
-                    if (imageUrl != null) {
-                        // Perform the necessary actions with the downloaded image URL
-                        SharedPreferences.Editor editor = sharedPreferences.edit();
-                        editor.putString("image_url1", imageUrl);
-                        editor.putLong("timestamp", System.currentTimeMillis());
-                        editor.apply();
-
-                        selectedImageUrl = imageUrl;
-                        Toast.makeText(Theme_Activity_Calling_Theme_Preview.this, "Applied Successfully", Toast.LENGTH_SHORT).show();
+                            selectedImageUrl = imageUrl;
+                            Toast.makeText(Theme_Activity_Calling_Theme_Preview.this, "Applied Successfully", Toast.LENGTH_SHORT).show();
 //                    // Add to favorites only if the image is set successfully
 //                    addToFavoritesIfImageSet(imageUrl);
-                    } else {
-                        Toast.makeText(Theme_Activity_Calling_Theme_Preview.this, "Something went wrong", Toast.LENGTH_SHORT).show();
-                    }
+                        } else {
+                            Toast.makeText(Theme_Activity_Calling_Theme_Preview.this, "Something went wrong", Toast.LENGTH_SHORT).show();
+                        }
+                    });
+
                 }
 
 
@@ -360,8 +368,9 @@ public class Theme_Activity_Calling_Theme_Preview extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
+        AdUtils.showBackPressAds(activity, Constants.adsResponseModel.getApp_open_ads().getAdx(), state_load -> {
             finish();
-
+        });
 //        Intent intent= new Intent(Theme_Activity_Calling_Theme_Preview.this, MainActivity.class);
 //        intent.putExtra("prev", "all");
 //        startActivity(intent);

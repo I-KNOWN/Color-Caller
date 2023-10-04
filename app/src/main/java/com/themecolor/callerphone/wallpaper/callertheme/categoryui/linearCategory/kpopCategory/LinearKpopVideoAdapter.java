@@ -2,6 +2,8 @@ package com.themecolor.callerphone.wallpaper.callertheme.categoryui.linearCatego
 
 
 
+import static com.themecolor.callerphone.wallpaper.SingletonClasses.AppOpenAds.activity;
+
 import android.content.Context;
 import android.content.Intent;
 import android.os.Parcelable;
@@ -14,6 +16,8 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 
+import com.adsmodule.api.adsModule.AdUtils;
+import com.adsmodule.api.adsModule.utils.Constants;
 import com.bumptech.glide.request.RequestOptions;
 import com.themecolor.callerphone.wallpaper.R;
 import com.themecolor.callerphone.wallpaper.callertheme.categoryui.CategoryShowVideoActivity;
@@ -58,13 +62,15 @@ public class LinearKpopVideoAdapter extends RecyclerView.Adapter<LinearKpopVideo
         holder.imageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                
-                        Intent intent = new Intent(context, CategoryShowVideoActivity.class);
-                        ArrayList<String> parcelableList = new ArrayList<>(arrayList);
-                        intent.putExtra("imageUrl", parcelableList);
-                        intent.putExtra("position", position);
-                        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                        context.startActivity(intent);
+                AdUtils.showInterstitialAd(Constants.adsResponseModel.getInterstitial_ads().getAdx(), activity, isLoaded -> {
+                    Intent intent = new Intent(context, CategoryShowVideoActivity.class);
+                    ArrayList<String> parcelableList = new ArrayList<>(arrayList);
+                    intent.putExtra("imageUrl", parcelableList);
+                    intent.putExtra("position", position);
+                    intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                    context.startActivity(intent);
+                });
+
                     
 
 

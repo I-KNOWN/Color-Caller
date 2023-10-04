@@ -1,5 +1,6 @@
 package com.themecolor.callerphone.wallpaper.fragments;
 
+import static com.themecolor.callerphone.wallpaper.SingletonClasses.AppOpenAds.activity;
 import static com.themecolor.callerphone.wallpaper.utils.GifDrawableUtil.pxFromDp;
 
 import android.os.Bundle;
@@ -12,6 +13,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.adsmodule.api.adsModule.AdUtils;
 import com.adsmodule.api.adsModule.utils.Constants;
 import com.themecolor.callerphone.wallpaper.R;
 import com.themecolor.callerphone.wallpaper.StartupActivity;
@@ -125,8 +127,11 @@ public class SpecificCallerFragment extends Fragment {
         binding.ivBgBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                category = "Trending";
-                setFromSwitch();
+                AdUtils.showInterstitialAd(Constants.adsResponseModel.getInterstitial_ads().getAdx(), activity, isLoaded -> {
+                    category = "Trending";
+                    setFromSwitch();
+                });
+
 
             }
         });
@@ -134,37 +139,52 @@ public class SpecificCallerFragment extends Fragment {
         binding.ivBgBtnAnimal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                category = "Animal";
-                setFromSwitch();
+                AdUtils.showInterstitialAd(Constants.adsResponseModel.getInterstitial_ads().getAdx(), activity, isLoaded -> {
+                    category = "Animal";
+                    setFromSwitch();
+                });
+
             }
         });
 
         binding.ivBgBtnCute.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                category = "Cute";
-                setFromSwitch();
+                AdUtils.showInterstitialAd(Constants.adsResponseModel.getInterstitial_ads().getAdx(), activity, isLoaded -> {
+                    category = "Cute";
+                    setFromSwitch();
+                });
+
             }
         });
 
         binding.ivBgBtnKpop.setOnClickListener(view -> {
-            category = "Kpop";
-            setFromSwitch();
+            AdUtils.showInterstitialAd(Constants.adsResponseModel.getInterstitial_ads().getAdx(), activity, isLoaded -> {
+                category = "Kpop";
+                setFromSwitch();
+            });
+
         });
 
         binding.ivBgBtnLove.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                category = "Love";
-                setFromSwitch();
+                AdUtils.showInterstitialAd(Constants.adsResponseModel.getInterstitial_ads().getAdx(), activity, isLoaded -> {
+                    category = "Love";
+                    setFromSwitch();
+                });
+
             }
         });
 
         binding.ivBgBtnNeon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                category = "Neon";
-                setFromSwitch();
+                AdUtils.showInterstitialAd(Constants.adsResponseModel.getInterstitial_ads().getAdx(), activity, isLoaded -> {
+                    category = "Neon";
+                    setFromSwitch();
+                });
+
             }
         });
 

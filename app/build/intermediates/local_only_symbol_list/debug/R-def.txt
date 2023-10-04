@@ -597,6 +597,7 @@ id fragmentContainer
 id frame
 id full_progressbar
 id full_view_toolbar
+id fulllad
 id gif_default_image_theme
 id gif_image_view_preview
 id gif_view
@@ -759,6 +760,7 @@ id share_ll
 id share_txt
 id simpleSwitch
 id skip
+id smallad
 id soccer_recycler
 id soccer_see
 id soccer_txt

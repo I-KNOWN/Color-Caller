@@ -72,11 +72,7 @@ class ThemesFragment : BaseFragment() {
 
 
 
-                if (themeAdCount == fullScreenAdShowCount) {
-                    themeAdCount = 0
-                    showFullScreenAdThemeClick(theme)
-                } else {
-                    themeAdCount++
+
                     startActivity(
                         Intent(myActivity, TestKeyboardActivity::class.java).putExtra(
                             "themeModel",
@@ -84,7 +80,6 @@ class ThemesFragment : BaseFragment() {
                         )
                     )
 
-                }
 
 
             } else {

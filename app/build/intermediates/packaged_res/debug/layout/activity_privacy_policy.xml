@@ -10,12 +10,12 @@
         android:id="@+id/tv_topheaer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/_40sdp"
+        android:fontFamily="@font/inter_medium"
         android:text="Terms of Use"
+        android:textColor="@color/white"
         android:textFontWeight="800"
         android:textSize="22sp"
-        android:textColor="@color/white"
-        android:fontFamily="@font/inter_medium"
+        android:layout_marginTop="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -30,178 +30,196 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tv_topheaer" >
+        app:layout_constraintTop_toBottomOf="@id/tv_topheaer">
 
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/inter_medium"
+                android:lineHeight="20dp"
                 android:text="@string/tmc_header"
-                android:lineHeight="20dp"
-                android:textSize="13sp"
                 android:textColor="@color/white"
-                android:fontFamily="@font/inter_medium"
-/>
+                android:textSize="13sp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_marginTop="18dp">
+                android:layout_marginTop="18dp"
+                android:orientation="horizontal">
+
                 <ImageView
                     android:layout_width="36dp"
                     android:layout_height="36dp"
                     android:layout_gravity="center"
-                    android:src="@drawable/privacy_1"/>
+                    android:src="@drawable/privacy_1" />
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/inter_medium"
+                    android:lineHeight="20dp"
                     android:text="@string/tmc_1"
-                    android:layout_marginStart="10dp"
                     android:textColor="@color/white"
-                    android:fontFamily="@font/inter_medium"
-                    android:lineHeight="20dp"
-                    android:textSize="13sp"/>
+                    android:textSize="13sp" />
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_marginTop="13dp">
+                android:layout_marginTop="13dp"
+                android:orientation="horizontal">
+
                 <ImageView
                     android:layout_width="36dp"
                     android:layout_height="36dp"
                     android:layout_gravity="center"
-                    android:src="@drawable/privacy_2"/>
+                    android:src="@drawable/privacy_2" />
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/inter_medium"
+                    android:lineHeight="20dp"
                     android:text="@string/tmc_2"
-                    android:layout_marginStart="10dp"
                     android:textColor="@color/white"
-                    android:fontFamily="@font/inter_medium"
-                    android:lineHeight="20dp"
-                    android:textSize="13sp"/>
+                    android:textSize="13sp" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_marginTop="13dp">
+                android:layout_marginTop="13dp"
+                android:orientation="horizontal">
+
                 <ImageView
                     android:layout_width="36dp"
                     android:layout_height="36dp"
                     android:layout_gravity="center"
-                    android:src="@drawable/privacy_3"/>
+                    android:src="@drawable/privacy_3" />
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/inter_medium"
+                    android:lineHeight="20dp"
                     android:text="@string/tmc_3"
-                    android:layout_marginStart="10dp"
                     android:textColor="@color/white"
-                    android:fontFamily="@font/inter_medium"
-                    android:lineHeight="20dp"
-                    android:textSize="13sp"/>
+                    android:textSize="13sp" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_marginTop="13dp">
+                android:layout_marginTop="13dp"
+                android:orientation="horizontal">
+
                 <ImageView
                     android:layout_width="36dp"
                     android:layout_height="36dp"
                     android:layout_gravity="center"
-                    android:src="@drawable/privacy_4"/>
+                    android:src="@drawable/privacy_4" />
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/inter_medium"
+                    android:lineHeight="20dp"
                     android:text="@string/tmc_4"
-                    android:layout_marginStart="10dp"
                     android:textColor="@color/white"
-                    android:fontFamily="@font/inter_medium"
-                    android:lineHeight="20dp"
-                    android:textSize="13sp"/>
+                    android:textSize="13sp" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_marginTop="13dp">
+                android:layout_marginTop="13dp"
+                android:orientation="horizontal">
+
                 <ImageView
                     android:layout_width="36dp"
                     android:layout_height="36dp"
                     android:layout_gravity="center"
-                    android:src="@drawable/privacy_5"/>
+                    android:src="@drawable/privacy_5" />
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/tmc_5"
                     android:layout_marginStart="10dp"
-                    android:textColor="@color/white"
                     android:fontFamily="@font/inter_medium"
                     android:lineHeight="20dp"
-                    android:textSize="13sp"/>
+                    android:text="@string/tmc_5"
+                    android:textColor="@color/white"
+                    android:textSize="13sp" />
             </LinearLayout>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/tmc_footer_1"
-                android:lineHeight="20dp"
-                android:textSize="13sp"
-                android:textColor="@color/white"
+                android:layout_marginTop="18dp"
                 android:fontFamily="@font/inter_medium"
-                android:layout_marginTop="18dp"/>
+                android:lineHeight="20dp"
+                android:text="@string/tmc_footer_1"
+                android:textColor="@color/white"
+                android:textSize="13sp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/tmc_link"
-                    android:lineHeight="20dp"
-                    android:textColor="@color/white"
                     android:fontFamily="@font/inter_medium"
-                    android:textSize="13sp"/>
+                    android:lineHeight="20dp"
+                    android:text="@string/tmc_link"
+                    android:textColor="@color/white"
+                    android:textSize="13sp" />
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:fontFamily="@font/inter_medium"
+                    android:lineHeight="20dp"
                     android:text="@string/tmc_uselink"
                     android:textColor="@color/white"
-                    android:fontFamily="@font/inter_medium"
-                    android:layout_marginStart="5dp"
-                    android:lineHeight="20dp"
-                    android:textSize="13sp"/>
+                    android:textSize="13sp" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:fontFamily="@font/inter_medium"
+                    android:lineHeight="20dp"
                     android:text="@string/tmc_link"
                     android:textColor="@color/white"
-                    android:fontFamily="@font/inter_medium"
-                    android:lineHeight="20dp"
-                    android:textSize="13sp"/>
+                    android:textSize="13sp" />
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/tmc_useprivacy"
                     android:layout_marginStart="5dp"
-                    android:textColor="@color/white"
                     android:fontFamily="@font/inter_medium"
                     android:lineHeight="20dp"
-                    android:textSize="13sp"/>
+                    android:text="@string/tmc_useprivacy"
+                    android:textColor="@color/white"
+                    android:textSize="13sp" />
             </LinearLayout>
 
         </LinearLayout>
@@ -212,11 +230,11 @@
         android:id="@id/btn_next"
         android:layout_width="135dp"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
         android:background="@drawable/button_bg"
         android:paddingHorizontal="10dp"
         android:paddingVertical="6dp"
-        android:layout_marginBottom="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/smallad"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent">
@@ -250,7 +268,17 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 
-
+    <com.adsmodule.api.adsModule.interfaces.CustomView
+        android:id="@+id/smallad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginVertical="8dp"
+        app:adType="small"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

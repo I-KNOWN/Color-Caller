@@ -18,6 +18,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 
+import com.adsmodule.api.adsModule.AdUtils;
 import com.adsmodule.api.adsModule.utils.Constants;
 import com.themecolor.callerphone.wallpaper.R;
 import com.themecolor.callerphone.wallpaper.callertheme.categoryui.Images;
@@ -86,30 +87,37 @@ public class CallScreenThemeFragment extends Fragment {
             kpop_see.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                            categoryIdentifier.add(new Images("Images"));
-                            Intent intent = new Intent(getActivity(), KpopCategoryActivity.class);
-                            intent.putParcelableArrayListExtra("categoryIdentifier", categoryIdentifier);
-                            startActivity(intent);
-
+                    AdUtils.showInterstitialAd(Constants.adsResponseModel.getInterstitial_ads().getAdx(), activity, isLoaded -> {
+                        categoryIdentifier.add(new Images("Images"));
+                        Intent intent = new Intent(getActivity(), KpopCategoryActivity.class);
+                        intent.putParcelableArrayListExtra("categoryIdentifier", categoryIdentifier);
+                        startActivity(intent);
+                    });
                 }
             });
             trending_see.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                            categoryIdentifier.add(new Images("Trending"));
-                            Intent intent = new Intent(getActivity(), KpopCategoryActivity.class);
-                            intent.putExtra("categoryIdentifier", categoryIdentifier);
-                            startActivity(intent);
+                    AdUtils.showInterstitialAd(Constants.adsResponseModel.getInterstitial_ads().getAdx(), activity, isLoaded -> {
+                        categoryIdentifier.add(new Images("Trending"));
+                        Intent intent = new Intent(getActivity(), KpopCategoryActivity.class);
+                        intent.putExtra("categoryIdentifier", categoryIdentifier);
+                        startActivity(intent);
+                    });
+
 
                 }
             });
             christmas_see.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                            categoryIdentifier.add(new Images("Christmas"));
-                            Intent intent = new Intent(getActivity(), KpopCategoryActivity.class);
-                            intent.putExtra("categoryIdentifier", categoryIdentifier);
-                            startActivity(intent);
+                    AdUtils.showInterstitialAd(Constants.adsResponseModel.getInterstitial_ads().getAdx(), activity, isLoaded -> {
+                        categoryIdentifier.add(new Images("Christmas"));
+                        Intent intent = new Intent(getActivity(), KpopCategoryActivity.class);
+                        intent.putExtra("categoryIdentifier", categoryIdentifier);
+                        startActivity(intent);
+                    });
+
 
                 }
             });
@@ -126,70 +134,91 @@ public class CallScreenThemeFragment extends Fragment {
             nature_see.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                            categoryIdentifier.add(new Images("Nature"));
-                            Intent intent = new Intent(getActivity(), KpopCategoryActivity.class);
-                            intent.putExtra("categoryIdentifier", categoryIdentifier);
-                            startActivity(intent);
+                    AdUtils.showInterstitialAd(Constants.adsResponseModel.getInterstitial_ads().getAdx(), activity, isLoaded -> {
+                        categoryIdentifier.add(new Images("Nature"));
+                        Intent intent = new Intent(getActivity(), KpopCategoryActivity.class);
+                        intent.putExtra("categoryIdentifier", categoryIdentifier);
+                        startActivity(intent);
+                    });
+
 
                 }
             });
             modern_see.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                            categoryIdentifier.add(new Images("Nature"));
-                            Intent intent = new Intent(getActivity(), KpopCategoryActivity.class);
-                            intent.putExtra("categoryIdentifier", categoryIdentifier);
-                            startActivity(intent);
+                    AdUtils.showInterstitialAd(Constants.adsResponseModel.getInterstitial_ads().getAdx(), activity, isLoaded -> {
+                        categoryIdentifier.add(new Images("Nature"));
+                        Intent intent = new Intent(getActivity(), KpopCategoryActivity.class);
+                        intent.putExtra("categoryIdentifier", categoryIdentifier);
+                        startActivity(intent);
+                    });
+
 
                 }
             });
             cutefunny_see.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                            categoryIdentifier.add(new Images("CuteAndFunny"));
-                            Intent intent = new Intent(getActivity(), KpopCategoryActivity.class);
-                            intent.putExtra("categoryIdentifier", categoryIdentifier);
-                            startActivity(intent);
+                    AdUtils.showInterstitialAd(Constants.adsResponseModel.getInterstitial_ads().getAdx(), activity, isLoaded -> {
+                        categoryIdentifier.add(new Images("CuteAndFunny"));
+                        Intent intent = new Intent(getActivity(), KpopCategoryActivity.class);
+                        intent.putExtra("categoryIdentifier", categoryIdentifier);
+                        startActivity(intent);
+                    });
+
 
                 }
             });
             soccer_see.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                            categoryIdentifier.add(new Images("Soccer"));
-                            Intent intent = new Intent(getActivity(), KpopCategoryActivity.class);
-                            intent.putExtra("categoryIdentifier", categoryIdentifier);
-                            startActivity(intent);
+                    AdUtils.showInterstitialAd(Constants.adsResponseModel.getInterstitial_ads().getAdx(), activity, isLoaded -> {
+                        categoryIdentifier.add(new Images("Soccer"));
+                        Intent intent = new Intent(getActivity(), KpopCategoryActivity.class);
+                        intent.putExtra("categoryIdentifier", categoryIdentifier);
+                        startActivity(intent);
+                    });
+
 
                 }
             });
             neon_see.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                            categoryIdentifier.add(new Images("Neon"));
-                            Intent intent = new Intent(getActivity(), KpopCategoryActivity.class);
-                            intent.putExtra("categoryIdentifier", categoryIdentifier);
-                            startActivity(intent);
+                    AdUtils.showInterstitialAd(Constants.adsResponseModel.getInterstitial_ads().getAdx(), activity, isLoaded -> {
+                        categoryIdentifier.add(new Images("Neon"));
+                        Intent intent = new Intent(getActivity(), KpopCategoryActivity.class);
+                        intent.putExtra("categoryIdentifier", categoryIdentifier);
+                        startActivity(intent);
+                    });
+
 
                 }
             });
             love_see.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                            categoryIdentifier.add(new Images("Love"));
-                            Intent intent = new Intent(getActivity(), KpopCategoryActivity.class);
-                            intent.putExtra("categoryIdentifier", categoryIdentifier);
-                            startActivity(intent);
+                    AdUtils.showInterstitialAd(Constants.adsResponseModel.getInterstitial_ads().getAdx(), activity, isLoaded -> {
+                        categoryIdentifier.add(new Images("Love"));
+                        Intent intent = new Intent(getActivity(), KpopCategoryActivity.class);
+                        intent.putExtra("categoryIdentifier", categoryIdentifier);
+                        startActivity(intent);
+                    });
+
 
                 }
             });
             call_of_duty_see.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                            categoryIdentifier.add(new Images("CallOfDuty"));
-                            Intent intent = new Intent(getActivity(), KpopCategoryActivity.class);
-                            intent.putExtra("categoryIdentifier", categoryIdentifier);
-                            startActivity(intent);
+                    AdUtils.showInterstitialAd(Constants.adsResponseModel.getInterstitial_ads().getAdx(), activity, isLoaded -> {
+                        categoryIdentifier.add(new Images("CallOfDuty"));
+                        Intent intent = new Intent(getActivity(), KpopCategoryActivity.class);
+                        intent.putExtra("categoryIdentifier", categoryIdentifier);
+                        startActivity(intent);
+                    });
+
 
 
                 }
@@ -197,10 +226,13 @@ public class CallScreenThemeFragment extends Fragment {
             anime_see.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                            categoryIdentifier.add(new Images("Anime"));
-                            Intent intent = new Intent(getActivity(), KpopCategoryActivity.class);
-                            intent.putExtra("categoryIdentifier", categoryIdentifier);
-                            startActivity(intent);
+                    AdUtils.showInterstitialAd(Constants.adsResponseModel.getInterstitial_ads().getAdx(), activity, isLoaded -> {
+                        categoryIdentifier.add(new Images("Anime"));
+                        Intent intent = new Intent(getActivity(), KpopCategoryActivity.class);
+                        intent.putExtra("categoryIdentifier", categoryIdentifier);
+                        startActivity(intent);
+                    });
+
                 }
             });
         });

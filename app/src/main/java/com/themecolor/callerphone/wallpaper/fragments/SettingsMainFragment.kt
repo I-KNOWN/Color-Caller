@@ -122,6 +122,8 @@ class SettingsMainFragment : BaseFragment() {
         }
     }
 
+
+
     override fun onResume() {
         super.onResume()
         if (checkIfImeIsSelected(myActivity))

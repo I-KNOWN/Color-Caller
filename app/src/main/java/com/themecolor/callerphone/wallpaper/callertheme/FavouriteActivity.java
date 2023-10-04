@@ -1,6 +1,8 @@
 package com.themecolor.callerphone.wallpaper.callertheme;
 
 
+import static com.themecolor.callerphone.wallpaper.SingletonClasses.AppOpenAds.activity;
+
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
@@ -16,6 +18,8 @@ import android.view.WindowManager;
 import android.widget.ImageView;
 
 
+import com.adsmodule.api.adsModule.AdUtils;
+import com.adsmodule.api.adsModule.utils.Constants;
 import com.themecolor.callerphone.wallpaper.R;
 import com.google.android.material.tabs.TabLayout;
 
@@ -98,8 +102,7 @@ public class FavouriteActivity extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
-
-                FavouriteActivity.super.onBackPressed();
+        AdUtils.showBackPressAds(activity, Constants.adsResponseModel.getApp_open_ads().getAdx(), state_load -> {super.onBackPressed();});
 
     }
 }
