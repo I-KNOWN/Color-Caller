@@ -1,6 +1,8 @@
 package com.themecolor.callerphone.wallpaper.callertheme.categoryui;
 
+import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,10 +17,10 @@ import com.bumptech.glide.Glide;
 import java.util.ArrayList;
 
 public class FavouritesLiveAdapter extends RecyclerView.Adapter<FavouritesLiveAdapter.ViewHolder> {
-    private ArrayList<Images> favoriteDataList;
+    private ArrayList<String> favoriteDataList;
     private Context context;
 
-    public FavouritesLiveAdapter(Context context, ArrayList<Images> favoriteDataList) {
+    public FavouritesLiveAdapter(Context context, ArrayList<String> favoriteDataList) {
         this.context = context;
         this.favoriteDataList = favoriteDataList;
     }
@@ -32,8 +34,32 @@ public class FavouritesLiveAdapter extends RecyclerView.Adapter<FavouritesLiveAd
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-        Images data = favoriteDataList.get(position);
-        Glide.with(context).load(data.getUrl()).into(holder.favoriteImage);
+        String data = favoriteDataList.get(position);
+        Glide.with(context).load(data).into(holder.favoriteImage);
+
+        holder.favoriteImage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Activity activity = getActivityFromView(view);
+                if (activity != null) {
+                    Intent intent = new Intent(activity, CategoryShowVideoActivity.class);
+                    ArrayList<String> parcelableList = new ArrayList<>(favoriteDataList);
+                    intent.putExtra("imageUrl", parcelableList);
+                    intent.putExtra("position", position);
+                    intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                    activity.startActivity(intent);
+                }
+
+            }
+        });
+    }
+
+    private Activity getActivityFromView(View view) {
+        Context context = view.getContext();
+        if (context instanceof Activity) {
+            return (Activity) context;
+        }
+        return null;
     }
 
     @Override

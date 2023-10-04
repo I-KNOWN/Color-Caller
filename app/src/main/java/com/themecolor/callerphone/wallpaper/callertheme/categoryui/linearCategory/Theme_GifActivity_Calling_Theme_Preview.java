@@ -45,8 +45,7 @@ public class Theme_GifActivity_Calling_Theme_Preview extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_theme_callinggif_theme_preview);
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
-                WindowManager.LayoutParams.FLAG_FULLSCREEN);
+
         gifimageView = findViewById(R.id.gif_image_view_preview);
         adsView0=findViewById(R.id.adsView0);
         btn_set_theam = findViewById(R.id.btn_set_theam);

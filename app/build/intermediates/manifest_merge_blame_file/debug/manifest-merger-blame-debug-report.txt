@@ -83,8 +83,8 @@
 38-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\Admin\.gradle\caches\transforms-3\332882266f5053a18097f0fb606b3284\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:38:23-71
 39
 40            <data android:scheme="https" />
-40-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:93:17-46
-40-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:93:23-43
+40-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:94:17-46
+40-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:94:23-43
 41        </intent>
 42        <!-- End of browser content -->
 43        <!-- For CustomTabsService -->
@@ -116,9 +116,9 @@
 57-->[androidx.core:core:1.9.0] C:\Users\Admin\.gradle\caches\transforms-3\d55510fac77ff6675cbeca87ed584457\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 58
 59    <application
-59-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:25:5-316:19
+59-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:26:5-317:19
 60        android:name="com.themecolor.callerphone.wallpaper.App"
-60-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:26:9-28
+60-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:27:9-28
 61        android:allowBackup="false"
 61-->[:aosp] C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\aosp\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:9-36
 62        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -126,288 +126,288 @@
 63        android:debuggable="true"
 64        android:extractNativeLibs="false"
 65        android:hardwareAccelerated="true"
-65-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:27:9-43
+65-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:28:9-43
 66        android:icon="@drawable/logo"
-66-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:28:9-38
+66-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:29:9-38
 67        android:label="@string/app_name"
-67-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:29:9-41
+67-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:30:9-41
 68        android:largeHeap="true"
-68-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:30:9-33
+68-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:31:9-33
 69        android:roundIcon="@mipmap/ic_launcher_round"
-69-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:31:9-54
+69-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:32:9-54
 70        android:supportsRtl="true"
-70-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:32:9-35
+70-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:33:9-35
 71        android:testOnly="true"
 72        android:theme="@style/Theme.NeonKeyboardNew"
-72-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:33:9-53
+72-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:34:9-53
 73        android:usesCleartextTraffic="true" >
-73-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:34:9-44
+73-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:35:9-44
 74        <activity
-74-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:35:9-37:40
+74-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:36:9-38:40
 75            android:name="com.themecolor.callerphone.wallpaper.StartupActivity"
-75-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:36:13-44
+75-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:37:13-44
 76            android:exported="false" />
-76-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:37:13-37
+76-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:38:13-37
 77        <activity
-77-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:38:9-41:52
+77-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:39:9-42:52
 78            android:name="com.themecolor.callerphone.wallpaper.ui.PrivacyActivity"
-78-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:39:13-47
+78-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:40:13-47
 79            android:exported="false"
-79-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:40:13-37
+79-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:41:13-37
 80            android:screenOrientation="portrait" />
-80-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:41:13-49
+80-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:42:13-49
 81        <activity
-81-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:42:9-45:52
+81-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:43:9-46:52
 82            android:name="com.themecolor.callerphone.wallpaper.callertheme.ExitActivity"
-82-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:43:13-53
+82-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:44:13-53
 83            android:exported="false"
-83-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:44:13-37
+83-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:45:13-37
 84            android:screenOrientation="portrait" />
-84-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:45:13-49
+84-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:46:13-49
 85        <activity
-85-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:46:9-53:20
+85-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:47:9-54:20
 86            android:name="com.themecolor.callerphone.wallpaper.ui.PrivacyPolicyActivity"
-86-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:47:13-53
+86-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:48:13-53
 87            android:exported="false"
-87-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:48:13-37
+87-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:49:13-37
 88            android:screenOrientation="portrait" >
-88-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:49:13-49
+88-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:50:13-49
 89            <meta-data
-89-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:50:13-52:36
+89-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:51:13-53:36
 90                android:name="android.app.lib_name"
-90-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:51:17-52
+90-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:52:17-52
 91                android:value="" />
-91-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:52:17-33
+91-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:53:17-33
 92        </activity>
 93        <activity
-93-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:54:9-61:20
+93-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:55:9-62:20
 94            android:name="com.themecolor.callerphone.wallpaper.callertheme.categoryui.PreviewActivity"
-94-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:55:13-67
+94-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:56:13-67
 95            android:exported="false"
-95-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:56:13-37
+95-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:57:13-37
 96            android:screenOrientation="portrait" >
-96-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:57:13-49
+96-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:58:13-49
 97            <meta-data
-97-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:50:13-52:36
+97-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:51:13-53:36
 98                android:name="android.app.lib_name"
-98-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:51:17-52
+98-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:52:17-52
 99                android:value="" />
-99-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:52:17-33
+99-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:53:17-33
 100        </activity>
 101        <activity
-101-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:62:9-64:40
+101-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:63:9-65:40
 102            android:name="com.themecolor.callerphone.wallpaper.callertheme.FavouriteActivity"
-102-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:63:13-58
+102-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:64:13-58
 103            android:exported="false" />
-103-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:64:13-37
+103-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:65:13-37
 104        <activity
-104-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:65:9-67:40
+104-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:66:9-68:40
 105            android:name="com.themecolor.callerphone.wallpaper.callertheme.categoryui.linearCategory.Theme_GifActivity_Calling_Theme_Preview"
-105-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:66:13-106
+105-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:67:13-106
 106            android:exported="false" />
-106-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:67:13-37
+106-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:68:13-37
 107        <activity
-107-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:68:9-78:20
+107-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:69:9-79:20
 108            android:name="com.themecolor.callerphone.wallpaper.callertheme.dialer.CallingAnimActivity"
-108-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:69:13-67
+108-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:70:13-67
 109            android:exported="false"
-109-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:70:13-37
+109-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:71:13-37
 110            android:launchMode="singleInstance"
-110-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:71:13-48
+110-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:72:13-48
 111            android:screenOrientation="portrait"
-111-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:72:13-49
+111-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:73:13-49
 112            android:showOnLockScreen="true" >
-112-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:73:13-44
+112-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:74:13-44
 113            <meta-data
-113-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:50:13-52:36
+113-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:51:13-53:36
 114                android:name="android.app.lib_name"
-114-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:51:17-52
+114-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:52:17-52
 115                android:value="" />
-115-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:52:17-33
+115-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:53:17-33
 116        </activity>
 117        <activity
-117-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:79:9-95:20
+117-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:80:9-96:20
 118            android:name="com.themecolor.callerphone.wallpaper.callertheme.dialer.DialerActivity"
-118-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:80:13-62
+118-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:81:13-62
 119            android:exported="false"
-119-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:81:13-37
+119-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:82:13-37
 120            android:screenOrientation="portrait" >
-120-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:82:13-49
+120-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:83:13-49
 121            <intent-filter>
-121-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:83:13-87:29
+121-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:84:13-88:29
 122                <action android:name="android.intent.action.DIAL" />
-122-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:84:17-69
-122-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:84:25-66
+122-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:85:17-69
+122-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:85:25-66
 123
 124                <category android:name="android.intent.category.DEFAULT" />
-124-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:86:17-76
-124-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:86:27-73
+124-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:87:17-76
+124-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:87:27-73
 125            </intent-filter>
 126            <intent-filter>
-126-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:88:13-94:29
+126-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:89:13-95:29
 127                <action android:name="android.intent.action.DIAL" />
-127-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:84:17-69
-127-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:84:25-66
+127-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:85:17-69
+127-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:85:25-66
 128
 129                <category android:name="android.intent.category.DEFAULT" />
-129-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:86:17-76
-129-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:86:27-73
+129-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:87:17-76
+129-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:87:27-73
 130
 131                <data android:scheme="tel" />
-131-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:93:17-46
-131-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:93:23-43
+131-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:94:17-46
+131-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:94:23-43
 132            </intent-filter>
 133        </activity>
 134        <activity
-134-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:96:9-99:52
+134-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:97:9-100:52
 135            android:name="com.themecolor.callerphone.wallpaper.callertheme.categoryui.UploadActivity"
-135-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:97:13-66
+135-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:98:13-66
 136            android:exported="false"
-136-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:98:13-37
+136-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:99:13-37
 137            android:screenOrientation="portrait" />
-137-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:99:13-49
+137-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:100:13-49
 138        <activity
-138-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:100:9-107:20
+138-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:101:9-108:20
 139            android:name="com.themecolor.callerphone.wallpaper.callertheme.categoryui.CategoryShowVideoActivity"
-139-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:101:13-77
+139-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:102:13-77
 140            android:exported="false"
-140-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:102:13-37
+140-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:103:13-37
 141            android:screenOrientation="portrait" >
-141-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:103:13-49
+141-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:104:13-49
 142            <meta-data
-142-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:50:13-52:36
+142-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:51:13-53:36
 143                android:name="android.app.lib_name"
-143-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:51:17-52
+143-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:52:17-52
 144                android:value="" />
-144-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:52:17-33
+144-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:53:17-33
 145        </activity>
 146        <activity
-146-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:108:9-111:52
+146-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:109:9-112:52
 147            android:name="com.themecolor.callerphone.wallpaper.callertheme.categoryui.Theme_Activity_Calling_Theme_Preview"
-147-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:109:13-88
+147-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:110:13-88
 148            android:exported="false"
-148-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:110:13-37
+148-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:111:13-37
 149            android:screenOrientation="portrait" />
-149-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:111:13-49
+149-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:112:13-49
 150        <activity
-150-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:112:9-115:52
+150-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:113:9-116:52
 151            android:name="com.themecolor.callerphone.wallpaper.callertheme.categoryui.CategoryShowActivity"
-151-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:113:13-72
+151-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:114:13-72
 152            android:exported="false"
-152-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:114:13-37
+152-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:115:13-37
 153            android:screenOrientation="portrait" />
-153-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:115:13-49
+153-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:116:13-49
 154        <activity
-154-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:116:9-123:20
+154-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:117:9-124:20
 155            android:name="com.themecolor.callerphone.wallpaper.callertheme.categoryui.KpopCategoryActivity"
-155-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:117:13-72
+155-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:118:13-72
 156            android:exported="false"
-156-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:118:13-37
+156-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:119:13-37
 157            android:screenOrientation="portrait" >
-157-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:119:13-49
+157-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:120:13-49
 158            <meta-data
-158-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:50:13-52:36
+158-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:51:13-53:36
 159                android:name="android.app.lib_name"
-159-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:51:17-52
+159-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:52:17-52
 160                android:value="" />
-160-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:52:17-33
+160-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:53:17-33
 161        </activity>
 162        <activity
-162-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:124:9-127:52
+162-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:125:9-128:52
 163            android:name="com.themecolor.callerphone.wallpaper.callertheme.ui.SearchActivity"
-163-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:125:13-58
+163-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:126:13-58
 164            android:exported="false"
-164-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:126:13-37
+164-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:127:13-37
 165            android:screenOrientation="portrait" />
-165-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:127:13-49
+165-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:128:13-49
 166        <activity
-166-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:128:9-131:52
+166-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:129:9-132:52
 167            android:name="com.themecolor.callerphone.wallpaper.callertheme.ui.RandomGenerateActivity"
-167-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:129:13-66
+167-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:130:13-66
 168            android:exported="false"
-168-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:130:13-37
+168-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:131:13-37
 169            android:screenOrientation="portrait" />
-169-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:131:13-49
+169-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:132:13-49
 170        <activity
-170-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:132:9-135:52
+170-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:133:9-136:52
 171            android:name="com.themecolor.callerphone.wallpaper.callertheme.ui.CategoriesActivity"
-171-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:133:13-62
+171-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:134:13-62
 172            android:exported="false"
-172-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:134:13-37
+172-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:135:13-37
 173            android:screenOrientation="portrait" />
-173-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:135:13-49
+173-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:136:13-49
 174        <activity
-174-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:136:9-139:52
+174-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:137:9-140:52
 175            android:name="com.themecolor.callerphone.wallpaper.callertheme.ui.PopularActivity"
-175-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:137:13-59
+175-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:138:13-59
 176            android:exported="false"
-176-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:138:13-37
+176-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:139:13-37
 177            android:screenOrientation="portrait" />
-177-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:139:13-49
+177-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:140:13-49
 178
 179        <receiver
-179-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:141:9-149:20
+179-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:142:9-150:20
 180            android:name="com.themecolor.callerphone.wallpaper.callertheme.ui.NetworkStateChangeReciver"
-180-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:142:13-69
+180-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:143:13-69
 181            android:exported="false" >
-181-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:143:13-37
+181-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:144:13-37
 182            <intent-filter>
-182-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:144:13-148:29
+182-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:145:13-149:29
 183                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
-183-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:145:17-147:50
-183-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:146:21-72
+183-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:146:17-148:50
+183-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:147:21-72
 184            </intent-filter>
 185        </receiver>
 186
 187        <activity
-187-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:151:9-154:52
+187-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:152:9-155:52
 188            android:name="com.themecolor.callerphone.wallpaper.callertheme.ui.FullViewActivity"
-188-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:152:13-60
+188-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:153:13-60
 189            android:exported="false"
-189-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:153:13-37
+189-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:154:13-37
 190            android:screenOrientation="portrait" />
-190-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:154:13-49
+190-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:155:13-49
 191        <activity
-191-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:155:9-158:52
+191-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:156:9-159:52
 192            android:name="com.themecolor.callerphone.wallpaper.callertheme.ui.MoreItemActivity"
-192-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:156:13-60
+192-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:157:13-60
 193            android:exported="false"
-193-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:157:13-37
+193-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:158:13-37
 194            android:screenOrientation="portrait" />
-194-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:158:13-49
+194-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:159:13-49
 195        <activity
-195-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:159:9-162:52
+195-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:160:9-163:52
 196            android:name="com.themecolor.callerphone.wallpaper.callertheme.OS.ActivityPerM"
-196-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:160:13-56
+196-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:161:13-56
 197            android:exported="false"
-197-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:161:13-37
+197-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:162:13-37
 198            android:screenOrientation="portrait" />
-198-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:162:13-49
+198-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:163:13-49
 199        <activity
-199-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:163:9-166:52
+199-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:164:9-167:52
 200            android:name="com.themecolor.callerphone.wallpaper.ui.OnBoardingActivity"
-200-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:164:13-50
+200-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:165:13-50
 201            android:exported="false"
-201-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:165:13-37
+201-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:166:13-37
 202            android:screenOrientation="portrait" />
-202-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:166:13-49
+202-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:167:13-49
 203        <activity
-203-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:167:9-237:20
+203-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:168:9-238:20
 204            android:name="com.themecolor.callerphone.wallpaper.ui.SplashActivity"
-204-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:168:13-46
+204-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:169:13-46
 205            android:exported="true"
-205-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:169:13-36
+205-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:170:13-36
 206            android:screenOrientation="portrait" >
-206-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:170:13-49
+206-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:171:13-49
 207            <intent-filter>
-207-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:171:13-175:29
+207-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:172:13-176:29
 208                <action android:name="android.intent.action.MAIN" />
-208-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:172:17-69
-208-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:172:25-66
+208-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:173:17-69
+208-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:173:25-66
 209
 210                <category android:name="android.intent.category.LAUNCHER" />
-210-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:174:17-77
-210-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:174:27-74
+210-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:175:17-77
+210-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:175:27-74
 211            </intent-filter>
 212
 213            <!--
@@ -472,149 +472,149 @@
 272            -->
 273        </activity>
 274        <activity
-274-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:238:9-243:58
+274-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:239:9-244:58
 275            android:name="com.themecolor.callerphone.wallpaper.TestKeyboardActivity"
-275-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:239:13-49
+275-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:240:13-49
 276            android:exported="false"
-276-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:240:13-37
+276-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:241:13-37
 277            android:label="Apply Theme"
-277-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:241:13-40
+277-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:242:13-40
 278            android:launchMode="singleTop"
-278-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:242:13-43
+278-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:243:13-43
 279            android:screenOrientation="sensorPortrait" />
-279-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:243:13-55
+279-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:244:13-55
 280        <activity
-280-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:244:9-249:58
+280-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:245:9-250:58
 281            android:name="com.themecolor.callerphone.wallpaper.EnableKeyboard"
-281-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:245:13-43
+281-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:246:13-43
 282            android:exported="true"
-282-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:246:13-36
+282-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:247:13-36
 283            android:label="Enable/Disable Keyboard"
-283-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:247:13-52
+283-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:248:13-52
 284            android:launchMode="singleTop"
-284-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:248:13-43
+284-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:249:13-43
 285            android:screenOrientation="sensorPortrait" />
-285-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:249:13-55
+285-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:250:13-55
 286        <activity
-286-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:250:9-254:52
+286-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:251:9-255:52
 287            android:name="com.themecolor.callerphone.wallpaper.MainActivity"
-287-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:251:13-41
+287-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:252:13-41
 288            android:exported="false"
-288-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:252:13-37
+288-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:253:13-37
 289            android:hardwareAccelerated="true"
-289-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:253:13-47
+289-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:254:13-47
 290            android:screenOrientation="portrait" />
-290-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:254:13-49
+290-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:255:13-49
 291
 292        <service
-292-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:256:9-269:19
+292-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:257:9-270:19
 293            android:name="keyboard.neon.newboard.KeyboardImeiService"
-293-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:257:13-70
+293-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:258:13-70
 294            android:directBootAware="true"
-294-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:258:13-43
+294-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:259:13-43
 295            android:exported="true"
-295-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:259:13-36
+295-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:260:13-36
 296            android:label="@string/keyboardServiceName"
-296-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:260:13-56
+296-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:261:13-56
 297            android:permission="android.permission.BIND_INPUT_METHOD" >
-297-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:261:13-70
+297-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:262:13-70
 298            <intent-filter>
-298-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:262:13-264:29
+298-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:263:13-265:29
 299                <action android:name="android.view.InputMethod" />
-299-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:263:17-67
-299-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:263:25-64
+299-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:264:17-67
+299-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:264:25-64
 300            </intent-filter>
 301
 302            <meta-data
-302-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:266:13-268:50
+302-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:267:13-269:50
 303                android:name="android.view.im"
-303-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:267:17-47
+303-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:268:17-47
 304                android:resource="@xml/method" />
-304-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:268:17-47
+304-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:269:17-47
 305        </service>
 306
 307        <activity
-307-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:271:9-274:72
+307-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:272:9-275:72
 308            android:name="com.yalantis.ucrop.UCropActivity"
-308-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:272:13-60
+308-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:273:13-60
 309            android:screenOrientation="portrait"
-309-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:273:13-49
+309-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:274:13-49
 310            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-310-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:274:13-69
+310-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:275:13-69
 311
 312        <service
-312-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:276:9-291:19
+312-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:277:9-292:19
 313            android:name="com.themecolor.callerphone.wallpaper.callertheme.dialer.services.CallServiceAnim"
-313-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:277:13-72
+313-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:278:13-72
 314            android:enabled="true"
-314-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:278:13-35
+314-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:279:13-35
 315            android:exported="true"
-315-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:279:13-36
+315-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:280:13-36
 316            android:permission="android.permission.BIND_INCALL_SERVICE" >
-316-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:280:13-72
+316-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:281:13-72
 317            <meta-data
-317-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:281:13-283:40
+317-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:282:13-284:40
 318                android:name="android.telecom.IN_CALL_SERVICE_UI"
-318-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:282:17-66
+318-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:283:17-66
 319                android:value="true" />
-319-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:283:17-37
+319-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:284:17-37
 320            <meta-data
-320-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:284:13-286:40
+320-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:285:13-287:40
 321                android:name="android.telecom.IN_CALL_SERVICE_RINGING"
-321-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:285:17-71
+321-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:286:17-71
 322                android:value="true" />
-322-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:286:17-37
+322-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:287:17-37
 323
 324            <intent-filter>
-324-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:288:13-290:29
+324-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:289:13-291:29
 325                <action android:name="android.telecom.InCallService" />
-325-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:289:17-72
-325-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:289:25-69
+325-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:290:17-72
+325-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:290:25-69
 326            </intent-filter>
 327        </service>
 328
 329        <receiver
-329-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:293:9-301:20
+329-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:294:9-302:20
 330            android:name="com.themecolor.callerphone.wallpaper.callertheme.dialer.receivers.ActionReceiver"
-330-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:294:13-72
+330-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:295:13-72
 331            android:enabled="true"
-331-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:295:13-35
+331-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:296:13-35
 332            android:exported="false" >
-332-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:296:13-37
+332-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:297:13-37
 333            <intent-filter>
-333-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:297:13-300:29
+333-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:298:13-301:29
 334                <action android:name="YES" />
-334-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:298:17-46
-334-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:298:25-43
+334-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:299:17-46
+334-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:299:25-43
 335                <action android:name="NO" />
-335-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:299:17-45
-335-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:299:25-42
+335-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:300:17-45
+335-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:300:25-42
 336            </intent-filter>
 337        </receiver>
 338
 339        <provider
 340            android:name="androidx.core.content.FileProvider"
-340-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:304:13-62
+340-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:305:13-62
 341            android:authorities="com.themecolor.callerphone.wallpaper.provider"
-341-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:305:13-60
+341-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:306:13-60
 342            android:exported="false"
-342-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:306:13-37
+342-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:307:13-37
 343            android:grantUriPermissions="true" >
-343-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:307:13-47
+343-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:308:13-47
 344            <meta-data
-344-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:308:13-310:58
+344-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:309:13-311:58
 345                android:name="android.support.FILE_PROVIDER_PATHS"
-345-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:309:17-67
+345-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:310:17-67
 346                android:resource="@xml/provider_paths" />
-346-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:310:17-55
+346-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:311:17-55
 347        </provider>
 348
 349        <meta-data
-349-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:313:9-315:57
+349-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:314:9-316:57
 350            android:name="preloaded_fonts"
-350-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:314:13-43
+350-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:315:13-43
 351            android:resource="@array/preloaded_fonts" />
-351-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:315:13-54
+351-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:316:13-54
 352        <meta-data
 352-->[:adsmodule] C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\adsmodule\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-18:70
 353            android:name="com.google.android.gms.ads.APPLICATION_ID"
@@ -828,10 +828,10 @@
 461            android:exported="false" >
 461-->[androidx.work:work-runtime:2.8.1] C:\Users\Admin\.gradle\caches\transforms-3\dd6c85ba430a7cc77c15b380e0a271fa\transformed\work-runtime-2.8.1\AndroidManifest.xml:104:13-37
 462            <intent-filter>
-462-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:144:13-148:29
+462-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:145:13-149:29
 463                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
-463-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:145:17-147:50
-463-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:146:21-72
+463-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:146:17-148:50
+463-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:147:21-72
 464            </intent-filter>
 465        </receiver>
 466        <receiver
@@ -895,145 +895,154 @@
 495        </receiver>
 496
 497        <activity
-497-->[com.facebook.android:audience-network-sdk:6.16.0] C:\Users\Admin\.gradle\caches\transforms-3\80cf46b83fa6f84b3883ba0adcfcef21\transformed\jetified-audience-network-sdk-6.16.0\AndroidManifest.xml:20:9-24:75
-498            android:name="com.facebook.ads.AudienceNetworkActivity"
-498-->[com.facebook.android:audience-network-sdk:6.16.0] C:\Users\Admin\.gradle\caches\transforms-3\80cf46b83fa6f84b3883ba0adcfcef21\transformed\jetified-audience-network-sdk-6.16.0\AndroidManifest.xml:21:13-68
-499            android:configChanges="keyboardHidden|orientation|screenSize|smallestScreenSize|screenLayout"
-499-->[com.facebook.android:audience-network-sdk:6.16.0] C:\Users\Admin\.gradle\caches\transforms-3\80cf46b83fa6f84b3883ba0adcfcef21\transformed\jetified-audience-network-sdk-6.16.0\AndroidManifest.xml:22:13-106
-500            android:exported="false"
-500-->[com.facebook.android:audience-network-sdk:6.16.0] C:\Users\Admin\.gradle\caches\transforms-3\80cf46b83fa6f84b3883ba0adcfcef21\transformed\jetified-audience-network-sdk-6.16.0\AndroidManifest.xml:23:13-37
-501            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-501-->[com.facebook.android:audience-network-sdk:6.16.0] C:\Users\Admin\.gradle\caches\transforms-3\80cf46b83fa6f84b3883ba0adcfcef21\transformed\jetified-audience-network-sdk-6.16.0\AndroidManifest.xml:24:13-72
-502
-503        <provider
-503-->[com.facebook.android:audience-network-sdk:6.16.0] C:\Users\Admin\.gradle\caches\transforms-3\80cf46b83fa6f84b3883ba0adcfcef21\transformed\jetified-audience-network-sdk-6.16.0\AndroidManifest.xml:26:9-29:40
-504            android:name="com.facebook.ads.AudienceNetworkContentProvider"
-504-->[com.facebook.android:audience-network-sdk:6.16.0] C:\Users\Admin\.gradle\caches\transforms-3\80cf46b83fa6f84b3883ba0adcfcef21\transformed\jetified-audience-network-sdk-6.16.0\AndroidManifest.xml:27:13-75
-505            android:authorities="com.themecolor.callerphone.wallpaper.AudienceNetworkContentProvider"
-505-->[com.facebook.android:audience-network-sdk:6.16.0] C:\Users\Admin\.gradle\caches\transforms-3\80cf46b83fa6f84b3883ba0adcfcef21\transformed\jetified-audience-network-sdk-6.16.0\AndroidManifest.xml:28:13-82
-506            android:exported="false" />
-506-->[com.facebook.android:audience-network-sdk:6.16.0] C:\Users\Admin\.gradle\caches\transforms-3\80cf46b83fa6f84b3883ba0adcfcef21\transformed\jetified-audience-network-sdk-6.16.0\AndroidManifest.xml:29:13-37
-507
-508        <activity
-508-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\Admin\.gradle\caches\transforms-3\50855519160cb07cfe62defee2cf1573\transformed\jetified-play-services-base-18.0.0\AndroidManifest.xml:20:9-22:45
-509            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-509-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\Admin\.gradle\caches\transforms-3\50855519160cb07cfe62defee2cf1573\transformed\jetified-play-services-base-18.0.0\AndroidManifest.xml:20:19-85
-510            android:exported="false"
-510-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\Admin\.gradle\caches\transforms-3\50855519160cb07cfe62defee2cf1573\transformed\jetified-play-services-base-18.0.0\AndroidManifest.xml:22:19-43
-511            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-511-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\Admin\.gradle\caches\transforms-3\50855519160cb07cfe62defee2cf1573\transformed\jetified-play-services-base-18.0.0\AndroidManifest.xml:21:19-78
-512
-513        <meta-data
-513-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Admin\.gradle\caches\transforms-3\41604dfb5d1c05282a287abb8b35c2e8\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
-514            android:name="com.google.android.gms.version"
-514-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Admin\.gradle\caches\transforms-3\41604dfb5d1c05282a287abb8b35c2e8\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
-515            android:value="@integer/google_play_services_version" />
-515-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Admin\.gradle\caches\transforms-3\41604dfb5d1c05282a287abb8b35c2e8\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
-516
-517        <activity
-517-->[androidx.test:core:1.5.0] C:\Users\Admin\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:27:9-34:20
-518            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
-518-->[androidx.test:core:1.5.0] C:\Users\Admin\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:28:13-99
-519            android:exported="true"
-519-->[androidx.test:core:1.5.0] C:\Users\Admin\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:29:13-36
-520            android:theme="@style/WhiteBackgroundTheme" >
-520-->[androidx.test:core:1.5.0] C:\Users\Admin\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:30:13-56
-521            <intent-filter android:priority="-100" >
-521-->[androidx.test:core:1.5.0] C:\Users\Admin\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:31:13-33:29
-521-->[androidx.test:core:1.5.0] C:\Users\Admin\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:31:28-51
-522                <category android:name="android.intent.category.LAUNCHER" />
-522-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:174:17-77
-522-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:174:27-74
-523            </intent-filter>
-524        </activity>
-525        <activity
-525-->[androidx.test:core:1.5.0] C:\Users\Admin\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:35:9-42:20
-526            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
-526-->[androidx.test:core:1.5.0] C:\Users\Admin\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:36:13-95
-527            android:exported="true"
-527-->[androidx.test:core:1.5.0] C:\Users\Admin\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:37:13-36
-528            android:theme="@style/WhiteBackgroundTheme" >
-528-->[androidx.test:core:1.5.0] C:\Users\Admin\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:38:13-56
-529            <intent-filter android:priority="-100" >
-529-->[androidx.test:core:1.5.0] C:\Users\Admin\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:31:13-33:29
-529-->[androidx.test:core:1.5.0] C:\Users\Admin\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:31:28-51
-530                <category android:name="android.intent.category.LAUNCHER" />
-530-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:174:17-77
-530-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:174:27-74
-531            </intent-filter>
-532        </activity>
-533        <activity
-533-->[androidx.test:core:1.5.0] C:\Users\Admin\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:43:9-50:20
-534            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
-534-->[androidx.test:core:1.5.0] C:\Users\Admin\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:44:13-103
-535            android:exported="true"
-535-->[androidx.test:core:1.5.0] C:\Users\Admin\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:45:13-36
-536            android:theme="@style/WhiteBackgroundDialogTheme" >
-536-->[androidx.test:core:1.5.0] C:\Users\Admin\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:46:13-62
-537            <intent-filter android:priority="-100" >
-537-->[androidx.test:core:1.5.0] C:\Users\Admin\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:31:13-33:29
-537-->[androidx.test:core:1.5.0] C:\Users\Admin\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:31:28-51
-538                <category android:name="android.intent.category.LAUNCHER" />
-538-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:174:17-77
-538-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:174:27-74
-539            </intent-filter>
-540        </activity>
-541
-542        <provider
-542-->[com.squareup.picasso:picasso:2.71828] C:\Users\Admin\.gradle\caches\transforms-3\4e99edf7b554ac4f18064090a15e7559\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
-543            android:name="com.squareup.picasso.PicassoProvider"
-543-->[com.squareup.picasso:picasso:2.71828] C:\Users\Admin\.gradle\caches\transforms-3\4e99edf7b554ac4f18064090a15e7559\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
-544            android:authorities="com.themecolor.callerphone.wallpaper.com.squareup.picasso"
-544-->[com.squareup.picasso:picasso:2.71828] C:\Users\Admin\.gradle\caches\transforms-3\4e99edf7b554ac4f18064090a15e7559\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
-545            android:exported="false" />
-545-->[com.squareup.picasso:picasso:2.71828] C:\Users\Admin\.gradle\caches\transforms-3\4e99edf7b554ac4f18064090a15e7559\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
-546
-547        <service
-547-->[androidx.room:room-runtime:2.5.0] C:\Users\Admin\.gradle\caches\transforms-3\5936d1401b11ad2eecf8204baac62556\transformed\room-runtime-2.5.0\AndroidManifest.xml:24:9-28:63
-548            android:name="androidx.room.MultiInstanceInvalidationService"
-548-->[androidx.room:room-runtime:2.5.0] C:\Users\Admin\.gradle\caches\transforms-3\5936d1401b11ad2eecf8204baac62556\transformed\room-runtime-2.5.0\AndroidManifest.xml:25:13-74
-549            android:directBootAware="true"
-549-->[androidx.room:room-runtime:2.5.0] C:\Users\Admin\.gradle\caches\transforms-3\5936d1401b11ad2eecf8204baac62556\transformed\room-runtime-2.5.0\AndroidManifest.xml:26:13-43
-550            android:exported="false" />
-550-->[androidx.room:room-runtime:2.5.0] C:\Users\Admin\.gradle\caches\transforms-3\5936d1401b11ad2eecf8204baac62556\transformed\room-runtime-2.5.0\AndroidManifest.xml:27:13-37
-551
-552        <receiver
-552-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
-553            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-553-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
-554            android:directBootAware="false"
-554-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
-555            android:enabled="true"
-555-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
-556            android:exported="true"
-556-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
-557            android:permission="android.permission.DUMP" >
-557-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
-558            <intent-filter>
-558-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
-559                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-559-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
-559-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
-560            </intent-filter>
-561            <intent-filter>
-561-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
-562                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-562-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
-562-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
-563            </intent-filter>
-564            <intent-filter>
-564-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
-565                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-565-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
-565-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
-566            </intent-filter>
-567            <intent-filter>
-567-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
-568                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-568-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
-568-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
-569            </intent-filter>
-570        </receiver>
-571    </application>
-572
-573</manifest>
+497-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\Admin\.gradle\caches\transforms-3\50855519160cb07cfe62defee2cf1573\transformed\jetified-play-services-base-18.0.0\AndroidManifest.xml:20:9-22:45
+498            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+498-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\Admin\.gradle\caches\transforms-3\50855519160cb07cfe62defee2cf1573\transformed\jetified-play-services-base-18.0.0\AndroidManifest.xml:20:19-85
+499            android:exported="false"
+499-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\Admin\.gradle\caches\transforms-3\50855519160cb07cfe62defee2cf1573\transformed\jetified-play-services-base-18.0.0\AndroidManifest.xml:22:19-43
+500            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+500-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\Admin\.gradle\caches\transforms-3\50855519160cb07cfe62defee2cf1573\transformed\jetified-play-services-base-18.0.0\AndroidManifest.xml:21:19-78
+501        <activity
+501-->[com.facebook.android:audience-network-sdk:6.16.0] C:\Users\Admin\.gradle\caches\transforms-3\80cf46b83fa6f84b3883ba0adcfcef21\transformed\jetified-audience-network-sdk-6.16.0\AndroidManifest.xml:20:9-24:75
+502            android:name="com.facebook.ads.AudienceNetworkActivity"
+502-->[com.facebook.android:audience-network-sdk:6.16.0] C:\Users\Admin\.gradle\caches\transforms-3\80cf46b83fa6f84b3883ba0adcfcef21\transformed\jetified-audience-network-sdk-6.16.0\AndroidManifest.xml:21:13-68
+503            android:configChanges="keyboardHidden|orientation|screenSize|smallestScreenSize|screenLayout"
+503-->[com.facebook.android:audience-network-sdk:6.16.0] C:\Users\Admin\.gradle\caches\transforms-3\80cf46b83fa6f84b3883ba0adcfcef21\transformed\jetified-audience-network-sdk-6.16.0\AndroidManifest.xml:22:13-106
+504            android:exported="false"
+504-->[com.facebook.android:audience-network-sdk:6.16.0] C:\Users\Admin\.gradle\caches\transforms-3\80cf46b83fa6f84b3883ba0adcfcef21\transformed\jetified-audience-network-sdk-6.16.0\AndroidManifest.xml:23:13-37
+505            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+505-->[com.facebook.android:audience-network-sdk:6.16.0] C:\Users\Admin\.gradle\caches\transforms-3\80cf46b83fa6f84b3883ba0adcfcef21\transformed\jetified-audience-network-sdk-6.16.0\AndroidManifest.xml:24:13-72
+506
+507        <provider
+507-->[com.facebook.android:audience-network-sdk:6.16.0] C:\Users\Admin\.gradle\caches\transforms-3\80cf46b83fa6f84b3883ba0adcfcef21\transformed\jetified-audience-network-sdk-6.16.0\AndroidManifest.xml:26:9-29:40
+508            android:name="com.facebook.ads.AudienceNetworkContentProvider"
+508-->[com.facebook.android:audience-network-sdk:6.16.0] C:\Users\Admin\.gradle\caches\transforms-3\80cf46b83fa6f84b3883ba0adcfcef21\transformed\jetified-audience-network-sdk-6.16.0\AndroidManifest.xml:27:13-75
+509            android:authorities="com.themecolor.callerphone.wallpaper.AudienceNetworkContentProvider"
+509-->[com.facebook.android:audience-network-sdk:6.16.0] C:\Users\Admin\.gradle\caches\transforms-3\80cf46b83fa6f84b3883ba0adcfcef21\transformed\jetified-audience-network-sdk-6.16.0\AndroidManifest.xml:28:13-82
+510            android:exported="false" />
+510-->[com.facebook.android:audience-network-sdk:6.16.0] C:\Users\Admin\.gradle\caches\transforms-3\80cf46b83fa6f84b3883ba0adcfcef21\transformed\jetified-audience-network-sdk-6.16.0\AndroidManifest.xml:29:13-37
+511
+512        <meta-data
+512-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Admin\.gradle\caches\transforms-3\9f09e2b306d5f1ef59b4f67b6dbfef5d\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+513            android:name="com.google.android.gms.version"
+513-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Admin\.gradle\caches\transforms-3\9f09e2b306d5f1ef59b4f67b6dbfef5d\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+514            android:value="@integer/google_play_services_version" />
+514-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Admin\.gradle\caches\transforms-3\9f09e2b306d5f1ef59b4f67b6dbfef5d\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+515
+516        <activity
+516-->[androidx.test:core:1.5.0] C:\Users\Admin\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:27:9-34:20
+517            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+517-->[androidx.test:core:1.5.0] C:\Users\Admin\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:28:13-99
+518            android:exported="true"
+518-->[androidx.test:core:1.5.0] C:\Users\Admin\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:29:13-36
+519            android:theme="@style/WhiteBackgroundTheme" >
+519-->[androidx.test:core:1.5.0] C:\Users\Admin\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:30:13-56
+520            <intent-filter android:priority="-100" >
+520-->[androidx.test:core:1.5.0] C:\Users\Admin\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:31:13-33:29
+520-->[androidx.test:core:1.5.0] C:\Users\Admin\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:31:28-51
+521                <category android:name="android.intent.category.LAUNCHER" />
+521-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:175:17-77
+521-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:175:27-74
+522            </intent-filter>
+523        </activity>
+524        <activity
+524-->[androidx.test:core:1.5.0] C:\Users\Admin\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:35:9-42:20
+525            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+525-->[androidx.test:core:1.5.0] C:\Users\Admin\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:36:13-95
+526            android:exported="true"
+526-->[androidx.test:core:1.5.0] C:\Users\Admin\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:37:13-36
+527            android:theme="@style/WhiteBackgroundTheme" >
+527-->[androidx.test:core:1.5.0] C:\Users\Admin\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:38:13-56
+528            <intent-filter android:priority="-100" >
+528-->[androidx.test:core:1.5.0] C:\Users\Admin\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:31:13-33:29
+528-->[androidx.test:core:1.5.0] C:\Users\Admin\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:31:28-51
+529                <category android:name="android.intent.category.LAUNCHER" />
+529-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:175:17-77
+529-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:175:27-74
+530            </intent-filter>
+531        </activity>
+532        <activity
+532-->[androidx.test:core:1.5.0] C:\Users\Admin\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:43:9-50:20
+533            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+533-->[androidx.test:core:1.5.0] C:\Users\Admin\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:44:13-103
+534            android:exported="true"
+534-->[androidx.test:core:1.5.0] C:\Users\Admin\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:45:13-36
+535            android:theme="@style/WhiteBackgroundDialogTheme" >
+535-->[androidx.test:core:1.5.0] C:\Users\Admin\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:46:13-62
+536            <intent-filter android:priority="-100" >
+536-->[androidx.test:core:1.5.0] C:\Users\Admin\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:31:13-33:29
+536-->[androidx.test:core:1.5.0] C:\Users\Admin\.gradle\caches\transforms-3\c4084509a2566654e8800f9a24ea640a\transformed\jetified-core-1.5.0\AndroidManifest.xml:31:28-51
+537                <category android:name="android.intent.category.LAUNCHER" />
+537-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:175:17-77
+537-->C:\John Pandian\ZipFiles\color caller\color caller\ThirdColorCallerCyanAndPurple\ColorCallerNeonKeyboard-master\app\src\main\AndroidManifest.xml:175:27-74
+538            </intent-filter>
+539        </activity>
+540
+541        <provider
+541-->[com.squareup.picasso:picasso:2.71828] C:\Users\Admin\.gradle\caches\transforms-3\4e99edf7b554ac4f18064090a15e7559\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+542            android:name="com.squareup.picasso.PicassoProvider"
+542-->[com.squareup.picasso:picasso:2.71828] C:\Users\Admin\.gradle\caches\transforms-3\4e99edf7b554ac4f18064090a15e7559\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+543            android:authorities="com.themecolor.callerphone.wallpaper.com.squareup.picasso"
+543-->[com.squareup.picasso:picasso:2.71828] C:\Users\Admin\.gradle\caches\transforms-3\4e99edf7b554ac4f18064090a15e7559\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+544            android:exported="false" />
+544-->[com.squareup.picasso:picasso:2.71828] C:\Users\Admin\.gradle\caches\transforms-3\4e99edf7b554ac4f18064090a15e7559\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+545
+546        <service
+546-->[androidx.room:room-runtime:2.5.0] C:\Users\Admin\.gradle\caches\transforms-3\5936d1401b11ad2eecf8204baac62556\transformed\room-runtime-2.5.0\AndroidManifest.xml:24:9-28:63
+547            android:name="androidx.room.MultiInstanceInvalidationService"
+547-->[androidx.room:room-runtime:2.5.0] C:\Users\Admin\.gradle\caches\transforms-3\5936d1401b11ad2eecf8204baac62556\transformed\room-runtime-2.5.0\AndroidManifest.xml:25:13-74
+548            android:directBootAware="true"
+548-->[androidx.room:room-runtime:2.5.0] C:\Users\Admin\.gradle\caches\transforms-3\5936d1401b11ad2eecf8204baac62556\transformed\room-runtime-2.5.0\AndroidManifest.xml:26:13-43
+549            android:exported="false" />
+549-->[androidx.room:room-runtime:2.5.0] C:\Users\Admin\.gradle\caches\transforms-3\5936d1401b11ad2eecf8204baac62556\transformed\room-runtime-2.5.0\AndroidManifest.xml:27:13-37
+550
+551        <receiver
+551-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+552            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+552-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+553            android:directBootAware="false"
+553-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+554            android:enabled="true"
+554-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+555            android:exported="true"
+555-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+556            android:permission="android.permission.DUMP" >
+556-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+557            <intent-filter>
+557-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+558                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+558-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+558-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+559            </intent-filter>
+560            <intent-filter>
+560-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+561                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+561-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+561-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+562            </intent-filter>
+563            <intent-filter>
+563-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+564                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+564-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+564-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+565            </intent-filter>
+566            <intent-filter>
+566-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+567                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+567-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+567-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\d8d4357e640bc9377ca04f0bbc676df7\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+568            </intent-filter>
+569        </receiver> <!-- The activities will be merged into the manifest of the hosting app. -->
+570        <activity
+570-->[com.google.android.play:core-common:2.0.2] C:\Users\Admin\.gradle\caches\transforms-3\9738f354b28094551a1997ee5c988938\transformed\jetified-core-common-2.0.2\AndroidManifest.xml:14:9-18:65
+571            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+571-->[com.google.android.play:core-common:2.0.2] C:\Users\Admin\.gradle\caches\transforms-3\9738f354b28094551a1997ee5c988938\transformed\jetified-core-common-2.0.2\AndroidManifest.xml:15:13-93
+572            android:exported="false"
+572-->[com.google.android.play:core-common:2.0.2] C:\Users\Admin\.gradle\caches\transforms-3\9738f354b28094551a1997ee5c988938\transformed\jetified-core-common-2.0.2\AndroidManifest.xml:16:13-37
+573            android:stateNotNeeded="true"
+573-->[com.google.android.play:core-common:2.0.2] C:\Users\Admin\.gradle\caches\transforms-3\9738f354b28094551a1997ee5c988938\transformed\jetified-core-common-2.0.2\AndroidManifest.xml:17:13-42
+574            android:theme="@style/Theme.PlayCore.Transparent" />
+574-->[com.google.android.play:core-common:2.0.2] C:\Users\Admin\.gradle\caches\transforms-3\9738f354b28094551a1997ee5c988938\transformed\jetified-core-common-2.0.2\AndroidManifest.xml:18:13-62
+575    </application>
+576
+577</manifest>

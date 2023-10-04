@@ -4,7 +4,9 @@ package com.themecolor.callerphone.wallpaper.callertheme.dialer;
 import static com.themecolor.callerphone.wallpaper.utils.GifDrawableUtil.pxFromDp;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 
+import android.Manifest;
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
 import android.annotation.SuppressLint;
@@ -13,7 +15,10 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.SharedPreferences;
+import android.content.pm.PackageManager;
 import android.content.res.ColorStateList;
+import android.hardware.camera2.CameraAccessException;
+import android.hardware.camera2.CameraManager;
 import android.media.Ringtone;
 import android.media.RingtoneManager;
 import android.net.Uri;
@@ -33,6 +38,7 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.themecolor.callerphone.wallpaper.MainActivity;
 import com.themecolor.callerphone.wallpaper.R;
 
 import com.themecolor.callerphone.wallpaper.callertheme.dialer.helpers.CallListHelper;
@@ -76,6 +82,11 @@ public class CallingAnimActivity extends AppCompatActivity {
     @SuppressLint("StaticFieldLeak")
     public static TextView incomingCallerPhoneNumberTV, incomingCallerNameTV, ringingStatusTV;
 
+
+    private CameraManager cameraManager;
+    private String cameraId;
+    private boolean isFlashOn = false;
+
     RelativeLayout inProgressCallRLView, incomingRLView;
 
     public static boolean isMuted, isSpeakerOn, isCallOnHold, isRecordingCall;
@@ -101,7 +112,12 @@ public class CallingAnimActivity extends AppCompatActivity {
         gif_default_image_theme = findViewById(R.id.gif_default_image_theme);
         reply = findViewById(R.id.reply);
         incomingreply = findViewById(R.id.incomingreply);
-
+        cameraManager = (CameraManager) getSystemService(CAMERA_SERVICE);
+        try {
+            cameraId = cameraManager.getCameraIdList()[0];
+        } catch (CameraAccessException e) {
+            e.printStackTrace();
+        }
 
         // Load the image into ImageView using your preferred image loading library
 
@@ -414,6 +430,13 @@ public class CallingAnimActivity extends AppCompatActivity {
             });
 
             default_image_theme.setVisibility(View.VISIBLE);
+            SharedPreferences flashShared = getSharedPreferences("Flash", Context.MODE_PRIVATE);
+            isFlashOn = flashShared.getBoolean("isFlash", false);
+
+            if(isFlashOn){
+                toggleFlashlight();
+            }
+
             loadImage();
 
             if (CallManager.NUMBER_OF_CALLS > 0 && CallListHelper.callList.size() > 0) {
@@ -429,6 +452,18 @@ public class CallingAnimActivity extends AppCompatActivity {
         } else if(call_state == Call.STATE_DIALING) {
             loadImage();
         }
+    }
+
+    private void toggleFlashlight() {
+
+            if (cameraId != null) {
+                try {
+                    cameraManager.setTorchMode(cameraId, isFlashOn);
+                    isFlashOn = !isFlashOn;
+                } catch (CameraAccessException e) {
+                    e.printStackTrace();
+                }
+            }
     }
 
     private void loadImage() {
@@ -643,6 +678,7 @@ public class CallingAnimActivity extends AppCompatActivity {
                 case MotionEvent.ACTION_UP:
                     hideArrows();
                     if (isSwiping) {
+                        toggleFlashlight();
                         float deltaX = event.getRawX() - initialX;
                         if (deltaX > 0) {
                             // Swiped right

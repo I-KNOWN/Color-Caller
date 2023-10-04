@@ -58,6 +58,9 @@ public class FavouriteActivity extends AppCompatActivity {
         tabLayout.setupWithViewPager(viewpager);
     }
 
+
+
+
     class ViewPagerAdapter extends FragmentPagerAdapter {
         private final List<Fragment> mFragmentList = new ArrayList<>();
         private final List<String> mFragmentTitleList = new ArrayList<>();

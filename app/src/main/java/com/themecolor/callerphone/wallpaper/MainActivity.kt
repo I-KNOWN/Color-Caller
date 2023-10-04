@@ -48,10 +48,13 @@ class MainActivity : BaseActivity() {
                 .replace(R.id.fragmentContainer, SpecificCallerFragment(intent.getStringExtra("category")))
                 .commit()
         }
+        if(intent.getStringExtra("prev")!=null){
+            loadFragmentWithIcon(HomeFragment(), R.drawable.home_clear)
+        }
 
         if(intent.getStringExtra("state") != null){
             if(intent.getStringExtra("state").equals("All"))
-            loadFragmentWithIcon(HomeFragment(), R.drawable.home_clear)
+                loadFragmentWithIcon(HomeFragment(), R.drawable.home_clear)
             if(intent.getStringExtra("state").equals("callericon"))
                 loadFragmentWithIcon(IconFragment(), R.drawable.home_clear)
             if(intent.getStringExtra("state").equals("keyboard"))
@@ -60,6 +63,16 @@ class MainActivity : BaseActivity() {
 
 
 
+
+        mainActivityBinding.shareLl.setOnClickListener{
+
+            mainActivityBinding.drawer.closeDrawer(Gravity.LEFT)
+            Uitls.shareApp(this@MainActivity)
+        }
+
+        mainActivityBinding.rateLl.setOnClickListener{
+            Uitls.showRateApp(this@MainActivity)
+        }
 
 
 
@@ -84,6 +97,13 @@ class MainActivity : BaseActivity() {
 
 
             }
+
+
+        mainActivityBinding.settingLl.setOnClickListener {
+            mainActivityBinding.drawer.closeDrawer(Gravity.LEFT)
+            loadFragmentWithIcon(SettingsMainFragment(), R.drawable.setting_clear)
+
+        }
         /*
 
 with(mainActivityBinding) {
@@ -110,11 +130,7 @@ with(mainActivityBinding) {
                 true
             }
         }
-        mainActivityBinding.settingLl.setOnClickListener {
-            mainActivityBinding.drawer.closeDrawer(Gravity.LEFT)
-            loadFragmentWithIcon(SettingsMainFragment(), R.drawable.setting_clear)
 
-        }
         mainActivityBinding.bottomNavigationView.selectedItemId =
             savedInstanceState?.getInt(SELECTED_ITEM_ID) ?: R.id.themesNav*/
 
@@ -165,13 +181,16 @@ with(mainActivityBinding) {
     }
 
     override fun onBackPressed() {
-        startActivity(Intent(this@MainActivity, ExitActivity::class.java))
+        finish()
+//        startActivity(Intent(this@MainActivity, ExitActivity::class.java))
     }
 
     override fun onSaveInstanceState(outState: Bundle) {
         super.onSaveInstanceState(outState)
         outState.putInt(SELECTED_ITEM_ID, mainActivityBinding.bottomNavigationView.selectedItemId)
     }
+
+
 
     override fun onResume() {
         super.onResume()

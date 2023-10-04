@@ -298,8 +298,8 @@
                         <option name="values">
                           <map>
                             <entry key="assetSourceType" value="FILE" />
-                            <entry key="outputName" value="unselected_back" />
-                            <entry key="sourceFile" value="C:\Users\Admin\Downloads\Color Caller\Btn stuff\Rectangle 18866.svg" />
+                            <entry key="outputName" value="home_icon" />
+                            <entry key="sourceFile" value="C:\Users\Admin\Downloads\Color Caller\Btn stuff\home_icon.svg" />
                           </map>
                         </option>
                       </PersistentState>

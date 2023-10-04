@@ -37,12 +37,8 @@ public class LiveThemeFavFragment extends Fragment {
         SharedPreferences sharedPreferences = requireActivity().getSharedPreferences(FAVORITES_PREF_NAME, Context.MODE_PRIVATE);
         Set<String> favoriteUrls = sharedPreferences.getStringSet("favorite_urls", new HashSet<>());
 
-        ArrayList<Images> favoriteDataList = new ArrayList<>();
-        for (String imageUrl : favoriteUrls) {
-            Images data = new Images();
-            data.setUrl(imageUrl);
-            favoriteDataList.add(data);
-        }
+        ArrayList<String> favoriteDataList = new ArrayList<>();
+        favoriteDataList.addAll(favoriteUrls);
 
         FavouritesLiveAdapter favoriteAdapter = new FavouritesLiveAdapter(requireActivity(), favoriteDataList);
         favorite_live_recyclerview.setLayoutManager(new GridLayoutManager(requireActivity(), 2));

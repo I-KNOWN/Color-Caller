@@ -165,6 +165,7 @@ public class ViewPager1Adapter extends PagerAdapter {
         return view;
     }
 
+
     private void downloadDialog(final String imageUrl) {
         dialog = new Dialog(context);
         dialog.requestWindowFeature(1);

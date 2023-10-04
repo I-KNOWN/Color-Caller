@@ -8,10 +8,14 @@ import androidx.core.content.ContextCompat;
 
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
+import android.app.role.RoleManager;
+import android.content.ActivityNotFoundException;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.os.Build;
 import android.os.Bundle;
+import android.telecom.TelecomManager;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.WindowManager;
@@ -26,6 +30,8 @@ import android.widget.Toast;
 import com.themecolor.callerphone.wallpaper.MainActivity;
 import com.themecolor.callerphone.wallpaper.R;
 import com.squareup.picasso.Picasso;
+import com.themecolor.callerphone.wallpaper.callertheme.OS.DialogSetting;
+
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Set;
@@ -52,9 +58,8 @@ public class Theme_Activity_Calling_Theme_Preview extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_theme_calling_theme_preview);
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+//        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         imageView = findViewById(R.id.image_view_preview);
-        adsView0 = findViewById(R.id.adsView0);
 
        // AppManage.getInstance(Theme_Activity_Calling_Theme_Preview.this).showNativeBanner((ViewGroup) adsView0, ADMOB_N[0], FACEBOOK_N[0]);
         btn_set_theam = findViewById(R.id.btn_set_theam);
@@ -67,7 +72,8 @@ public class Theme_Activity_Calling_Theme_Preview extends AppCompatActivity {
         back1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(Theme_Activity_Calling_Theme_Preview.this, MainActivity.class));
+                onBackPressed();
+//                startActivity(new Intent(Theme_Activity_Calling_Theme_Preview.this, MainActivity.class));
             }
         });
         String imageUrl = getIntent().getStringExtra("image_url");
@@ -118,22 +124,43 @@ public class Theme_Activity_Calling_Theme_Preview extends AppCompatActivity {
         btn_set_theam.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                SharedPreferences sharedPreferences = getSharedPreferences("image_theme", Context.MODE_PRIVATE);
 
-                if (imageUrl != null) {
-                    // Perform the necessary actions with the downloaded image URL
-                    SharedPreferences.Editor editor = sharedPreferences.edit();
-                    editor.putString("image_url1", imageUrl);
-                    editor.putLong("timestamp", System.currentTimeMillis());
-                    editor.apply();
+                TelecomManager telecomManager = (TelecomManager) getSystemService(Context.TELECOM_SERVICE);
+                if (telecomManager != null && !getPackageName().equals(telecomManager.getDefaultDialerPackage())) {
+                    if (telecomManager == null || getPackageName().equals(telecomManager.getDefaultDialerPackage())) {
+                        return;
+                    }
+                    if (Build.VERSION.SDK_INT >= 29) {
+                        RoleManager roleManager = (RoleManager) getSystemService(RoleManager.class);
+                        if (roleManager.isRoleAvailable("android.app.role.DIALER") && !roleManager.isRoleHeld("android.app.role.DIALER")) {
+                            startActivityForResult(roleManager.createRequestRoleIntent("android.app.role.DIALER"), 1);
+                            return;
+                        }
+                    }
+                    requestDefault();
+                }else{
+                    SharedPreferences sharedPreferences = getSharedPreferences("image_theme", Context.MODE_PRIVATE);
 
-                    selectedImageUrl = imageUrl;
-                    Toast.makeText(Theme_Activity_Calling_Theme_Preview.this, "Applied Successfully", Toast.LENGTH_SHORT).show();
+                    if (imageUrl != null) {
+                        // Perform the necessary actions with the downloaded image URL
+                        SharedPreferences.Editor editor = sharedPreferences.edit();
+                        editor.putString("image_url1", imageUrl);
+                        editor.putLong("timestamp", System.currentTimeMillis());
+                        editor.apply();
+
+                        selectedImageUrl = imageUrl;
+                        Toast.makeText(Theme_Activity_Calling_Theme_Preview.this, "Applied Successfully", Toast.LENGTH_SHORT).show();
 //                    // Add to favorites only if the image is set successfully
 //                    addToFavoritesIfImageSet(imageUrl);
-                } else {
-                    Toast.makeText(Theme_Activity_Calling_Theme_Preview.this, "Something went wrong", Toast.LENGTH_SHORT).show();
+                    } else {
+                        Toast.makeText(Theme_Activity_Calling_Theme_Preview.this, "Something went wrong", Toast.LENGTH_SHORT).show();
+                    }
                 }
+
+
+
+
+
 
             }
         });
@@ -141,6 +168,31 @@ public class Theme_Activity_Calling_Theme_Preview extends AppCompatActivity {
 
     }
 
+    private void requestDefault() {
+ /*       RoleManager roleManager = null;
+        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.Q) {
+            roleManager = getSystemService(RoleManager.class);
+        }
+        if (roleManager != null) {
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
+                if (roleManager.isRoleAvailable(RoleManager.ROLE_DIALER) && !roleManager.isRoleHeld(RoleManager.ROLE_DIALER)) {
+                    Intent intent = roleManager.createRequestRoleIntent(RoleManager.ROLE_DIALER);
+                    startActivityForResult(intent, 123);
+                } else {
+                    showDefaultSettingDialog();
+                }
+            }
+        } else {
+            showDefaultSettingDialog();
+        }*/
+        try {
+            Intent intent = new Intent("android.telecom.action.CHANGE_DEFAULT_DIALER");
+            intent.putExtra("android.telecom.extra.CHANGE_DEFAULT_DIALER_PACKAGE_NAME", getPackageName());
+            startActivityForResult(intent, 123);
+        } catch (ActivityNotFoundException unused) {
+            new DialogSetting(this).show();
+        }
+    }
     private void addToFavoritesIfImageSet(String imageUrl) {
         SharedPreferences sharedPreferences = getSharedPreferences(FAVORITES_PREF_NAME, Context.MODE_PRIVATE);
         Set<String> favoriteUrls = sharedPreferences.getStringSet("favorite_urls", new HashSet<>());
@@ -308,8 +360,11 @@ public class Theme_Activity_Calling_Theme_Preview extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
+            finish();
 
-        startActivity(new Intent(Theme_Activity_Calling_Theme_Preview.this, MainActivity.class));
+//        Intent intent= new Intent(Theme_Activity_Calling_Theme_Preview.this, MainActivity.class);
+//        intent.putExtra("prev", "all");
+//        startActivity(intent);
 
     }
 }

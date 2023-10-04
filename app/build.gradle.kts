@@ -109,6 +109,8 @@ dependencies {
     kapt("androidx.room", "room-compiler", "2.5.0-beta02")
     implementation("io.insert-koin:koin-core:3.0.2")
     implementation("io.insert-koin:koin-android:3.0.2")
+    implementation("com.google.android.play:review:2.0.1")
+
     //color caller dependency
     implementation ("com.makeramen:roundedimageview:2.3.0")
     implementation ("com.google.code.gson:gson:2.10.1")
@@ -132,7 +134,7 @@ dependencies {
     implementation ("de.hdodenhof:circleimageview:3.1.0")
     implementation ("io.reactivex.rxjava2:rxandroid:2.0.2")
     implementation ("androidx.work:work-runtime-ktx:2.8.1")
-
+    implementation ("com.guolindev.permissionx:permissionx:1.7.1")
 //    implementation project(path: ':adsmodule')
 //    implementation project(path: ':aosp')
 

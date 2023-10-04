@@ -2392,6 +2392,10 @@ color nightModeTextColor
 color notification_action_color_filter
 color notification_icon_bg_color
 color notification_material_background_media_default_color
+color permissionx_default_dialog_bg
+color permissionx_split_line
+color permissionx_text_color
+color permissionx_tint_color
 color placeholder_bg
 color preference_fallback_accent_color
 color primary_dark_material_dark
@@ -4258,6 +4262,7 @@ drawable gradient_button
 drawable heart
 drawable home_checked
 drawable home_clear
+drawable home_icon
 drawable home_unchecked
 drawable ic__0
 drawable ic__1
@@ -4329,6 +4334,7 @@ drawable ic_feedback_settings
 drawable ic_file
 drawable ic_file_blank
 drawable ic_first_page
+drawable ic_flash
 drawable ic_format_italic
 drawable ic_format_paint
 drawable ic_free
@@ -4593,6 +4599,11 @@ drawable outline
 drawable pad_mute
 drawable pad_sound
 drawable pad_vibration
+drawable permissionx_default_dialog_bg
+drawable permissionx_ic_alert
+drawable permissionx_ic_install
+drawable permissionx_ic_notification
+drawable permissionx_ic_setting
 drawable person_anim
 drawable popular
 drawable preference_list_divider_material
@@ -4604,6 +4615,7 @@ drawable privacy_4
 drawable privacy_5
 drawable profile_page
 drawable rate
+drawable rate_icon
 drawable rating_dialog_bg
 drawable rating_layerlist
 drawable reply
@@ -4657,6 +4669,7 @@ drawable swap_pressed
 drawable swap_unpressed
 drawable switch_off
 drawable switch_on
+drawable switch_thumb
 drawable switch_track
 drawable tab_item
 drawable tab_item_unselect
@@ -5126,6 +5139,8 @@ id fitStart
 id fitToContents
 id fitXY
 id fixed
+id flashSettings
+id flashTv
 id flex_end
 id flex_start
 id flip
@@ -5333,6 +5348,7 @@ id menu_loader
 id menu_title
 id mergeCallBtn
 id message
+id messageText
 id micKbBtn
 id middle
 id mini
@@ -5396,6 +5412,8 @@ id navigation_bar_item_large_label_view
 id navigation_bar_item_small_label_view
 id navigation_header_container
 id nb_ad_call_to_action
+id negativeBtn
+id negativeLayout
 id neonThemesRv
 id neon_recycler
 id neon_see
@@ -5445,6 +5463,9 @@ id path
 id pathRelative
 id peekHeight
 id percent
+id permissionIcon
+id permissionText
+id permissionsLayout
 id phone_no
 id photo_view
 id pin
@@ -5455,6 +5476,8 @@ id popular_recycler
 id portrait
 id portrait_recycler
 id position
+id positiveBtn
+id positiveLayout
 id postLayout
 id preset
 id pressed
@@ -5477,6 +5500,9 @@ id quick_actions
 id radio
 id random_generator_toolbar
 id random_image
+id rate_icon
+id rate_ll
+id rate_txt
 id rate_usBtn
 id ratingBar
 id ratio
@@ -5585,12 +5611,16 @@ id shades_divider
 id shades_layout
 id shareSettings
 id shareTitleTv
+id share_icon
+id share_ll
+id share_txt
 id sharedValueSet
 id sharedValueUnset
 id shortcut
 id showCustom
 id showHome
 id showTitle
+id simpleSwitch
 id sin
 id skip
 id skipCollapsed
@@ -5683,6 +5713,7 @@ id textView8
 id textView9
 id textViewName
 id textWatcher
+id text_btn
 id text_input
 id text_input_end_icon
 id text_input_error_icon
@@ -5778,6 +5809,7 @@ id uploadCaption
 id uploadImage
 id useLogo
 id v2
+id v3
 id v_status
 id v_title
 id vertical
@@ -6140,6 +6172,8 @@ layout parse_item
 layout parse_item_linear
 layout parse_item_linear_video
 layout parse_item_video
+layout permissionx_default_dialog_layout
+layout permissionx_permission_item
 layout portrait_layout
 layout preference
 layout preference_category
@@ -6199,6 +6233,7 @@ mipmap ic_launcher_round
 plurals assets__file__authors
 plurals mtrl_badge_content_description
 plurals pref__spelling__manage_dictionaries__summary
+raw call_person
 raw lottie_loading
 string abc_action_bar_home_description
 string abc_action_bar_up_description
@@ -6580,6 +6615,13 @@ string per_contact
 string per_contact_c
 string per_sd
 string per_sd_c
+string permissionx_access_background_location
+string permissionx_body_sensor_background
+string permissionx_manage_external_storage
+string permissionx_post_notification
+string permissionx_request_install_packages
+string permissionx_system_alert_window
+string permissionx_write_settings
 string phone
 string photo
 string play
@@ -7395,6 +7437,7 @@ style MaterialAlertDialog_MaterialComponents_Title_Panel_CenterStacked
 style MaterialAlertDialog_MaterialComponents_Title_Text
 style MaterialAlertDialog_MaterialComponents_Title_Text_CenterStacked
 style MenuItemStyle
+style PermissionXDefaultDialog
 style Platform_AppCompat
 style Platform_AppCompat_Light
 style Platform_MaterialComponents
@@ -7762,6 +7805,7 @@ style Theme_MaterialComponents_NoActionBar
 style Theme_MaterialComponents_NoActionBar_Bridge
 style Theme_NeonKeyboardNew
 style Theme_NeonKeyboardNew_AdAttribution
+style Theme_PlayCore_Transparent
 style ThemeOverlay_AppCompat
 style ThemeOverlay_AppCompat_ActionBar
 style ThemeOverlay_AppCompat_Dark

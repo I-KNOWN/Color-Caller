@@ -304,12 +304,12 @@
         "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.themecolor.callerphone.wallpaper.app-main-8:\\layout\\activity_full_view.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.themecolor.callerphone.wallpaper.app-mergeDebugResources-5:\\layout\\fragment_specific_caller.xml",
-        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.themecolor.callerphone.wallpaper.app-main-8:\\layout\\fragment_specific_caller.xml"
-    },
-    {
         "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.themecolor.callerphone.wallpaper.app-mergeDebugResources-5:\\layout\\intro_screen_1.xml",
         "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.themecolor.callerphone.wallpaper.app-main-8:\\layout\\intro_screen_1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.themecolor.callerphone.wallpaper.app-mergeDebugResources-5:\\layout\\fragment_specific_caller.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.themecolor.callerphone.wallpaper.app-main-8:\\layout\\fragment_specific_caller.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.themecolor.callerphone.wallpaper.app-mergeDebugResources-5:\\layout\\activity_theme_callinggif_theme_preview.xml",

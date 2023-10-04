@@ -181,6 +181,7 @@ drawable gradient_button
 drawable heart
 drawable home_checked
 drawable home_clear
+drawable home_icon
 drawable home_unchecked
 drawable ic__0
 drawable ic__1
@@ -222,6 +223,7 @@ drawable ic_end_call_mate
 drawable ic_error_pay
 drawable ic_et_bg
 drawable ic_feedback_settings
+drawable ic_flash
 drawable ic_free
 drawable ic_gift
 drawable ic_hash
@@ -256,6 +258,7 @@ drawable ic_settings_numrow
 drawable ic_settings_popup
 drawable ic_settings_privacy
 drawable ic_settings_sound
+drawable ic_share
 drawable ic_share_settings
 drawable ic_star
 drawable ic_star_rate
@@ -360,6 +363,7 @@ drawable privacy_4
 drawable privacy_5
 drawable profile_page
 drawable rate
+drawable rate_icon
 drawable rating_dialog_bg
 drawable rating_layerlist
 drawable reply
@@ -404,6 +408,7 @@ drawable swap_pressed
 drawable swap_unpressed
 drawable switch_off
 drawable switch_on
+drawable switch_thumb
 drawable switch_track
 drawable tab_item
 drawable tab_item_unselect
@@ -586,6 +591,8 @@ id favorite_image_recyclerview
 id favorite_live_recyclerview
 id favourite_btn
 id favourites
+id flashSettings
+id flashTv
 id fragmentContainer
 id frame
 id full_progressbar
@@ -709,6 +716,9 @@ id progressBar
 id purchaseBtn
 id random_generator_toolbar
 id random_image
+id rate_icon
+id rate_ll
+id rate_txt
 id rate_usBtn
 id ratingBar
 id reccive_call
@@ -744,6 +754,10 @@ id settingsPrefContainer
 id settingsTv
 id shareSettings
 id shareTitleTv
+id share_icon
+id share_ll
+id share_txt
+id simpleSwitch
 id skip
 id soccer_recycler
 id soccer_see
@@ -769,6 +783,7 @@ id textView7
 id textView8
 id textView9
 id textViewName
+id text_btn
 id themeIv
 id themeIvLayer2
 id themeSelectedIv
@@ -817,6 +832,7 @@ id uploadButton
 id uploadCaption
 id uploadImage
 id v2
+id v3
 id v_status
 id v_title
 id view
@@ -934,6 +950,7 @@ menu main_menu
 mipmap ic_launcher
 mipmap ic_launcher_foreground
 mipmap ic_launcher_round
+raw call_person
 string ad_attribution
 string ad_is_loading
 string add_to_favorites
